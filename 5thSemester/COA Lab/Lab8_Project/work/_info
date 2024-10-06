@@ -1,0 +1,337 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/COA Lab/LabProject
+vD_FlipFlop
+!s110 1703855225
+!i10b 1
+!s100 1X[mAlh=l^iLaf8Ul7z^S2
+Ib@1NhGb`;:>LL1TWC^W;@1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Uni/COA Lab/Lab8_Project
+w1703855216
+8D:\Uni\COA Lab\Lab8_Project\D_FlipFlop.v
+FD:\Uni\COA Lab\Lab8_Project\D_FlipFlop.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1703855225.000000
+!s107 D:\Uni\COA Lab\Lab8_Project\D_FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\D_FlipFlop.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@d_@flip@flop
+vJK_FlipFlop
+!s110 1704181302
+!i10b 1
+!s100 0g=[R8@YCXA<?9n]Z`6090
+IV3;^GX820PJI8o=BC2EBz3
+R0
+R1
+w1704181296
+8D:\Uni\COA Lab\Lab8_Project\JK_FlipFlop.v
+FD:\Uni\COA Lab\Lab8_Project\JK_FlipFlop.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704181302.000000
+!s107 D:\Uni\COA Lab\Lab8_Project\JK_FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\JK_FlipFlop.v|
+!i113 1
+R3
+R4
+n@j@k_@flip@flop
+vjkff_behavior
+!s110 1703854805
+!i10b 1
+!s100 j[zMX5mh>keC`jA3PIC8@3
+IRf1Vf?f=JSInTISIXkHej1
+R0
+R1
+w1703854694
+8D:\Uni\COA Lab\Lab8_Project\jkff_behavior.v
+FD:\Uni\COA Lab\Lab8_Project\jkff_behavior.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1703854805.000000
+!s107 D:\Uni\COA Lab\Lab8_Project\jkff_behavior.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\jkff_behavior.v|
+!i113 1
+R3
+R4
+vJKFlipFlop
+Z5 !s110 1704180115
+!i10b 1
+!s100 aCN^:ZnS4;VECY<Cl0Gig3
+IXReide3jOlSlC>_TciBoT0
+R0
+R1
+w1704180093
+8D:\Uni\COA Lab\Lab8_Project\JK_FF.v
+FD:\Uni\COA Lab\Lab8_Project\JK_FF.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1704180115.000000
+!s107 D:\Uni\COA Lab\Lab8_Project\JK_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\JK_FF.v|
+!i113 1
+R3
+R4
+n@j@k@flip@flop
+vSR_FlipFlop
+Z7 !s110 1703854424
+!i10b 1
+!s100 9J@?CDS_3R=N7kCZ6o8hl3
+Iz<g3Je=Jdch>c=XL8lbgF1
+R0
+R1
+w1703854280
+8D:\Uni\COA Lab\Lab8_Project\SR_FlipFlop.v
+FD:\Uni\COA Lab\Lab8_Project\SR_FlipFlop.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z8 !s108 1703854424.000000
+!s107 D:\Uni\COA Lab\Lab8_Project\SR_FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\SR_FlipFlop.v|
+!i113 1
+R3
+R4
+n@s@r_@flip@flop
+vSR_Latch
+!s110 1703430323
+!i10b 1
+!s100 8^Kg^]8UKYane>8=heQWA2
+IWKj0U=m]mLh;Xd<94Hj;`2
+R0
+R1
+w1702959766
+8D:/Uni/COA Lab/Lab8_Project/SR_Latch.v
+FD:/Uni/COA Lab/Lab8_Project/SR_Latch.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1703430323.000000
+!s107 D:/Uni/COA Lab/Lab8_Project/SR_Latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab8_Project/SR_Latch.v|
+!i113 1
+R3
+R4
+n@s@r_@latch
+vT_FlipFlop
+!s110 1703437528
+!i10b 1
+!s100 =L:n``ddobzSHCg:O8@GV3
+Ie>7K<U[<]S1]9B9`E^RNI1
+R0
+R1
+w1703437521
+8D:\Uni\COA Lab\Lab8_Project\T_FlipFlop.v
+FD:\Uni\COA Lab\Lab8_Project\T_FlipFlop.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1703437528.000000
+!s107 D:\Uni\COA Lab\Lab8_Project\T_FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\T_FlipFlop.v|
+!i113 1
+R3
+R4
+n@t_@flip@flop
+vtb_D_FlipFlop
+!s110 1703855344
+!i10b 1
+!s100 Z83@RinQFf5Gg6mbc@6Eh3
+IF1jE12TMf<eTWY84Z1hWG3
+R0
+R1
+w1703855335
+8D:\Uni\COA Lab\Lab8_Project\tb_D_FlipFlop.v
+FD:\Uni\COA Lab\Lab8_Project\tb_D_FlipFlop.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1703855343.000000
+!s107 D:\Uni\COA Lab\Lab8_Project\tb_D_FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\tb_D_FlipFlop.v|
+!i113 1
+R3
+R4
+ntb_@d_@flip@flop
+vtb_JK_FF
+!s110 1703430325
+!i10b 1
+!s100 CXBCCfKn@9beeUBcfKCCW0
+I1OzzMM[=2Ni_4hjQJ;aDM0
+R0
+R1
+w1703429668
+8D:/Uni/COA Lab/Lab8_Project/tb_JK_FF.v
+FD:/Uni/COA Lab/Lab8_Project/tb_JK_FF.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z9 !s108 1703430324.000000
+!s107 D:/Uni/COA Lab/Lab8_Project/tb_JK_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab8_Project/tb_JK_FF.v|
+!i113 1
+R3
+R4
+ntb_@j@k_@f@f
+vtb_JK_FlipFlop
+!s110 1704181023
+!i10b 1
+!s100 GAf47TaY1]N<gi]P?NnN<3
+IQI><>>a<BABR=[E]VMhPK2
+R0
+R1
+w1704181010
+8D:/Uni/COA Lab/Lab8_Project/tb_JK_FlipFlop.v
+FD:/Uni/COA Lab/Lab8_Project/tb_JK_FlipFlop.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704181023.000000
+!s107 D:/Uni/COA Lab/Lab8_Project/tb_JK_FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab8_Project/tb_JK_FlipFlop.v|
+!i113 1
+R3
+R4
+ntb_@j@k_@flip@flop
+vtb_jkff_behavior
+!s110 1703855115
+!i10b 1
+!s100 3XK:JSzc_@]P_WG41m9jV0
+Ij^A0<6gZA15`>b;Bb1J460
+R0
+R1
+w1703855105
+Z10 8D:\Uni\COA Lab\Lab8_Project\tb_jkff_behavior.v
+Z11 FD:\Uni\COA Lab\Lab8_Project\tb_jkff_behavior.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1703855115.000000
+Z12 !s107 D:\Uni\COA Lab\Lab8_Project\tb_jkff_behavior.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\tb_jkff_behavior.v|
+!i113 1
+R3
+R4
+vtb_SR_FlipFlop
+R7
+!i10b 1
+!s100 Ma[ioF:B5L>oUC=9E^ffe2
+I0O4ehX6:92<_2?VJn]F@73
+R0
+R1
+w1703854378
+8D:\Uni\COA Lab\Lab8_Project\tb_SR_FlipFlop.v
+FD:\Uni\COA Lab\Lab8_Project\tb_SR_FlipFlop.v
+L0 1
+R2
+r1
+!s85 0
+31
+R8
+!s107 D:\Uni\COA Lab\Lab8_Project\tb_SR_FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab8_Project\tb_SR_FlipFlop.v|
+!i113 1
+R3
+R4
+ntb_@s@r_@flip@flop
+vtb_SR_Latch
+!s110 1703430324
+!i10b 1
+!s100 39SaOfFM1nz9kh[L2c6WQ3
+I<]J7UVakH:<l>PR@KZ=CJ2
+R0
+R1
+w1702961957
+8D:/Uni/COA Lab/Lab8_Project/tb_SR_Latch.v
+FD:/Uni/COA Lab/Lab8_Project/tb_SR_Latch.v
+L0 1
+R2
+r1
+!s85 0
+31
+R9
+!s107 D:/Uni/COA Lab/Lab8_Project/tb_SR_Latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab8_Project/tb_SR_Latch.v|
+!i113 1
+R3
+R4
+ntb_@s@r_@latch
+vtb_T_FlipFlop
+R5
+!i10b 1
+!s100 DL>ZbLJCC@kI8eZ9nBZkT3
+IlX2O6mNzn1c6PHf^S7FI11
+R0
+R1
+w1703856317
+8D:/Uni/COA Lab/Lab8_Project/tb_T_FlipFlop.v
+FD:/Uni/COA Lab/Lab8_Project/tb_T_FlipFlop.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/Uni/COA Lab/Lab8_Project/tb_T_FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab8_Project/tb_T_FlipFlop.v|
+!i113 1
+R3
+R4
+ntb_@t_@flip@flop
+vtb_task3
+!s110 1703698663
+!i10b 1
+!s100 2XzIXZdRaIR8Dzig__7=71
+I<3=TfBOf7Ejk?ZM03Gde;3
+R0
+R1
+w1703698656
+R10
+R11
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1703698663.000000
+R12
+R13
+!i113 1
+R3
+R4

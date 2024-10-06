@@ -1,0 +1,220 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/COA Lab
+vadder
+!s110 1706633125
+!i10b 1
+!s100 7H3?iFm^ob8>UW]]NGl_B2
+IV@?3YRG10mZ^ge:V8TVdR2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Uni/COA Lab/SAP1_Project
+w1706633120
+8D:\Uni\COA Lab\SAP1_Project\adder.v
+FD:\Uni\COA Lab\SAP1_Project\adder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1706633125.000000
+!s107 D:\Uni\COA Lab\SAP1_Project\adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\SAP1_Project\adder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vclock
+Z5 !s110 1703248927
+!i10b 1
+!s100 01<ClkS<GW@3Vg<58PdOW3
+IEBd_EEEoZ:56_`^AhUIJi2
+R0
+R1
+Z6 w1677981425
+8D:/Uni/COA Lab/2023-fpga-computer/src/sap1/clock.v
+FD:/Uni/COA Lab/2023-fpga-computer/src/sap1/clock.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1703248926.000000
+!s107 D:/Uni/COA Lab/2023-fpga-computer/src/sap1/clock.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/2023-fpga-computer/src/sap1/clock.v|
+!i113 1
+R3
+R4
+vcontroller
+R5
+!i10b 1
+!s100 CAH[zDJbX`H:1D3PR=To<0
+I23A<A5Q4>>lfDUCEF:GI72
+R0
+R1
+R6
+8D:/Uni/COA Lab/2023-fpga-computer/src/sap1/controller.v
+FD:/Uni/COA Lab/2023-fpga-computer/src/sap1/controller.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z7 !s108 1703248927.000000
+!s107 D:/Uni/COA Lab/2023-fpga-computer/src/sap1/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/2023-fpga-computer/src/sap1/controller.v|
+!i113 1
+R3
+R4
+vir
+R5
+!i10b 1
+!s100 @Ck0T7CAD?E;cVSCUR[J11
+In6WR2;;8kTPY6h[eeRIaR2
+R0
+R1
+R6
+8D:/Uni/COA Lab/2023-fpga-computer/src/sap1/ir.v
+FD:/Uni/COA Lab/2023-fpga-computer/src/sap1/ir.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 D:/Uni/COA Lab/2023-fpga-computer/src/sap1/ir.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/2023-fpga-computer/src/sap1/ir.v|
+!i113 1
+R3
+R4
+vmemory
+R5
+!i10b 1
+!s100 IDK=K<To6J5n`nBX2L^>61
+IJ;fhB<ecWCTKA0aVoC;gR0
+R0
+R1
+R6
+8D:/Uni/COA Lab/2023-fpga-computer/src/sap1/memory.v
+FD:/Uni/COA Lab/2023-fpga-computer/src/sap1/memory.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 D:/Uni/COA Lab/2023-fpga-computer/src/sap1/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/2023-fpga-computer/src/sap1/memory.v|
+!i113 1
+R3
+R4
+vpc
+R5
+!i10b 1
+!s100 00058N3G@<KAL6>7FDQX80
+IG?59OEmYjRiZ@Qokzf@?m3
+R0
+R1
+R6
+8D:/Uni/COA Lab/2023-fpga-computer/src/sap1/pc.v
+FD:/Uni/COA Lab/2023-fpga-computer/src/sap1/pc.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 D:/Uni/COA Lab/2023-fpga-computer/src/sap1/pc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/2023-fpga-computer/src/sap1/pc.v|
+!i113 1
+R3
+R4
+vreg_a
+R5
+!i10b 1
+!s100 ]^5C:>0MLS@aJeVUHj9WX1
+I1SXzLF0j]D?]loDABZEU30
+R0
+R1
+R6
+8D:/Uni/COA Lab/2023-fpga-computer/src/sap1/reg_a.v
+FD:/Uni/COA Lab/2023-fpga-computer/src/sap1/reg_a.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 D:/Uni/COA Lab/2023-fpga-computer/src/sap1/reg_a.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/2023-fpga-computer/src/sap1/reg_a.v|
+!i113 1
+R3
+R4
+vreg_b
+R5
+!i10b 1
+!s100 <OV>5`0<6XAPh>;1E_c:z0
+IAXzzdf>1edMVRMAjAdj_12
+R0
+R1
+R6
+8D:/Uni/COA Lab/2023-fpga-computer/src/sap1/reg_b.v
+FD:/Uni/COA Lab/2023-fpga-computer/src/sap1/reg_b.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 D:/Uni/COA Lab/2023-fpga-computer/src/sap1/reg_b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/2023-fpga-computer/src/sap1/reg_b.v|
+!i113 1
+R3
+R4
+vtop
+!s110 1706594210
+!i10b 1
+!s100 ^i0GXhI]gGBfNi`KJQj2K1
+I3iS`cDN;<L2aOYQFJZzl@1
+R0
+R1
+w1706594205
+8D:\Uni\COA Lab\2023-fpga-computer\src\sap1\top.v
+FD:\Uni\COA Lab\2023-fpga-computer\src\sap1\top.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706594210.000000
+!s107 D:\Uni\COA Lab\2023-fpga-computer\src\sap1\top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\2023-fpga-computer\src\sap1\top.v|
+!i113 1
+R3
+R4
+vtop_tb
+!s110 1706594118
+!i10b 1
+!s100 <`]kge65`4RAMAi2i7NkM2
+I86UG5513m`k;_G<H9kFY<3
+R0
+R1
+w1706594112
+8D:\Uni\COA Lab\2023-fpga-computer\src\sap1\top_tb.v
+FD:\Uni\COA Lab\2023-fpga-computer\src\sap1\top_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706594118.000000
+!s107 D:\Uni\COA Lab\2023-fpga-computer\src\sap1\top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\2023-fpga-computer\src\sap1\top_tb.v|
+!i113 1
+R3
+R4

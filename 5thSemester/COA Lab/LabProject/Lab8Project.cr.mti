@@ -1,0 +1,71 @@
+{D:/Uni/COA Lab/LabProject/decoder.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\LabProject\decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} {D:/Uni/COA Lab/LabProject/task3.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\LabProject\task3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task3
+
+Top level modules:
+	task3
+
+} {} {}} {D:/Uni/COA Lab/LabProject/tb_decoder.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\LabProject\tb_decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb3x8_using2x4
+
+Top level modules:
+	tb3x8_using2x4
+
+} {} {}} {D:/Uni/COA Lab/LabProject/2x4_Decoder.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\LabProject\2x4_Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Decoder_2x4
+
+Top level modules:
+	Decoder_2x4
+
+} {} {}} {D:/Uni/COA Lab/LabProject/task4.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\LabProject\task4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task4
+
+Top level modules:
+	task4
+
+} {} {}} {D:/Uni/COA Lab/LabProject/tb_task3.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/LabProject/tb_task3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_task3
+
+Top level modules:
+	tb_task3
+
+} {} {}} {D:/Uni/COA Lab/LabProject/tb_2x4_Decoder.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\LabProject\tb_2x4_Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_Decoder_2x4
+
+Top level modules:
+	tb_Decoder_2x4
+
+} {} {}} {D:/Uni/COA Lab/LabProject/3x8_Decoder.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\LabProject\3x8_Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Decoder_3x8
+
+Top level modules:
+	Decoder_3x8
+
+} {} {}} {D:/Uni/COA Lab/LabProject/tb_task4.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\LabProject\tb_task4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_task4
+
+Top level modules:
+	tb_task4
+
+} {} {}} {D:/Uni/COA Lab/LabProject/tb_3x_Decoder.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/LabProject/tb_3x_Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_Decoder_3x8
+
+Top level modules:
+	tb_Decoder_3x8
+
+} {} {}}

@@ -1,0 +1,11 @@
+set_io --warn-no-port CLK B2  # input
+set_io --warn-no-port PIN_24 A6 # input
+set_io --warn-no-port PIN_4 C2  # output
+set_io --warn-no-port PIN_5 C1  # output
+set_io --warn-no-port PIN_6 D2  # output
+set_io --warn-no-port PIN_7 D1  # output
+set_io --warn-no-port PIN_8 E2  # output
+set_io --warn-no-port PIN_9 E1  # output
+set_io --warn-no-port PIN_10 G2 # output
+set_io --warn-no-port PIN_11 H1 # output
+

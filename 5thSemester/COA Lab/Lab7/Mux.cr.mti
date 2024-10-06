@@ -1,0 +1,57 @@
+{D:/Uni/COA Lab/Lab7/mux_4x1.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/Lab7/mux_4x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4x1
+
+Top level modules:
+	mux4x1
+
+} {} {}} {D:/Uni/COA Lab/Lab7/tb_mux2x1.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\Lab7\tb_mux2x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_mux2x1
+
+Top level modules:
+	tb_mux2x1
+
+} {} {}} {D:/Uni/COA Lab/Lab7/tb_task2.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\Lab7\tb_task2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_task2
+
+Top level modules:
+	tb_task2
+
+} {} {}} {D:/Uni/COA Lab/Lab7/task3.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\Lab7\task3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task3
+
+Top level modules:
+	task3
+
+} {} {}} {D:/Uni/COA Lab/Lab7/tb_task3.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/Lab7/tb_task3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_task3
+
+Top level modules:
+	tb_task3
+
+} {} {}} {D:/Uni/COA Lab/Lab7/tb_mux4x1.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/Lab7/tb_mux4x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_mux4x1
+
+Top level modules:
+	tb_mux4x1
+
+} {} {}} {D:/Uni/COA Lab/Lab7/mux2x1.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\Lab7\mux2x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2x1
+
+Top level modules:
+	mux2x1
+
+} {} {}} {D:/Uni/COA Lab/Lab7/task2.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\Lab7\task2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task2
+
+Top level modules:
+	task2
+
+} {} {}}

@@ -1,0 +1,245 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/COA Lab/Lab7
+vdecoder
+!s110 1702748955
+!i10b 1
+!s100 ?HCbGzllXeX5P2TGg0SlR2
+IlUlB0aHY0lGi:02U2ifMb2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Uni/COA Lab/LabProject
+w1702748950
+8D:\Uni\COA Lab\LabProject\decoder.v
+FD:\Uni\COA Lab\LabProject\decoder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1702748955.000000
+!s107 D:\Uni\COA Lab\LabProject\decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\LabProject\decoder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vDecoder_2x4
+!s110 1702356203
+!i10b 1
+!s100 @T1e?KnL95NE<d_>kXkUZ1
+IM3RTE4;e1Mo^RQn3hL?dT1
+R0
+R1
+w1702352924
+8D:\Uni\COA Lab\LabProject\2x4_Decoder.v
+FD:\Uni\COA Lab\LabProject\2x4_Decoder.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702356203.000000
+!s107 D:\Uni\COA Lab\LabProject\2x4_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\LabProject\2x4_Decoder.v|
+!i113 1
+R3
+R4
+n@decoder_2x4
+vDecoder_3x8
+!s110 1702740071
+!i10b 1
+!s100 @3DeM2U90OmhE_Sjl3zWo0
+IdCGdj=mVZ?E@MJ[=Im1SX3
+R0
+R1
+w1702739870
+8D:\Uni\COA Lab\LabProject\3x8_Decoder.v
+FD:\Uni\COA Lab\LabProject\3x8_Decoder.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702740071.000000
+!s107 D:\Uni\COA Lab\LabProject\3x8_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\LabProject\3x8_Decoder.v|
+!i113 1
+R3
+R4
+n@decoder_3x8
+vtask2
+!s110 1702356004
+!i10b 1
+!s100 ]91EWl3>fH^[l?KJd;;zT3
+ITEk1dCR>2fZ[6mc?[ELlQ1
+R0
+R1
+w1702355985
+Z5 8D:\Uni\COA Lab\LabProject\task3.v
+Z6 FD:\Uni\COA Lab\LabProject\task3.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702356004.000000
+Z7 !s107 D:\Uni\COA Lab\LabProject\task3.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\LabProject\task3.v|
+!i113 1
+R3
+R4
+vtask3
+!s110 1702356204
+!i10b 1
+!s100 08F;5;]kib0^eN=MICZ>k1
+I_<ZVhW5TcB;1H9EPKEN760
+R0
+R1
+w1702356053
+R5
+R6
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702356204.000000
+R7
+R8
+!i113 1
+R3
+R4
+vtask4
+!s110 1702358002
+!i10b 1
+!s100 a[^8e0acBoG_fAE9DknOm1
+Ik^aIB2zLC_G2gz^;9hVa_2
+R0
+R1
+w1702357990
+8D:\Uni\COA Lab\LabProject\task4.v
+FD:\Uni\COA Lab\LabProject\task4.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702358002.000000
+!s107 D:\Uni\COA Lab\LabProject\task4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\LabProject\task4.v|
+!i113 1
+R3
+R4
+vtb3x8_using2x4
+!s110 1702749265
+!i10b 1
+!s100 AGY]7Y?NXm3kJK;<kA_GD0
+I:KioKWMjZ_W23P9EDjoT^1
+R0
+R1
+w1702749259
+8D:\Uni\COA Lab\LabProject\tb_decoder.v
+FD:\Uni\COA Lab\LabProject\tb_decoder.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702749265.000000
+!s107 D:\Uni\COA Lab\LabProject\tb_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\LabProject\tb_decoder.v|
+!i113 1
+R3
+R4
+vtb_Decoder_2x4
+!s110 1702739794
+!i10b 1
+!s100 Tlonj7AMT`JXkjY>Gh8W70
+I>nVnVIUz?`_dQMj_SEh7e2
+R0
+R1
+w1702739710
+8D:\Uni\COA Lab\LabProject\tb_2x4_Decoder.v
+FD:\Uni\COA Lab\LabProject\tb_2x4_Decoder.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702739794.000000
+!s107 D:\Uni\COA Lab\LabProject\tb_2x4_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\LabProject\tb_2x4_Decoder.v|
+!i113 1
+R3
+R4
+ntb_@decoder_2x4
+vtb_Decoder_3x8
+!s110 1702741338
+!i10b 1
+!s100 `;nQI=K@5JnN^=]]C9U3`2
+Ie9;IS:GfgTfdB:5H>6?6:1
+R0
+R1
+w1702740602
+8D:/Uni/COA Lab/LabProject/tb_3x_Decoder.v
+FD:/Uni/COA Lab/LabProject/tb_3x_Decoder.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702741338.000000
+!s107 D:/Uni/COA Lab/LabProject/tb_3x_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/LabProject/tb_3x_Decoder.v|
+!i113 1
+R3
+R4
+ntb_@decoder_3x8
+vtb_task3
+!s110 1702741503
+!i10b 1
+!s100 dJf3SfdW3LUTnZAb[H7h43
+IY?`oc??kUlDURm19LPE`Z3
+R0
+R1
+w1702741485
+8D:/Uni/COA Lab/LabProject/tb_task3.v
+FD:/Uni/COA Lab/LabProject/tb_task3.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702741503.000000
+!s107 D:/Uni/COA Lab/LabProject/tb_task3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/LabProject/tb_task3.v|
+!i113 1
+R3
+R4
+vtb_task4
+!s110 1702741858
+!i10b 1
+!s100 D?X:4F`JLBM2XINmcJP_03
+IM8==@<dl1]S`?Am`GIGnz1
+R0
+R1
+w1702741791
+8D:\Uni\COA Lab\LabProject\tb_task4.v
+FD:\Uni\COA Lab\LabProject\tb_task4.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1702741858.000000
+!s107 D:\Uni\COA Lab\LabProject\tb_task4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\LabProject\tb_task4.v|
+!i113 1
+R3
+R4

@@ -1,0 +1,106 @@
+{D:/Uni/COA Lab/SAP1/ring_counter.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/ring_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ring_counter
+
+Top level modules:
+	ring_counter
+
+} {} {}} {D:/Uni/COA Lab/SAP1/reg_b.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/reg_b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg_b
+
+Top level modules:
+	reg_b
+
+} {} {}} {D:/Uni/COA Lab/SAP1/top_tb.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\SAP1\top_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}} {D:/Uni/COA Lab/SAP1/alu.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {D:/Uni/COA Lab/SAP1/bus.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\SAP1\bus.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bus
+
+Top level modules:
+	bus
+
+} {} {}} {D:/Uni/COA Lab/SAP1/ac.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\SAP1\ac.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ac
+
+Top level modules:
+	ac
+
+} {} {}} {D:/Uni/COA Lab/SAP1/ram.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\SAP1\ram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_and_mar
+
+Top level modules:
+	ram_and_mar
+
+} {} {}} {D:/Uni/COA Lab/SAP1/mar.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/mar.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mar
+
+Top level modules:
+	mar
+
+} {} {}} {D:/Uni/COA Lab/SAP1/tb_pc.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/tb_pc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_pc
+
+Top level modules:
+	tb_pc
+
+} {} {}} {D:/Uni/COA Lab/SAP1/top.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/Uni/COA Lab/SAP1/control_sequencer.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/control_sequencer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control_sequencer
+
+Top level modules:
+	control_sequencer
+
+} {} {}} {D:/Uni/COA Lab/SAP1/ir.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\SAP1\ir.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} {D:/Uni/COA Lab/SAP1/pc.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\SAP1\pc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {D:/Uni/COA Lab/SAP1/tb_ring_counter.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/tb_ring_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_ring_counter
+
+Top level modules:
+	tb_ring_counter
+
+} {} {}} {D:/Uni/COA Lab/SAP1/tb_ram.v} {1 {vlog -work work -stats=none {D:/Uni/COA Lab/SAP1/tb_ram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_tb
+
+Top level modules:
+	ram_tb
+
+} {} {}}

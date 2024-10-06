@@ -1,0 +1,74 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/COA Lab/Lab6/Project1
+vdemux
+!s110 1700736069
+!i10b 1
+!s100 i87VZXdc`g1iSa5o]9]ET0
+IU=hl24UN8?0W6gZ49>m_H2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Uni/COA Lab/VPractice
+w1700736064
+8D:\Uni\COA Lab\VPractice\Demux.v
+FD:\Uni\COA Lab\VPractice\Demux.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1700736069.000000
+!s107 D:\Uni\COA Lab\VPractice\Demux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\VPractice\Demux.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vJKFF
+!s110 1700737165
+!i10b 1
+!s100 ]=W9LMgBTed`1ZBW4>Z6j1
+I^YegMQK4`mZ5oM4Fa4<293
+R0
+R1
+w1700737100
+8D:\Uni\COA Lab\VPractice\JKFF.v
+FD:\Uni\COA Lab\VPractice\JKFF.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1700737165.000000
+!s107 D:\Uni\COA Lab\VPractice\JKFF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\VPractice\JKFF.v|
+!i113 1
+R3
+R4
+n@j@k@f@f
+vtb_demux
+!s110 1700736370
+!i10b 1
+!s100 M7TG`@@zbnL[@G3:XhhJK3
+IJK7=IMkb@3Xi;2eG6^bCJ3
+R0
+R1
+w1700736362
+8D:\Uni\COA Lab\VPractice\tb_demux.v
+FD:\Uni\COA Lab\VPractice\tb_demux.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1700736369.000000
+!s107 D:\Uni\COA Lab\VPractice\tb_demux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\VPractice\tb_demux.v|
+!i113 1
+R3
+R4

@@ -1,0 +1,22 @@
+{D:/Uni/COA Lab/VPractice/Demux.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\VPractice\Demux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module demux
+
+Top level modules:
+	demux
+
+} {} {}} {D:/Uni/COA Lab/VPractice/tb_demux.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\VPractice\tb_demux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_demux
+
+Top level modules:
+	tb_demux
+
+} {} {}} {D:/Uni/COA Lab/VPractice/JKFF.v} {1 {vlog -work work -stats=none {D:\Uni\COA Lab\VPractice\JKFF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module JKFF
+
+Top level modules:
+	JKFF
+
+} {} {}}

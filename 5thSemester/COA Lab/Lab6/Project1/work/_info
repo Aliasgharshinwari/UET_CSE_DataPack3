@@ -1,0 +1,138 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vfour_bit_adder
+!s110 1699545835
+!i10b 1
+!s100 OG@9nGkA:]?G67U=cHUHe3
+IVk><JZ>?WH8mRjmM@U<Md3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Uni/COA Lab/Lab6/Project1
+w1699545826
+8D:/Uni/COA Lab/Lab6/Project1/4bit_adder.v
+FD:/Uni/COA Lab/Lab6/Project1/4bit_adder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1699545835.000000
+!s107 D:/Uni/COA Lab/Lab6/Project1/4bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab6/Project1/4bit_adder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vfull_adder
+Z5 !s110 1699540388
+!i10b 1
+!s100 441l37e[ImdJ2T`SZXCY61
+IC@dZzYc9<fD`dJQzUO@zB1
+R0
+R1
+w1699333975
+8D:/Uni/COA Lab/Lab6/Project1/full_adder.v
+FD:/Uni/COA Lab/Lab6/Project1/full_adder.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1699540388.000000
+!s107 D:/Uni/COA Lab/Lab6/Project1/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab6/Project1/full_adder.v|
+!i113 1
+R3
+R4
+vhalf_adder
+R5
+!i10b 1
+!s100 eRV81MIiG6k[HkRLEgNXN3
+IWz69lbj;FWKz_a<J]YY@z2
+R0
+R1
+w1699540379
+8D:/Uni/COA Lab/Lab6/Project1/half_adder.v
+FD:/Uni/COA Lab/Lab6/Project1/half_adder.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/Uni/COA Lab/Lab6/Project1/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab6/Project1/half_adder.v|
+!i113 1
+R3
+R4
+vtb_FA
+!s110 1699545559
+!i10b 1
+!s100 Y3nHk33`mP=i]i0ZC:h[P0
+I6KNiJUE9mAlYhcCn;QRH[2
+R0
+R1
+w1699545200
+8D:/Uni/COA Lab/Lab6/Project1/test_bench_FA.v
+FD:/Uni/COA Lab/Lab6/Project1/test_bench_FA.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1699545559.000000
+!s107 D:/Uni/COA Lab/Lab6/Project1/test_bench_FA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab6/Project1/test_bench_FA.v|
+!i113 1
+R3
+R4
+ntb_@f@a
+vtb_four_bit_adder
+!s110 1699546839
+!i10b 1
+!s100 eiE5a7jmmInjACjTHelzl3
+I7A39kHa5Ja:>Tek>mDi4=3
+R0
+R1
+w1699546746
+8D:/Uni/COA Lab/Lab6/Project1/test_bench_four_bit_adder.v
+FD:/Uni/COA Lab/Lab6/Project1/test_bench_four_bit_adder.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1699546839.000000
+!s107 D:/Uni/COA Lab/Lab6/Project1/test_bench_four_bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab6/Project1/test_bench_four_bit_adder.v|
+!i113 1
+R3
+R4
+vtb_HA
+!s110 1699544588
+!i10b 1
+!s100 1YQgNlH@;_8h`?7cjf>f22
+In;zV_IKR7mlDSeZEKHeY@2
+R0
+R1
+w1699544570
+8D:/Uni/COA Lab/Lab6/Project1/test_bench_HA.v
+FD:/Uni/COA Lab/Lab6/Project1/test_bench_HA.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1699544587.000000
+!s107 D:/Uni/COA Lab/Lab6/Project1/test_bench_HA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab6/Project1/test_bench_HA.v|
+!i113 1
+R3
+R4
+ntb_@h@a

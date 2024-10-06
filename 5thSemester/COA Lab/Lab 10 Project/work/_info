@@ -1,0 +1,354 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/COA Lab/Lab8_Project
+vC_T_FF
+!s110 1706625686
+!i10b 1
+!s100 QP9D53Te^3<jTVOAA0QQ73
+Ib]BQVbm<eSV5;_R9MeHJj3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Uni/COA Lab/Lab 10 Project
+w1706625678
+8D:\Uni\COA Lab\Lab 10 Project\C_T_FF.v
+FD:\Uni\COA Lab\Lab 10 Project\C_T_FF.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1706625686.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\C_T_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\C_T_FF.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@c_@t_@f@f
+vD_FF
+!s110 1706626289
+!i10b 1
+!s100 Vo]T;C[O=>boo7E7SW;S_2
+INJcS?<PbWUjXVJHHQV<Xz0
+R0
+R1
+w1706626066
+8D:\Uni\COA Lab\Lab 10 Project\D_FF.v
+FD:\Uni\COA Lab\Lab 10 Project\D_FF.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706626289.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\D_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\D_FF.v|
+!i113 1
+R3
+R4
+n@d_@f@f
+veight_bit_counter_behaviour
+Z5 !s110 1706623947
+!i10b 1
+!s100 oA6@689]5jgz96PDWlmUT3
+IPk`WliV@dh]j_>hcNJ<_52
+R0
+R1
+w1706623862
+8D:\Uni\COA Lab\Lab 10 Project\eight_bit_counter_behaviour.v
+FD:\Uni\COA Lab\Lab 10 Project\eight_bit_counter_behaviour.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1706623947.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\eight_bit_counter_behaviour.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\eight_bit_counter_behaviour.v|
+!i113 1
+R3
+R4
+vfour_bit_counter_behaviour
+!s110 1706623761
+!i10b 1
+!s100 YP5=4<8EIQKNd_P_bBKUk3
+IgBcoJHz[eAbUDl_:QaO7j1
+R0
+R1
+w1706623651
+8D:\Uni\COA Lab\Lab 10 Project\four_bit_counter_behaviour.v
+FD:\Uni\COA Lab\Lab 10 Project\four_bit_counter_behaviour.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706623761.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\four_bit_counter_behaviour.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\four_bit_counter_behaviour.v|
+!i113 1
+R3
+R4
+vRAM
+!s110 1704776304
+!i10b 1
+!s100 8oToUZU5R>BMQ_2IkmHD;2
+I4SbF@OkLZGefUz>5XTdDc2
+R0
+R1
+w1704776255
+8D:\Uni\COA Lab\Lab 10 Project\RAM.v
+FD:\Uni\COA Lab\Lab 10 Project\RAM.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704776304.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\RAM.v|
+!i113 1
+R3
+R4
+n@r@a@m
+vRAM_TwoPorts
+!s110 1704776846
+!i10b 1
+!s100 ^fN3HmgiC42oIVhjQ^deV3
+IWQKjod4BG@2aYB?6YLde:2
+R0
+R1
+w1704776552
+8D:\Uni\COA Lab\Lab 10 Project\RAM(TwoPorts).v
+FD:\Uni\COA Lab\Lab 10 Project\RAM(TwoPorts).v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704776846.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\RAM(TwoPorts).v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\RAM(TwoPorts).v|
+!i113 1
+R3
+R4
+n@r@a@m_@two@ports
+vtask3
+!s110 1704172561
+!i10b 1
+!s100 YoMfkZHZ^;SZ75bhgE@:L1
+IdL88cNEP_8N?CJ=d>l;?g2
+R0
+R1
+w1704172556
+8D:\Uni\COA Lab\Lab 10 Project\task3.v
+FD:\Uni\COA Lab\Lab 10 Project\task3.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704172561.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\task3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\task3.v|
+!i113 1
+R3
+R4
+vtask4
+!s110 1706625869
+!i10b 1
+!s100 neFHk<mJYRL6^L:;3F=TH1
+I9ZnX4H]GLQ2=:@UiN?Ca[0
+R0
+R1
+w1706625860
+8D:\Uni\COA Lab\Lab 10 Project\task4.v
+FD:\Uni\COA Lab\Lab 10 Project\task4.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706625868.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\task4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\task4.v|
+!i113 1
+R3
+R4
+vtb_D_FlipFlop
+!s110 1704118414
+!i10b 1
+!s100 @IgzIFZTTgQ;7jFHaGW<G3
+IOjP8XG^k3_^^HGRH9Gk6C3
+R0
+R1
+w1704118377
+8D:/Uni/COA Lab/Lab 10 Project/tb_D_FF.v
+FD:/Uni/COA Lab/Lab 10 Project/tb_D_FF.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704118414.000000
+!s107 D:/Uni/COA Lab/Lab 10 Project/tb_D_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab 10 Project/tb_D_FF.v|
+!i113 1
+R3
+R4
+ntb_@d_@flip@flop
+vtb_eight_bit_counter_behaviour
+R5
+!i10b 1
+!s100 D?VP^BUn?onfB[V`A11Tf3
+I3ZD1Gg`VATfhFE4@Xl3ZP0
+R0
+R1
+w1706623926
+8D:\Uni\COA Lab\Lab 10 Project\tb_eight_bit_counter_behaviour.v
+FD:\Uni\COA Lab\Lab 10 Project\tb_eight_bit_counter_behaviour.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:\Uni\COA Lab\Lab 10 Project\tb_eight_bit_counter_behaviour.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\tb_eight_bit_counter_behaviour.v|
+!i113 1
+R3
+R4
+vtb_four_bit_counter_behaviour
+!s110 1704116854
+!i10b 1
+!s100 gN3KGZiPHDO60XF5AfYBb1
+IHP29A?87WYSoR^cGF?KI;0
+R0
+R1
+w1703953441
+8D:/Uni/COA Lab/Lab 10 Project/tb_four_bit_counter_behaviour.v
+FD:/Uni/COA Lab/Lab 10 Project/tb_four_bit_counter_behaviour.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704116854.000000
+!s107 D:/Uni/COA Lab/Lab 10 Project/tb_four_bit_counter_behaviour.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab 10 Project/tb_four_bit_counter_behaviour.v|
+!i113 1
+R3
+R4
+vtb_RAM
+!s110 1706625325
+!i10b 1
+!s100 T=Y]nYfL[8ZLi6lMBDj:E3
+IcS7m>E4UB>n[RMCBMmk@l2
+R0
+R1
+w1706625257
+8D:\Uni\COA Lab\Lab 10 Project\tb_RAM.v
+FD:\Uni\COA Lab\Lab 10 Project\tb_RAM.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706625324.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\tb_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\tb_RAM.v|
+!i113 1
+R3
+R4
+ntb_@r@a@m
+vtb_task3
+!s110 1706624897
+!i10b 1
+!s100 T3c<D0UQQjBfM]gI5B7G61
+IBgV3k1jhb79LWi8Y2>SXT2
+R0
+R1
+w1706624883
+8D:\Uni\COA Lab\Lab 10 Project\tb_task3.v
+FD:\Uni\COA Lab\Lab 10 Project\tb_task3.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706624897.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\tb_task3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\tb_task3.v|
+!i113 1
+R3
+R4
+vtb_task4
+!s110 1706625982
+!i10b 1
+!s100 U[hL2f3Cob6W@3mShhRD>0
+IRQV0CHinj8:WZ9e@SNZ=o3
+R0
+R1
+w1706625954
+8D:\Uni\COA Lab\Lab 10 Project\tb_task4.v
+FD:\Uni\COA Lab\Lab 10 Project\tb_task4.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706625981.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\tb_task4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\tb_task4.v|
+!i113 1
+R3
+R4
+vtb_U_T_FlipFlop
+!s110 1704118614
+!i10b 1
+!s100 >PVHI;To<ojAgd2k8OFHz3
+IMLTd>TMND?3ojB:2;3^]A2
+R0
+R1
+w1704118607
+8D:/Uni/COA Lab/Lab 10 Project/tb_T_FF.v
+FD:/Uni/COA Lab/Lab 10 Project/tb_T_FF.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704118614.000000
+!s107 D:/Uni/COA Lab/Lab 10 Project/tb_T_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/COA Lab/Lab 10 Project/tb_T_FF.v|
+!i113 1
+R3
+R4
+ntb_@u_@t_@flip@flop
+vU_T_FF
+!s110 1706625182
+!i10b 1
+!s100 2gE^==UncISfJhfWmgEh91
+INV3NhAe0[=bWYS90dT]c>1
+R0
+R1
+w1706625064
+8D:\Uni\COA Lab\Lab 10 Project\T_FF.v
+FD:\Uni\COA Lab\Lab 10 Project\T_FF.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1706625182.000000
+!s107 D:\Uni\COA Lab\Lab 10 Project\T_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\COA Lab\Lab 10 Project\T_FF.v|
+!i113 1
+R3
+R4
+n@u_@t_@f@f
