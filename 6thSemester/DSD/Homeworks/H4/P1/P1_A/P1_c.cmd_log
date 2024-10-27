@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Uni/DSD/Homeworks/H4/P1_a/P1_A/P1_c.xst" -ofn "D:/Uni/DSD/Homeworks/H4/P1_a/P1_A/P1_c.syr" 

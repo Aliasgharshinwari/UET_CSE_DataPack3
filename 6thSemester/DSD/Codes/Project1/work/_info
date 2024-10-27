@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD - Lab/Lab1/Lab1_Project
+vHA
+Z0 !s110 1708276124
+!i10b 1
+!s100 19b=B;;GC:nSn22VPc<ZK1
+IB7^UEO4Mz`NL89@6CF17S2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD/Codes/Project1
+w1708093008
+8D:/Uni/DSD/Codes/Project1/HA.v
+FD:/Uni/DSD/Codes/Project1/HA.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1708276123.000000
+!s107 D:/Uni/DSD/Codes/Project1/HA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Project1/HA.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@h@a
+vtop_level
+R0
+!i10b 1
+!s100 7ODl38;:O[9dhmi>zM3]h1
+I1iVLJoR7`W2e6L_b8I=n82
+R1
+R2
+w1708093018
+8D:/Uni/DSD/Codes/Project1/top_level.v
+FD:/Uni/DSD/Codes/Project1/top_level.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z6 !s108 1708276124.000000
+!s107 D:/Uni/DSD/Codes/Project1/top_level.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Project1/top_level.v|
+!i113 1
+R4
+R5
+vtst_HA
+R0
+!i10b 1
+!s100 flLM?VMR7eCDTLAM>Z@W@3
+Iz>lS0ZmT?n6;67K14]Q<F1
+R1
+R2
+w1708093037
+8D:/Uni/DSD/Codes/Project1/tst_HA.v
+FD:/Uni/DSD/Codes/Project1/tst_HA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/Uni/DSD/Codes/Project1/tst_HA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Project1/tst_HA.v|
+!i113 1
+R4
+R5
+ntst_@h@a

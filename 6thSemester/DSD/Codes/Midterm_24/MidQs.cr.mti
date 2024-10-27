@@ -1,0 +1,92 @@
+D:/Uni/DSD/Codes/Midterm_24/BEHAV_CIRCUIT.v {1 {vlog -work work -stats=none {D:\Uni\DSD\Codes\Midterm_24\BEHAV_CIRCUIT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BEHAV_CIRCUIT
+
+Top level modules:
+	BEHAV_CIRCUIT
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/TB_PISO.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Midterm_24/TB_PISO.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_PISO
+
+Top level modules:
+	TB_PISO
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/PISO.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Midterm_24/PISO.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PISO
+
+Top level modules:
+	PISO
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/TOP.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Midterm_24/TOP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TOP
+
+Top level modules:
+	TOP
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/MUX81.v {1 {vlog -work work -stats=none {D:\Uni\DSD\Codes\Midterm_24\MUX81.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX81
+
+Top level modules:
+	MUX81
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/TB_STRUCT_CIRCUIT.v {1 {vlog -work work -stats=none {D:\Uni\DSD\Codes\Midterm_24\TB_STRUCT_CIRCUIT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_STRUCT_CIRCUIT
+
+Top level modules:
+	TB_STRUCT_CIRCUIT
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/TB_BEHAV_CIRCUIT.v {1 {vlog -work work -stats=none {D:\Uni\DSD\Codes\Midterm_24\TB_BEHAV_CIRCUIT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_BEHAV_CIRCUIT
+
+Top level modules:
+	TB_BEHAV_CIRCUIT
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/STRUCT_CIRCUIT.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Midterm_24/STRUCT_CIRCUIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module STRUCT_CIRCUIT
+
+Top level modules:
+	STRUCT_CIRCUIT
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/TB_TOP.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Midterm_24/TB_TOP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_TOP
+
+Top level modules:
+	TB_TOP
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/COUNTER.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Midterm_24/COUNTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module COUNTER
+
+Top level modules:
+	COUNTER
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/TB_DATAFLOW_CIRCUIT.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Midterm_24/TB_DATAFLOW_CIRCUIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_DATAFLOW_CIRCUIT
+
+Top level modules:
+	TB_DATAFLOW_CIRCUIT
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/DATAFLOW_CIRCUIT.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Midterm_24/DATAFLOW_CIRCUIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DATAFLOW_CIRCUIT
+
+Top level modules:
+	DATAFLOW_CIRCUIT
+
+} {} {}} D:/Uni/DSD/Codes/Midterm_24/TB_COUNTER.v {1 {vlog -work work -stats=none {D:\Uni\DSD\Codes\Midterm_24\TB_COUNTER.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_COUNTER
+
+Top level modules:
+	TB_COUNTER
+
+} {} {}}

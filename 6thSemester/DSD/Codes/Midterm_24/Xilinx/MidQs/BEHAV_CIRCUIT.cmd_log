@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/BEHAV_CIRCUIT.xst" -ofn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/BEHAV_CIRCUIT.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/BEHAV_CIRCUIT.xst" -ofn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/BEHAV_CIRCUIT.syr" 

@@ -1,0 +1,78 @@
+D:/Uni/DSD/Codes/HW4/Up_Down_Counter4.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/HW4/Up_Down_Counter4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Up_Down_Counter4
+
+Top level modules:
+	Up_Down_Counter4
+
+} {} {}} D:/Uni/DSD/Codes/HW4/clk_gen.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/HW4/clk_gen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_gen
+
+Top level modules:
+	clk_gen
+
+} {} {}} D:/Uni/DSD/Codes/HW4/D_FF.v {1 {vlog -work work -stats=none {D:\Uni\DSD\Codes\HW4\D_FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DFF
+
+Top level modules:
+	DFF
+
+} {} {}} D:/Uni/DSD/Codes/HW4/PEER.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/HW4/PEER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PEER
+
+Top level modules:
+	PEER
+
+} {} {}} D:/Uni/DSD/Codes/HW4/JonsonCtr.v {1 {vlog -work work -stats=none {D:\Uni\DSD\Codes\HW4\JonsonCtr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module JS_Counter
+
+Top level modules:
+	JS_Counter
+
+} {} {}} D:/Uni/DSD/Codes/HW4/tb_PEER.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/HW4/tb_PEER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_PEER
+
+Top level modules:
+	tb_PEER
+
+} {} {}} D:/Uni/DSD/Codes/HW4/SISO_8bit_Reg.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/HW4/SISO_8bit_Reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SISO_8bit_Reg
+
+Top level modules:
+	SISO_8bit_Reg
+
+} {} {}} D:/Uni/DSD/Codes/HW4/tb_JonsonCtr.v {1 {vlog -work work -stats=none {D:\Uni\DSD\Codes\HW4\tb_JonsonCtr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_JS_Counter
+
+Top level modules:
+	tb_JS_Counter
+
+} {} {}} D:/Uni/DSD/Codes/HW4/tb_SISO_8bit_Reg.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/HW4/tb_SISO_8bit_Reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_SISO_8bit_Reg
+
+Top level modules:
+	test_SISO_8bit_Reg
+
+} {} {}} D:/Uni/DSD/Codes/HW4/tb.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/HW4/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_Up_Down_Counter4
+
+Top level modules:
+	tb_Up_Down_Counter4
+
+} {} {}} D:/Uni/DSD/Codes/HW4/add_module.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/HW4/add_module.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ADD
+
+Top level modules:
+	ADD
+
+} {} {}}

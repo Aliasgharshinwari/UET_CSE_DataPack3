@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Uni/DSD/Homeworks/H4/P1/P1_A/two_clk.xst" -ofn "D:/Uni/DSD/Homeworks/H4/P1/P1_A/two_clk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 two_clk.ngc two_clk.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o two_clk_map.ncd two_clk.ngd two_clk.pcf 
+par -w -intstyle ise -ol high -mt off two_clk_map.ncd two_clk.ncd two_clk.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD/Homeworks/H4/P1/P1_A/two_clk.xst" -ofn "D:/Uni/DSD/Homeworks/H4/P1/P1_A/two_clk.syr" 

@@ -1,0 +1,28 @@
+Command line:
+   tst_parity_det_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51905
+
+Tue May 28 20:42:20 2024
+
+
+ Elaboration Time: 0.203125 sec
+
+ Current Memory Usage: 5809.19 Meg
+
+ Total Signals          : 16
+ Total Nets             : 16
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 164
+
+ Total Simulation Time: 0.5625 sec
+
+ Current Memory Usage: 5337.33 Meg
+
+Tue May 28 20:43:23 2024
+

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD - Lab/Lab4_Project/ModelsImWork
+vPISO_LSHIFT
+Z0 !s110 1711215202
+!i10b 1
+!s100 S_96B5?BN?284=QC>NAOO0
+ITVIQf=0EeVDmQ=>>4@N;92
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD/Codes/PISO_LSHIFT Register
+w1711213948
+8D:/Uni/DSD/Codes/PISO_LSHIFT Register/PISO_LSHIFT.v
+FD:/Uni/DSD/Codes/PISO_LSHIFT Register/PISO_LSHIFT.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1711215202.000000
+!s107 D:/Uni/DSD/Codes/PISO_LSHIFT Register/PISO_LSHIFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/PISO_LSHIFT Register/PISO_LSHIFT.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@p@i@s@o_@l@s@h@i@f@t
+vtest_PISO_LSHIFT
+R0
+!i10b 1
+!s100 cSPNG4PCD9C8kSI5@=WTj0
+ILgVhm8H=Jn4<92LaI2[<D3
+R1
+R2
+w1711213951
+8D:/Uni/DSD/Codes/PISO_LSHIFT Register/test_PISO_LSHIFT.v
+FD:/Uni/DSD/Codes/PISO_LSHIFT Register/test_PISO_LSHIFT.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD/Codes/PISO_LSHIFT Register/test_PISO_LSHIFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/PISO_LSHIFT Register/test_PISO_LSHIFT.v|
+!i113 1
+R5
+R6
+ntest_@p@i@s@o_@l@s@h@i@f@t

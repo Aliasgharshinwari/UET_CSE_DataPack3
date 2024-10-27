@@ -1,0 +1,251 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD/Codes/PISO_LSHIFT Register
+vADD
+Z0 !s110 1711650675
+!i10b 1
+!s100 bG?58QVP4GeZ<NWjka[PQ3
+IL^5CE4I3Rgz:;CoQ1]MkM2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD/Codes/HW4
+w1711625393
+8D:/Uni/DSD/Codes/HW4/add_module.v
+FD:/Uni/DSD/Codes/HW4/add_module.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1711650675.000000
+!s107 D:/Uni/DSD/Codes/HW4/add_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/HW4/add_module.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@d@d
+vclk_gen
+R0
+!i10b 1
+!s100 ^H[akQ7e<B2;agZ@BPM:Y0
+I<_U?k2zn4>H[JK[69:Bh91
+R1
+R2
+w1711640396
+8D:/Uni/DSD/Codes/HW4/clk_gen.v
+FD:/Uni/DSD/Codes/HW4/clk_gen.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD/Codes/HW4/clk_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/HW4/clk_gen.v|
+!i113 1
+R5
+R6
+vDFF
+Z7 !s110 1711650691
+!i10b 1
+!s100 WO0TPE66?WzTCMEM3::zb1
+I@@4Gg>Gk[^W7bYQ8@_2;n1
+R1
+R2
+w1711650322
+8D:\Uni\DSD\Codes\HW4\D_FF.v
+FD:\Uni\DSD\Codes\HW4\D_FF.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1711650691.000000
+!s107 D:\Uni\DSD\Codes\HW4\D_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD\Codes\HW4\D_FF.v|
+!i113 1
+R5
+R6
+n@d@f@f
+vJS_Counter
+Z9 !s110 1711651583
+!i10b 1
+!s100 h`XARjf]^C@kgC[z>BK`j3
+IoSMO^dM3<1h=c1>Fkj<gS1
+R1
+R2
+w1711651528
+8D:\Uni\DSD\Codes\HW4\JonsonCtr.v
+FD:\Uni\DSD\Codes\HW4\JonsonCtr.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1711651583.000000
+!s107 D:\Uni\DSD\Codes\HW4\JonsonCtr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD\Codes\HW4\JonsonCtr.v|
+!i113 1
+R5
+R6
+n@j@s_@counter
+vPEER
+R7
+!i10b 1
+!s100 44Cm[85]AT1JXSLOhI=VO2
+I`=fn[]>k>8_:=T^j2hK4T2
+R1
+R2
+w1711647748
+8D:/Uni/DSD/Codes/HW4/PEER.v
+FD:/Uni/DSD/Codes/HW4/PEER.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1711650690.000000
+!s107 D:/Uni/DSD/Codes/HW4/PEER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/HW4/PEER.v|
+!i113 1
+R5
+R6
+n@p@e@e@r
+vSISO_8bit_Reg
+!s110 1711650678
+!i10b 1
+!s100 LJ;DSE7BYJZ`?>cRiL4962
+IN1ZQ8zB:io<9ZSV4LH9JM1
+R1
+R2
+w1711641224
+8D:/Uni/DSD/Codes/HW4/SISO_8bit_Reg.v
+FD:/Uni/DSD/Codes/HW4/SISO_8bit_Reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1711650678.000000
+!s107 D:/Uni/DSD/Codes/HW4/SISO_8bit_Reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/HW4/SISO_8bit_Reg.v|
+!i113 1
+R5
+R6
+n@s@i@s@o_8bit_@reg
+vtb_JS_Counter
+R9
+!i10b 1
+!s100 Oa@X:RMkB5VnZOfLeG[d_2
+IA8U1VTGkTHe:NKK0hcc4d2
+R1
+R2
+w1711651574
+8D:\Uni\DSD\Codes\HW4\tb_JonsonCtr.v
+FD:\Uni\DSD\Codes\HW4\tb_JonsonCtr.v
+L0 2
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:\Uni\DSD\Codes\HW4\tb_JonsonCtr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD\Codes\HW4\tb_JonsonCtr.v|
+!i113 1
+R5
+R6
+ntb_@j@s_@counter
+vtb_PEER
+R7
+!i10b 1
+!s100 >0hK^1n8U?U]Y2aXD]_jn3
+IN1zO?iSXl0DZMD1kMRS9b0
+R1
+R2
+w1711647869
+8D:/Uni/DSD/Codes/HW4/tb_PEER.v
+FD:/Uni/DSD/Codes/HW4/tb_PEER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD/Codes/HW4/tb_PEER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/HW4/tb_PEER.v|
+!i113 1
+R5
+R6
+ntb_@p@e@e@r
+vtb_Up_Down_Counter4
+R9
+!i10b 1
+!s100 VW67;FaH39;6fg<43MI`93
+I[VhS5N;O82d?^oaG`zF[X3
+R1
+R2
+w1711513942
+8D:/Uni/DSD/Codes/HW4/tb.v
+FD:/Uni/DSD/Codes/HW4/tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Uni/DSD/Codes/HW4/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/HW4/tb.v|
+!i113 1
+R5
+R6
+ntb_@up_@down_@counter4
+vtest_SISO_8bit_Reg
+!s110 1711650690
+!i10b 1
+!s100 bLkKWJEf>i=lSIFl;AEBb0
+I<gne8?BL<Cbi_G]`3A84z0
+R1
+R2
+w1711641708
+8D:/Uni/DSD/Codes/HW4/tb_SISO_8bit_Reg.v
+FD:/Uni/DSD/Codes/HW4/tb_SISO_8bit_Reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Uni/DSD/Codes/HW4/tb_SISO_8bit_Reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/HW4/tb_SISO_8bit_Reg.v|
+!i113 1
+R5
+R6
+ntest_@s@i@s@o_8bit_@reg
+vUp_Down_Counter4
+R0
+!i10b 1
+!s100 Kz==Pn;6QcRRGFBzKY4:M3
+IAg4K=RCZaCCjiWdJ4hGZO1
+R1
+R2
+w1711642925
+8D:/Uni/DSD/Codes/HW4/Up_Down_Counter4.v
+FD:/Uni/DSD/Codes/HW4/Up_Down_Counter4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD/Codes/HW4/Up_Down_Counter4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/HW4/Up_Down_Counter4.v|
+!i113 1
+R5
+R6
+n@up_@down_@counter4

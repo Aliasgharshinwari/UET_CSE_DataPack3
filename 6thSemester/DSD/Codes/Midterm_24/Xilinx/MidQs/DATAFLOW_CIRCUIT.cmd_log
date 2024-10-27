@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/DATAFLOW_CIRCUIT.xst" -ofn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/DATAFLOW_CIRCUIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 DATAFLOW_CIRCUIT.ngc DATAFLOW_CIRCUIT.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DATAFLOW_CIRCUIT_map.ncd DATAFLOW_CIRCUIT.ngd DATAFLOW_CIRCUIT.pcf 
+par -w -intstyle ise -ol high -mt off DATAFLOW_CIRCUIT_map.ncd DATAFLOW_CIRCUIT.ncd DATAFLOW_CIRCUIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DATAFLOW_CIRCUIT.twx DATAFLOW_CIRCUIT.ncd -o DATAFLOW_CIRCUIT.twr DATAFLOW_CIRCUIT.pcf 

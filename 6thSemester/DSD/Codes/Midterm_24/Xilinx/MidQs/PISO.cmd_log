@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/PISO.xst" -ofn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/PISO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 PISO.ngc PISO.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PISO_map.ncd PISO.ngd PISO.pcf 
+par -w -intstyle ise -ol high -mt off PISO_map.ncd PISO.ncd PISO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PISO.twx PISO.ncd -o PISO.twr PISO.pcf 

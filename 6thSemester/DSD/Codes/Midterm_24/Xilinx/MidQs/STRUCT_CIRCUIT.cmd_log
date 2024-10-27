@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/STRUCT_CIRCUIT.xst" -ofn "D:/Uni/DSD/Codes/Midterm_24/Xilinx/MidQs/STRUCT_CIRCUIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 STRUCT_CIRCUIT.ngc STRUCT_CIRCUIT.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o STRUCT_CIRCUIT_map.ncd STRUCT_CIRCUIT.ngd STRUCT_CIRCUIT.pcf 
+par -w -intstyle ise -ol high -mt off STRUCT_CIRCUIT_map.ncd STRUCT_CIRCUIT.ncd STRUCT_CIRCUIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml STRUCT_CIRCUIT.twx STRUCT_CIRCUIT.ncd -o STRUCT_CIRCUIT.twr STRUCT_CIRCUIT.pcf 

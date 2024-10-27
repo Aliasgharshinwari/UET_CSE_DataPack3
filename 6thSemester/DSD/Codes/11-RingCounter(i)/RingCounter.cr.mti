@@ -1,0 +1,22 @@
+D:/Uni/DSD/Codes/RingCounter/top_rc.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/RingCounter/top_rc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_rc
+
+Top level modules:
+	top_rc
+
+} {} {}} D:/Uni/DSD/Codes/RingCounter/test_rc.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/RingCounter/test_rc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_rc
+
+Top level modules:
+	test_rc
+
+} {} {}} D:/Uni/DSD/Codes/RingCounter/rc.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/RingCounter/rc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rc
+
+Top level modules:
+	rc
+
+} {} {}}

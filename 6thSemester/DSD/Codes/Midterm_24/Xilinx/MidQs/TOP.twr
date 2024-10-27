@@ -1,0 +1,147 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf
+
+Design file:              TOP.ncd
+Physical constraint file: TOP.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLOCK
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+CLR         |    2.846(R)|      SLOW  |   -1.056(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+UD          |    3.135(R)|      SLOW  |   -1.490(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLOCK to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+DATA_OUT<0> |         8.444(R)|      SLOW  |         4.210(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+DATA_OUT<1> |         8.316(R)|      SLOW  |         4.189(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+DATA_OUT<2> |         8.511(R)|      SLOW  |         4.409(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+DATA_OUT<3> |         8.979(R)|      SLOW  |         4.498(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+DATA_OUT<4> |         8.360(R)|      SLOW  |         4.218(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+DATA_OUT<5> |         8.585(R)|      SLOW  |         4.342(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+DATA_OUT<6> |         9.855(R)|      SLOW  |         5.039(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+DATA_OUT<7> |         9.395(R)|      SLOW  |         4.825(R)|      FAST  |CLOCK_BUFGP       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLOCK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK          |    1.603|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+I0<0>          |DATA_OUT<0>    |    7.812|
+I0<1>          |DATA_OUT<1>    |    7.516|
+I0<2>          |DATA_OUT<2>    |    8.332|
+I0<3>          |DATA_OUT<3>    |    8.327|
+I0<4>          |DATA_OUT<4>    |    8.905|
+I0<5>          |DATA_OUT<5>    |    8.372|
+I0<6>          |DATA_OUT<6>    |   10.380|
+I0<7>          |DATA_OUT<7>    |   10.282|
+I1<0>          |DATA_OUT<0>    |    8.742|
+I1<1>          |DATA_OUT<1>    |    9.336|
+I1<2>          |DATA_OUT<2>    |    8.998|
+I1<3>          |DATA_OUT<3>    |    8.472|
+I1<4>          |DATA_OUT<4>    |    8.334|
+I1<5>          |DATA_OUT<5>    |    7.824|
+I1<6>          |DATA_OUT<6>    |    9.003|
+I1<7>          |DATA_OUT<7>    |    8.822|
+I2<0>          |DATA_OUT<0>    |    9.043|
+I2<1>          |DATA_OUT<1>    |    9.006|
+I2<2>          |DATA_OUT<2>    |    9.350|
+I2<3>          |DATA_OUT<3>    |    9.107|
+I2<4>          |DATA_OUT<4>    |    9.226|
+I2<5>          |DATA_OUT<5>    |    9.074|
+I2<6>          |DATA_OUT<6>    |    9.899|
+I2<7>          |DATA_OUT<7>    |    9.763|
+I3<0>          |DATA_OUT<0>    |    9.282|
+I3<1>          |DATA_OUT<1>    |    9.465|
+I3<2>          |DATA_OUT<2>    |    9.438|
+I3<3>          |DATA_OUT<3>    |    9.983|
+I3<4>          |DATA_OUT<4>    |    9.055|
+I3<5>          |DATA_OUT<5>    |    9.399|
+I3<6>          |DATA_OUT<6>    |   10.276|
+I3<7>          |DATA_OUT<7>    |    9.708|
+I4<0>          |DATA_OUT<0>    |    8.358|
+I4<1>          |DATA_OUT<1>    |    9.265|
+I4<2>          |DATA_OUT<2>    |    9.393|
+I4<3>          |DATA_OUT<3>    |    9.800|
+I4<4>          |DATA_OUT<4>    |    9.222|
+I4<5>          |DATA_OUT<5>    |    8.686|
+I4<6>          |DATA_OUT<6>    |   10.072|
+I4<7>          |DATA_OUT<7>    |   10.301|
+I5<0>          |DATA_OUT<0>    |    9.161|
+I5<1>          |DATA_OUT<1>    |    9.601|
+I5<2>          |DATA_OUT<2>    |    9.549|
+I5<3>          |DATA_OUT<3>    |    9.528|
+I5<4>          |DATA_OUT<4>    |    9.060|
+I5<5>          |DATA_OUT<5>    |    9.216|
+I5<6>          |DATA_OUT<6>    |   10.295|
+I5<7>          |DATA_OUT<7>    |    9.838|
+I6<0>          |DATA_OUT<0>    |    8.073|
+I6<1>          |DATA_OUT<1>    |    7.715|
+I6<2>          |DATA_OUT<2>    |    7.875|
+I6<3>          |DATA_OUT<3>    |    8.080|
+I6<4>          |DATA_OUT<4>    |    7.997|
+I6<5>          |DATA_OUT<5>    |    7.947|
+I6<6>          |DATA_OUT<6>    |    8.755|
+I6<7>          |DATA_OUT<7>    |    9.052|
+I7<0>          |DATA_OUT<0>    |    9.512|
+I7<1>          |DATA_OUT<1>    |    9.485|
+I7<2>          |DATA_OUT<2>    |    9.854|
+I7<3>          |DATA_OUT<3>    |    9.570|
+I7<4>          |DATA_OUT<4>    |    9.501|
+I7<5>          |DATA_OUT<5>    |    9.820|
+I7<6>          |DATA_OUT<6>    |   10.746|
+I7<7>          |DATA_OUT<7>    |   10.782|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Apr 06 10:33:39 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4553 MB
+
+
+

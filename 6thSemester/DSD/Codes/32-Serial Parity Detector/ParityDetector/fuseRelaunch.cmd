@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Uni/DSD/Codes/Serial Parity Detector/ParityDetector/tst_parity_det_isim_beh.exe" -prj "D:/Uni/DSD/Codes/Serial Parity Detector/ParityDetector/tst_parity_det_beh.prj" "work.tst_parity_det" "work.glbl" 

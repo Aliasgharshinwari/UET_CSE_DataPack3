@@ -1,0 +1,296 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation
+vBEHAV_CIRCUIT
+!s110 1712475460
+!i10b 1
+!s100 MO0m1>P<n^kSjCc7[hdn03
+I8E_<_OZz=gjXR6NI34lF61
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Uni/DSD/Codes/Midterm_24
+w1712475452
+8D:\Uni\DSD\Codes\Midterm_24\BEHAV_CIRCUIT.v
+FD:\Uni\DSD\Codes\Midterm_24\BEHAV_CIRCUIT.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1712475460.000000
+!s107 D:\Uni\DSD\Codes\Midterm_24\BEHAV_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD\Codes\Midterm_24\BEHAV_CIRCUIT.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@b@e@h@a@v_@c@i@r@c@u@i@t
+vCOUNTER
+Z5 !s110 1712379649
+!i10b 1
+!s100 <gS16H??cL4:JhfY75WC@3
+I>9>[HBP6NfiW=547PW@a<0
+R0
+R1
+w1712379313
+8D:/Uni/DSD/Codes/Midterm_24/COUNTER.v
+FD:/Uni/DSD/Codes/Midterm_24/COUNTER.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1712379649.000000
+!s107 D:/Uni/DSD/Codes/Midterm_24/COUNTER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Midterm_24/COUNTER.v|
+!i113 1
+R3
+R4
+n@c@o@u@n@t@e@r
+vDATAFLOW_CIRCUIT
+R5
+!i10b 1
+!s100 5Ag6a7KH;@KQnUX6]cj6o2
+IP_7Yz:0]fedA1La@MhYEZ3
+R0
+R1
+w1712379307
+8D:/Uni/DSD/Codes/Midterm_24/DATAFLOW_CIRCUIT.v
+FD:/Uni/DSD/Codes/Midterm_24/DATAFLOW_CIRCUIT.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/Uni/DSD/Codes/Midterm_24/DATAFLOW_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Midterm_24/DATAFLOW_CIRCUIT.v|
+!i113 1
+R3
+R4
+n@d@a@t@a@f@l@o@w_@c@i@r@c@u@i@t
+vMUX81
+!s110 1712473954
+!i10b 1
+!s100 X>HAA6C@]Wa^0:?TK=>L71
+IP>hV0I4]T4EV20;Bf0K`K2
+R0
+R1
+w1712380828
+8D:\Uni\DSD\Codes\Midterm_24\MUX81.v
+FD:\Uni\DSD\Codes\Midterm_24\MUX81.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1712473954.000000
+!s107 D:\Uni\DSD\Codes\Midterm_24\MUX81.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD\Codes\Midterm_24\MUX81.v|
+!i113 1
+R3
+R4
+n@m@u@x81
+vPISO
+Z7 !s110 1712379650
+!i10b 1
+!s100 A`4iH1_J64:6k5QoHjd;R2
+IV_Sf;@8kHZ^hFOaAS:hJ60
+R0
+R1
+w1712379297
+8D:/Uni/DSD/Codes/Midterm_24/PISO.v
+FD:/Uni/DSD/Codes/Midterm_24/PISO.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z8 !s108 1712379650.000000
+!s107 D:/Uni/DSD/Codes/Midterm_24/PISO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Midterm_24/PISO.v|
+!i113 1
+R3
+R4
+n@p@i@s@o
+vSTRUCT_CIRCUIT
+R7
+!i10b 1
+!s100 9JGz?CEL?Y=>b2eYXVfH<2
+IK8bfzdQV`KkQPNY>7SJCF2
+R0
+R1
+w1712379293
+8D:/Uni/DSD/Codes/Midterm_24/STRUCT_CIRCUIT.v
+FD:/Uni/DSD/Codes/Midterm_24/STRUCT_CIRCUIT.v
+L0 1
+R2
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD/Codes/Midterm_24/STRUCT_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Midterm_24/STRUCT_CIRCUIT.v|
+!i113 1
+R3
+R4
+n@s@t@r@u@c@t_@c@i@r@c@u@i@t
+vTB_BEHAV_CIRCUIT
+!s110 1712475268
+!i10b 1
+!s100 CdL8mo>Ya9QR3Ok[XlQ_K3
+IZgU0cE8iMmFoRTZI:NUfC1
+R0
+R1
+w1712475257
+8D:\Uni\DSD\Codes\Midterm_24\TB_BEHAV_CIRCUIT.v
+FD:\Uni\DSD\Codes\Midterm_24\TB_BEHAV_CIRCUIT.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1712475267.000000
+!s107 D:\Uni\DSD\Codes\Midterm_24\TB_BEHAV_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD\Codes\Midterm_24\TB_BEHAV_CIRCUIT.v|
+!i113 1
+R3
+R4
+n@t@b_@b@e@h@a@v_@c@i@r@c@u@i@t
+vTB_COUNTER
+!s110 1712479326
+!i10b 1
+!s100 Z4cfgl^^YBo]?bK:U;eYc2
+Io^kzMe8iPOU>z1iI6g9lC3
+R0
+R1
+w1712479320
+8D:\Uni\DSD\Codes\Midterm_24\TB_COUNTER.v
+FD:\Uni\DSD\Codes\Midterm_24\TB_COUNTER.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1712479326.000000
+!s107 D:\Uni\DSD\Codes\Midterm_24\TB_COUNTER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD\Codes\Midterm_24\TB_COUNTER.v|
+!i113 1
+R3
+R4
+n@t@b_@c@o@u@n@t@e@r
+vTB_DATAFLOW_CIRCUIT
+R7
+!i10b 1
+!s100 >0hdgc;eL8E3Fg8I3=mi?1
+I>z:dW5XVXnL]8=MA;AXcE0
+R0
+R1
+w1712379289
+8D:/Uni/DSD/Codes/Midterm_24/TB_DATAFLOW_CIRCUIT.v
+FD:/Uni/DSD/Codes/Midterm_24/TB_DATAFLOW_CIRCUIT.v
+L0 2
+R2
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD/Codes/Midterm_24/TB_DATAFLOW_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Midterm_24/TB_DATAFLOW_CIRCUIT.v|
+!i113 1
+R3
+R4
+n@t@b_@d@a@t@a@f@l@o@w_@c@i@r@c@u@i@t
+vTB_PISO
+R7
+!i10b 1
+!s100 Slm=IP6i;75MS_0l>X9l[0
+Inh@jS>bHlGGE]U>FK38kb1
+R0
+R1
+w1712379283
+8D:/Uni/DSD/Codes/Midterm_24/TB_PISO.v
+FD:/Uni/DSD/Codes/Midterm_24/TB_PISO.v
+L0 1
+R2
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD/Codes/Midterm_24/TB_PISO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Midterm_24/TB_PISO.v|
+!i113 1
+R3
+R4
+n@t@b_@p@i@s@o
+vTB_STRUCT_CIRCUIT
+!s110 1712473955
+!i10b 1
+!s100 WjW``OP[XkTl6B3Pn0hd:2
+IY^jGeoXZhLD1OH4agg?<e1
+R0
+R1
+w1712473947
+8D:\Uni\DSD\Codes\Midterm_24\TB_STRUCT_CIRCUIT.v
+FD:\Uni\DSD\Codes\Midterm_24\TB_STRUCT_CIRCUIT.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1712473955.000000
+!s107 D:\Uni\DSD\Codes\Midterm_24\TB_STRUCT_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD\Codes\Midterm_24\TB_STRUCT_CIRCUIT.v|
+!i113 1
+R3
+R4
+n@t@b_@s@t@r@u@c@t_@c@i@r@c@u@i@t
+vTB_TOP
+R7
+!i10b 1
+!s100 jYElhdmMa0]fokO^EZlX32
+Iez:lOVl7fm_FU3zOQYIh52
+R0
+R1
+w1712379279
+8D:/Uni/DSD/Codes/Midterm_24/TB_TOP.v
+FD:/Uni/DSD/Codes/Midterm_24/TB_TOP.v
+L0 1
+R2
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD/Codes/Midterm_24/TB_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Midterm_24/TB_TOP.v|
+!i113 1
+R3
+R4
+n@t@b_@t@o@p
+vTOP
+R5
+!i10b 1
+!s100 dhR`eIR[DbADkY7X2YRkA3
+I@3FHhPnW=;ITIz5IBd9O_3
+R0
+R1
+w1712379275
+8D:/Uni/DSD/Codes/Midterm_24/TOP.v
+FD:/Uni/DSD/Codes/Midterm_24/TOP.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/Uni/DSD/Codes/Midterm_24/TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/Midterm_24/TOP.v|
+!i113 1
+R3
+R4
+n@t@o@p

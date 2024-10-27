@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD - Lab/Lab3
+vrc
+Z0 !s110 1710243454
+!i10b 1
+!s100 Cn0@Y^SXVhSOBNZAnk^Sf0
+IXVad^HZ[HcN3T4;ImjMXN2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD/Codes/RingCounter
+w1710243219
+8D:/Uni/DSD/Codes/RingCounter/rc.v
+FD:/Uni/DSD/Codes/RingCounter/rc.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1710243454.000000
+!s107 D:/Uni/DSD/Codes/RingCounter/rc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/RingCounter/rc.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtest_rc
+R0
+!i10b 1
+!s100 1hQO291VnQa=TOloYYZD90
+IiW;F@U;>;n9:db:X8:e>O2
+R1
+R2
+w1710243228
+8D:/Uni/DSD/Codes/RingCounter/test_rc.v
+FD:/Uni/DSD/Codes/RingCounter/test_rc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD/Codes/RingCounter/test_rc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/RingCounter/test_rc.v|
+!i113 1
+R5
+R6
+vtop_rc
+R0
+!i10b 1
+!s100 1]d5SGVLWgK7`W<gJ3QUH0
+IaIeIa[<7h?>53ihi?@MOa2
+R1
+R2
+w1710243233
+8D:/Uni/DSD/Codes/RingCounter/top_rc.v
+FD:/Uni/DSD/Codes/RingCounter/top_rc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD/Codes/RingCounter/top_rc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD/Codes/RingCounter/top_rc.v|
+!i113 1
+R5
+R6

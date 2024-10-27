@@ -1,0 +1,22 @@
+D:/Uni/DSD/Codes/Project1/top_level.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Project1/top_level.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_level
+
+Top level modules:
+	top_level
+
+} {} {}} D:/Uni/DSD/Codes/Project1/tst_HA.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Project1/tst_HA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tst_HA
+
+Top level modules:
+	tst_HA
+
+} {} {}} D:/Uni/DSD/Codes/Project1/HA.v {1 {vlog -work work -stats=none D:/Uni/DSD/Codes/Project1/HA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}}
