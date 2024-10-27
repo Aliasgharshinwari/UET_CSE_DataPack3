@@ -1,0 +1,57 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the resume container */
+.Section {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Style the contact information */
+.Section p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.Section h3 {
+    margin-top: 0px;
+    text-align: left;
+}
+.Section hr{
+    border-top: 2px solid #000000;
+}
+.Section img {
+    width: 70px;
+    height: 84px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    border: #000000 1px solid;
+
+}
+/* Style the objective section */
+.objective {
+    font-size: 16px;
+    color: #000000;
+}
+
+.tabbed-text {
+    color: #000000;
+    white-space: pre;
+    tab-size: 4px;
+    tab-size: 0ch;
+  }
+
+/* Add more styles for other sections (skills, experience, education, etc.) as needed */

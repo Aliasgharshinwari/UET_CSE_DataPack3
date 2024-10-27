@@ -1,0 +1,12 @@
+h1{
+    font-family: Arial, Helvetica;
+    color: red;
+    font-size: 26pt;
+}
+
+.border-effect{
+
+    outline-width: 2pt;
+    outline-color: gray;
+    outline-style: solid;
+}

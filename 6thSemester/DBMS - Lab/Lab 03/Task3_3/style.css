@@ -1,0 +1,14 @@
+html{
+
+    margin-top: 5%;
+}
+
+h1{
+    font-family: Garamond;
+    color: red;
+    font-size: 26pt;
+}
+
+ul{
+    list-style-type: square;
+}
