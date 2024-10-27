@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD/Codes/HW4
+vQ2
+Z0 !s110 1712205834
+!i10b 1
+!s100 iS5`BDU`365OzgA6CdUVk3
+IeIVm>bKHGjeW3^Q?nJk5j0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation
+w1712197007
+8D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\Q2.v
+FD:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\Q2.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1712205834.000000
+!s107 D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\Q2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\Q2.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@q2
+vtask1
+Z7 !s110 1712205833
+!i10b 1
+!s100 ;^l12]BJJGN4AjG0D?;ek0
+IYNlHf^3fih>EIACndoES<3
+R1
+R2
+w1712195287
+8D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task1.v
+FD:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task1.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1712205833.000000
+!s107 D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task1.v|
+!i113 1
+R5
+R6
+vtask1_tb
+R7
+!i10b 1
+!s100 h;Ca`1foSj@MW;KHGea@L3
+I@Z4eP7WkTQZB7hSl9hfIl0
+R1
+R2
+w1711770553
+8D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task1.v
+FD:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task1.v|
+!i113 1
+R5
+R6
+vtask2
+R7
+!i10b 1
+!s100 FoOK9ccZCKdlaRVQgzc772
+In]iAJWCGE>d5A6zeYC?kS0
+R1
+R2
+w1711770791
+8D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task2.v
+FD:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task2.v|
+!i113 1
+R5
+R6
+vtask2_tb
+R0
+!i10b 1
+!s100 [DgAhTVFF5JL5=h2SU3`82
+IaHbK7DabFGPCnC9<THMLP0
+R1
+R2
+w1711770760
+8D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task2.v
+FD:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task2.v|
+!i113 1
+R5
+R6
+vtryout
+!s110 1712205924
+!i10b 1
+!s100 l=iM1hQb0d0_DHXeF53IF1
+In4E1azDUKMG8_So[0IGj42
+R1
+R2
+w1712205919
+8D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\tryout.v
+FD:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\tryout.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1712205924.000000
+!s107 D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\tryout.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\tryout.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Uni/HamzaProject/HamzaProject/tb_sigmoid_approx_isim_beh.exe" -prj "D:/Uni/HamzaProject/HamzaProject/tb_sigmoid_approx_beh.prj" "work.tb_sigmoid_approx" "work.glbl" 

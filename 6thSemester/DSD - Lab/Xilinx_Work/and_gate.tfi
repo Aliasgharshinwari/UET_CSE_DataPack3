@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+and_gate instance_name (
+    .x(x), 
+    .y(y), 
+    .z(z)
+    );
+
+

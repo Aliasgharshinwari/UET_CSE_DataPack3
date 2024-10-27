@@ -1,0 +1,24 @@
+C51 COMPILER V9.60.7.0   LAB_TASK2                                                         05/30/2024 09:36:55 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE LAB_TASK2
+OBJECT MODULE PLACED IN .\Objects\lab_task2.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE lab_task2.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings
+                    -\lab_task2.lst) TABS(2) OBJECT(.\Objects\lab_task2.obj)
+
+line level    source
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

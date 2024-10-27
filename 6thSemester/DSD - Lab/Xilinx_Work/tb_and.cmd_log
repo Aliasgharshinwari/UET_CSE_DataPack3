@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Xilinx_Work/tb_and.xst" -ofn "D:/Uni/DSD - Lab/Xilinx_Work/tb_and.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim tb_and.ngc tb_and_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 "tb_and.ngc" tb_and.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 "tb_and.ngc" tb_and.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 "tb_and.ngc" tb_and.ngd  

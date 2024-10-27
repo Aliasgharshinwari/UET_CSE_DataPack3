@@ -1,0 +1,2 @@
+verilog work "traffic_controller_fsm.v"
+verilog work "testbench.v"

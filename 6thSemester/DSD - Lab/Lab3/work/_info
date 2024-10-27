@@ -1,0 +1,328 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD - Lab/Lab2/Lab2_Project
+vadder_sub
+Z0 !s110 1710463142
+!i10b 1
+!s100 z2ZEULF[_<b:`lF<Kc_Y[2
+I3fTjH0B:AIX^FgB6;4oOV2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD - Lab/Lab3
+w1709212065
+8D:/Uni/DSD - Lab/Lab3/adder_sub.v
+FD:/Uni/DSD - Lab/Lab3/adder_sub.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1710463141.000000
+!s107 D:/Uni/DSD - Lab/Lab3/adder_sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/adder_sub.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcounter
+!s110 1709294538
+!i10b 1
+!s100 o07Bi`m7X<^0Kzmc1M4IW1
+I4Y4eaDZokCVFUScNnS;KY3
+R1
+R2
+w1709294522
+Z7 8D:\Uni\DSD - Lab\Lab3\counter3.v
+Z8 FD:\Uni\DSD - Lab\Lab3\counter3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1709294538.000000
+Z9 !s107 D:\Uni\DSD - Lab\Lab3\counter3.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab3\counter3.v|
+!i113 1
+R5
+R6
+vcounter3
+R0
+!i10b 1
+!s100 `k8OKdVD2oIZ`5NaI9Nf50
+ILdn2^>`eKG`@RS_SaBY^_1
+R1
+R2
+w1710463129
+R7
+R8
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1710463142.000000
+R9
+R10
+!i113 1
+R5
+R6
+vDFF
+R0
+!i10b 1
+!s100 eR]`OJ=Qih1zcBf=R<4Dg2
+IA7[iF]em>8`k[j`7JnoKj3
+R1
+R2
+w1709295897
+8D:/Uni/DSD - Lab/Lab3/DFF.v
+FD:/Uni/DSD - Lab/Lab3/DFF.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Uni/DSD - Lab/Lab3/DFF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/DFF.v|
+!i113 1
+R5
+R6
+n@d@f@f
+vha
+Z12 !s110 1710463141
+!i10b 1
+!s100 aNlPoF0SAU1?UmemWINK03
+I=EWXY0Nh3`Aa21DY;nn[S3
+R1
+R2
+w1708852802
+8D:/Uni/DSD - Lab/Lab3/ha.v
+FD:/Uni/DSD - Lab/Lab3/ha.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab3/ha.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/ha.v|
+!i113 1
+R5
+R6
+vP2
+R12
+!i10b 1
+!s100 bcfLcaic<Tlzff^zNb0I10
+I?kVNFA>b9dZi?J>ChGH]m1
+R1
+R2
+w1710463085
+8D:\Uni\DSD - Lab\Lab3\P2.v
+FD:\Uni\DSD - Lab\Lab3\P2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab3\P2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab3\P2.v|
+!i113 1
+R5
+R6
+n@p2
+vP2_tb
+R12
+!i10b 1
+!s100 ;GLXn6z`S5^klT<JKQClQ2
+IkQYF=A;T=UI<Mo8CIMKcn2
+R1
+R2
+w1709209513
+8D:/Uni/DSD - Lab/Lab3/P2_tb.v
+FD:/Uni/DSD - Lab/Lab3/P2_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab3/P2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/P2_tb.v|
+!i113 1
+R5
+R6
+n@p2_tb
+vpart
+R0
+!i10b 1
+!s100 9D_cozaPHT]1RlIkJJo[[3
+I=LfIAV:KaXm2g;`2ARUDM3
+R1
+R2
+w1709821234
+8D:/Uni/DSD - Lab/Lab3/part.v
+FD:/Uni/DSD - Lab/Lab3/part.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Uni/DSD - Lab/Lab3/part.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/part.v|
+!i113 1
+R5
+R6
+vpie
+R0
+!i10b 1
+!s100 E7h7@5hQ5d]Ygn@X5[^_X0
+I23ZNJX@V2>;cd@<c6Zc332
+R1
+R2
+w1709817342
+8D:/Uni/DSD - Lab/Lab3/pie.v
+FD:/Uni/DSD - Lab/Lab3/pie.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Uni/DSD - Lab/Lab3/pie.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/pie.v|
+!i113 1
+R5
+R6
+vtb_adder_sub
+R0
+!i10b 1
+!s100 ALCiA_ioSL5nznc8UAOjD0
+IB:h2Te=b<oK_gIkKc6HZS0
+R1
+R2
+w1709212235
+8D:/Uni/DSD - Lab/Lab3/tb_adder_sub.v
+FD:/Uni/DSD - Lab/Lab3/tb_adder_sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Uni/DSD - Lab/Lab3/tb_adder_sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/tb_adder_sub.v|
+!i113 1
+R5
+R6
+vtb_counter3
+R0
+!i10b 1
+!s100 B@RVU@edZ7k^YGWUME9G[2
+IdYMQX`E7]4ZZg45CU`4Vc2
+R1
+R2
+w1709296088
+8D:/Uni/DSD - Lab/Lab3/tb_counter3.v
+FD:/Uni/DSD - Lab/Lab3/tb_counter3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Uni/DSD - Lab/Lab3/tb_counter3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/tb_counter3.v|
+!i113 1
+R5
+R6
+vtb_ha
+R12
+!i10b 1
+!s100 44Z2en5:6k_=d[41@6I]o0
+IF9`h5jDX=:ITM39ZbFAZW1
+R1
+R2
+w1708853064
+8D:/Uni/DSD - Lab/Lab3/tb_ha.v
+FD:/Uni/DSD - Lab/Lab3/tb_ha.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab3/tb_ha.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/tb_ha.v|
+!i113 1
+R5
+R6
+vtb_pie
+R0
+!i10b 1
+!s100 _<0C:Q`]ROc<ihi07<INj0
+I_3cn2CWV6QVDTWGBno]jC1
+R1
+R2
+w1709817474
+8D:/Uni/DSD - Lab/Lab3/tb_pie.v
+FD:/Uni/DSD - Lab/Lab3/tb_pie.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Uni/DSD - Lab/Lab3/tb_pie.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/tb_pie.v|
+!i113 1
+R5
+R6
+vtop
+R12
+!i10b 1
+!s100 0oeG?J^CZiY?dR6^^zi]I2
+IDm<:]U3n1ae>6CmQHkFaY1
+R1
+R2
+w1709209607
+8D:/Uni/DSD - Lab/Lab3/top.v
+FD:/Uni/DSD - Lab/Lab3/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab3/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/top.v|
+!i113 1
+R5
+R6
+vwhole
+R0
+!i10b 1
+!s100 =Y?I>j8WA_OGXS<<;Hj:l0
+IL]bY?XJ0eL`KEkPdU61l`2
+R1
+R2
+w1709818990
+8D:/Uni/DSD - Lab/Lab3/whole.v
+FD:/Uni/DSD - Lab/Lab3/whole.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Uni/DSD - Lab/Lab3/whole.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab3/whole.v|
+!i113 1
+R5
+R6

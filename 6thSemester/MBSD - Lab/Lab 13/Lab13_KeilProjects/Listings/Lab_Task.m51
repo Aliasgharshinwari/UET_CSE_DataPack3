@@ -1,0 +1,165 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    05/30/2024  23:23:51  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+D:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\lab_task.obj TO .\Objects\Lab_Task PRINT (.\Listings\Lab_Ta
+>> sk.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\STARTUP.obj (?C_STARTUP)
+  .\Objects\lab_task.obj (LAB_TASK)
+
+
+LINK MAP OF MODULE:  .\Objects\Lab_Task (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0004H     UNIT         ?DT?LAB_TASK
+            IDATA   000CH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     001FH     UNIT         ?PR?_DELAY?LAB_TASK
+            CODE    081FH     0019H     UNIT         ?PR?ADC?LAB_TASK
+            CODE    0838H     0010H     UNIT         ?PR?MAIN?LAB_TASK
+            CODE    0848H     000FH     UNIT         ?PR?SERIAL_COMM?LAB_TASK
+            CODE    0857H     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\Lab_Task (?C_STARTUP)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?LAB_TASK
+
+?PR?MAIN?LAB_TASK
+  +--> ?PR?SERIAL_COMM?LAB_TASK
+  +--> ?PR?ADC?LAB_TASK
+
+?PR?ADC?LAB_TASK
+  +--> ?PR?_DELAY?LAB_TASK
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\Lab_Task (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/30/2024  23:23:51  PAGE 2
+
+
+  -------         MODULE        ?C_STARTUP
+  C:0857H         SEGMENT       ?C_C51STARTUP
+  I:000CH         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:085AH         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:0857H         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         126
+  C:0857H         LINE#         133
+  C:0859H         LINE#         134
+  C:085AH         LINE#         135
+  C:085BH         LINE#         136
+  C:085DH         LINE#         185
+  C:0860H         LINE#         196
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        LAB_TASK
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00B0H         PUBLIC        P3
+  C:0800H         PUBLIC        _delay
+  C:0848H         PUBLIC        serial_comm
+  B:0098H.1       PUBLIC        TI
+  C:0838H         PUBLIC        main
+  D:0099H         PUBLIC        SBUF
+  D:0087H         PUBLIC        PCON
+  D:0098H         PUBLIC        SCON
+  D:0089H         PUBLIC        TMOD
+  D:0008H         PUBLIC        temp
+  B:00B0H.2       PUBLIC        intr
+  C:081FH         PUBLIC        ADC
+  D:008DH         PUBLIC        TH1
+  B:00B0H.4       PUBLIC        rd
+  B:0088H.6       PUBLIC        TR1
+  D:000AH         PUBLIC        i
+  B:00B0H.5       PUBLIC        wr
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        n
+  C:0800H         LINE#         8
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/30/2024  23:23:51  PAGE 3
+
+
+  C:0800H         LINE#         9
+  C:0814H         LINE#         10
+  C:081EH         LINE#         11
+  -------         ENDPROC       _DELAY
+  -------         PROC          ADC
+  C:081FH         LINE#         13
+  C:081FH         LINE#         14
+  C:0821H         LINE#         15
+  C:0823H         LINE#         16
+  C:082AH         LINE#         17
+  C:082CH         LINE#         19
+  C:082FH         LINE#         21
+  C:0831H         LINE#         22
+  -------         ENDPROC       ADC
+  -------         PROC          SERIAL_COMM
+  C:0848H         LINE#         26
+  C:0848H         LINE#         27
+  C:084BH         LINE#         28
+  C:084EH         LINE#         29
+  C:0851H         LINE#         30
+  C:0854H         LINE#         31
+  C:0856H         LINE#         32
+  -------         ENDPROC       SERIAL_COMM
+  -------         PROC          MAIN
+  C:0838H         LINE#         34
+  C:0838H         LINE#         36
+  C:083BH         LINE#         37
+  C:083BH         LINE#         38
+  C:083EH         LINE#         39
+  C:0841H         LINE#         40
+  C:0844H         LINE#         41
+  C:0846H         LINE#         42
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LAB_TASK
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0066H BYTE ( 4%) *
+******************************************************************************
+
+Program Size: data=13.0 xdata=0 code=102
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

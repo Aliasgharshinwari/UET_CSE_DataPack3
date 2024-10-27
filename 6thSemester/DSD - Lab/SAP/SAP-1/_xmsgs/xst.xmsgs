@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\topm.v" Line 49: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\Counter18bit.v" Line 32: Result of <arg fmt="%d" index="1">19</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">18</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 46: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 49: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 52: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 55: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 65: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 68: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 71: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 74: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 84: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 87: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 90: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\control_sequencer.v" Line 93: Signal &lt;<arg fmt="%s" index="1">opcode</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\topm.v" Line 67: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Out</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Uni\DSD - Lab\SAP\SAP-1\topm.v" Line 67: Assignment to <arg fmt="%s" index="1">Out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">9</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_divider</arg>&gt; of block &lt;<arg fmt="%s" index="4">clock_divider</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">51</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_cu</arg>&gt; of block &lt;<arg fmt="%s" index="4">control_sequencer</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_pc</arg>&gt; of block &lt;<arg fmt="%s" index="4">pc</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_mar</arg>&gt; of block &lt;<arg fmt="%s" index="4">mar</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_ram</arg>&gt; of block &lt;<arg fmt="%s" index="4">ram</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_ir</arg>&gt; of block &lt;<arg fmt="%s" index="4">ir</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">56</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_ac</arg>&gt; of block &lt;<arg fmt="%s" index="4">ac</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_reg_b</arg>&gt; of block &lt;<arg fmt="%s" index="4">reg_b</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_alu</arg>&gt; of block &lt;<arg fmt="%s" index="4">alu</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_output_register</arg>&gt; of block &lt;<arg fmt="%s" index="4">output_register</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">61</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">my_bin2bcd</arg>&gt; of block &lt;<arg fmt="%s" index="4">bin2bcd</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">decoder1</arg>&gt; of block &lt;<arg fmt="%s" index="4">bin_to_sevseg_decoder</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">64</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">decoder2</arg>&gt; of block &lt;<arg fmt="%s" index="4">bin_to_sevseg_decoder</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">65</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">decoder3</arg>&gt; of block &lt;<arg fmt="%s" index="4">bin_to_sevseg_decoder</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%d" index="2">67</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux4x1</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">topm</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Uni\DSD - Lab\SAP\SAP-1\topm.v</arg>&quot; line <arg fmt="%s" index="2">67</arg>: Output port &lt;<arg fmt="%s" index="3">Out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mux</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RST</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Out</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+</messages>
+

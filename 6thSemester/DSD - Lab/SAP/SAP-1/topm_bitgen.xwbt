@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Uni\DSD - Lab\SAP\SAP-1\topm.ncd
+OUTFILE=D:\Uni\DSD - Lab\SAP\SAP-1\topm.bit
+FAMILY=Spartan6
+PART=xc6slx4-3tqg144
+WORKINGDIR=D:\Uni\DSD - Lab\SAP\SAP-1
+LICENSE=WebPack
+USER_INFO=__0_0_0

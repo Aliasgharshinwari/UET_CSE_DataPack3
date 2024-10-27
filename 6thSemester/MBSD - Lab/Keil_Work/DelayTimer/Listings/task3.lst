@@ -1,0 +1,56 @@
+C51 COMPILER V9.60.7.0   TASK3                                                             03/28/2024 12:43:52 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE TASK3
+OBJECT MODULE PLACED IN .\Objects\task3.obj
+COMPILER INVOKED BY: D:\Program Files (x86)\Keil_v5\C51\BIN\C51.EXE task3.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND 
+                    -PRINT(.\Listings\task3.lst) TABS(2) OBJECT(.\Objects\task3.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          #include<stdio.h>
+   3          
+   4          sbit pin = P3^0;
+   5          int count = 0;
+   6          
+   7          void timer0() interrupt 1{
+   8   1          TH0 = 0x3C;
+   9   1          TL0 = 0xAF;
+  10   1          count++;
+  11   1              
+  12   1      }
+  13          
+  14          void main(void){
+  15   1      
+  16   1            //start timer0
+  17   1            TR0 = 1;  
+  18   1            TMOD = 0x01;
+  19   1            IE = 0x82;
+  20   1            
+  21   1            while(1){
+  22   2              
+  23   2      //      while(TF0 == 0);
+  24   2      
+  25   2              if(count == 2){ 
+  26   3                  pin = ~pin; 
+  27   3                  count = 0;
+  28   3                  //TR0 = 0;
+  29   3                  //TF0 = 0;
+  30   3              }
+  31   2            }
+  32   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     43    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

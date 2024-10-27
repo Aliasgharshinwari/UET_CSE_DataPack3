@@ -1,0 +1,47 @@
+C51 COMPILER V9.60.7.0   TASK4                                                             03/29/2024 18:16:57 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE TASK4
+OBJECT MODULE PLACED IN .\Objects\task4.obj
+COMPILER INVOKED BY: D:\Program Files (x86)\Keil_v5\C51\BIN\C51.EXE task4.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND 
+                    -PRINT(.\Listings\task4.lst) TABS(2) OBJECT(.\Objects\task4.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          #include<stdio.h>
+   3          sbit pin = P3^0;
+   4          
+   5          void timer0() interrupt 1{
+   6   1          TH0 = 0xFF;
+   7   1          TL0 = 0x37;
+   8   1      }
+   9          
+  10          void start_timer(){
+  11   1        TMOD = 0x01;
+  12   1        IE = 0x82;
+  13   1      }
+  14          
+  15          void main(void){
+  16   1            TR0 = 1;  
+  17   1            start_timer();
+  18   1            
+  19   1            while(1){
+  20   2              while(TF0 == 0);
+  21   2                  pin = ~pin; 
+  22   2            }
+  23   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     26    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

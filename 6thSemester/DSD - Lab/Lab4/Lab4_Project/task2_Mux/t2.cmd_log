@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab4_Project/task2_Mux/t2.xst" -ofn "D:/Uni/DSD - Lab/Lab4_Project/task2_Mux/t2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "t2.ngc" t2.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o t2_map.ncd t2.ngd t2.pcf 
+par -w -intstyle ise -ol high -mt off t2_map.ncd t2.ncd t2.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml t2.twx t2.ncd -o t2.twr t2.pcf 
+bitgen -intstyle ise -f t2.ut t2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t2.ucf -p xc6slx9-csg324-2 "t2.ngc" t2.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o t2_map.ncd t2.ngd t2.pcf 
+par -w -intstyle ise -ol high -mt off t2_map.ncd t2.ncd t2.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml t2.twx t2.ncd -o t2.twr t2.pcf -ucf t2.ucf 
+bitgen -intstyle ise -f t2.ut t2.ncd 
+bitgen -intstyle ise -f t2.ut t2.ncd 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab4_Project/task2_Mux/t2.xst" -ofn "D:/Uni/DSD - Lab/Lab4_Project/task2_Mux/t2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t2.ucf -p xc6slx9-csg324-2 "t2.ngc" t2.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o t2_map.ncd t2.ngd t2.pcf 
+par -w -intstyle ise -ol high -mt off t2_map.ncd t2.ncd t2.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml t2.twx t2.ncd -o t2.twr t2.pcf -ucf t2.ucf 
+bitgen -intstyle ise -f t2.ut t2.ncd 

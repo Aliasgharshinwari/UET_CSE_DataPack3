@@ -1,0 +1,134 @@
+module CSA (
+    input  [3:0] A,
+    input  [3:0] B,
+    input  [3:0] C,
+    output [4:0] Sum
+);
+    wire [3:0] S;       // Sum bits from the first layer of full adders
+    wire [3:0] C_out;   // Carry bits from the first layer of full adders
+    wire [4:0] final_sum; // Final sum bits
+    wire [3:0] carry_out; // Carry bits from the final layer of full adders
+
+    // Full adders for each bit position
+    full_adder fa0 (
+        .a(A[0]),
+        .b(B[0]),
+        .c_in(C[0]),
+        .sum(S[0]),
+        .c_out(C_out[0])
+    );
+
+    full_adder fa1 (
+        .a(A[1]),
+        .b(B[1]),
+        .c_in(C[1]),
+        .sum(S[1]),
+        .c_out(C_out[1])
+    );
+
+    full_adder fa2 (
+        .a(A[2]),
+        .b(B[2]),
+        .c_in(C[2]),
+        .sum(S[2]),
+        .c_out(C_out[2])
+    );
+
+    full_adder fa3 (
+        .a(A[3]),
+        .b(B[3]),
+        .c_in(C[3]),
+        .sum(S[3]),
+        .c_out(C_out[3])
+    );
+
+    // Full adders for the final summation
+    full_adder fa4 (
+        .a(S[1]),
+        .b(1'b0),
+        .c_in(C_out[0]),
+        .sum(final_sum[1]),
+        .c_out(carry_out[0])
+    );
+
+    full_adder fa5 (
+        .a(S[2]),
+        .b(carry_out[0]),
+        .c_in(C_out[1]),
+        .sum(final_sum[2]),
+        .c_out(carry_out[1])
+    );
+
+    full_adder fa6 (
+        .a(S[3]),
+        .b(carry_out[1]),
+        .c_in(C_out[2]),
+        .sum(final_sum[3]),
+        .c_out(carry_out[2])
+    );
+	  full_adder fa7 (
+        .a(1'b0),
+        .b(carry_out[2]),
+        .c_in(C_out[3]),
+        .sum(final_sum[4]),
+        .c_out(carry_out[3])
+    );
+
+    
+
+    assign final_sum[0] = S[0];
+
+    // The final sum
+    assign Sum = final_sum;
+
+endmodule
+
+module full_adder (
+    input  a,
+    input  b,
+    input  c_in,
+    output sum,
+    output c_out
+);
+    assign sum = a ^ b ^ c_in;
+    assign c_out = (a & b) | (b & c_in) | (a & c_in);
+endmodule
+module carry_save_adder_tb;
+
+    // Inputs
+    reg [3:0] A;
+    reg [3:0] B;
+    reg [3:0] C;
+
+    // Output
+    wire [4:0] Sum;
+
+    
+    CSA uut (
+        .A(A),
+        .B(B),
+        .C(C),
+        .Sum(Sum)
+    );
+
+    initial begin
+        // Initialize Inputs
+        A = 4'b0000; B = 4'b0000; C = 4'b0000;
+
+       
+        #10 A = 4'b1010; B = 4'b0101; C = 4'b0011; // Test Case 1
+        #10 A = 4'b1111; B = 4'b0001; C = 4'b0001; // Test Case 2
+        #10 A = 4'b0110; B = 4'b1010; C = 4'b1100; // Test Case 3
+        #10 A = 4'b1111; B = 4'b1111; C = 4'b1111; // Test Case 4
+        #10 A = 4'b0001; B = 4'b0010; C = 4'b0011; // Test Case 5
+
+       
+    end
+
+    initial begin
+        
+        $monitor("At time %0dns: A = %b, B = %b, C = %b, Sum = %b", $time, A, B, C, Sum);
+    end
+
+endmodule
+

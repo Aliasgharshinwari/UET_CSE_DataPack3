@@ -1,0 +1,76 @@
+{D:/Uni/DSD - Lab/Lab10/modelsim/testbench.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab10\modelsim\testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/ADDER.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/ADDER.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ADD
+
+Top level modules:
+	ADD
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/EQZ.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/EQZ.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module EQZ
+
+Top level modules:
+	EQZ
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/PIPO1.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/PIPO1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PIPO1
+
+Top level modules:
+	PIPO1
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/PIPO2.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/PIPO2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PIPO2
+
+Top level modules:
+	PIPO2
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/PISO_A.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/PISO_A.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PIPO_A
+
+Top level modules:
+	PIPO_A
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/top.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/top_bg.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/top_bg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/controlpath.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/controlpath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/CNTR.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/CNTR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CNTR
+
+Top level modules:
+	CNTR
+
+} {} {}} {D:/Uni/DSD - Lab/Lab10/modelsim/factorial_datapath.v} {0 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab10/modelsim/factorial_datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module factorial_datapath
+** Error: D:/Uni/DSD - Lab/Lab10/modelsim/factorial_datapath.v(13): 'A' already declared in this scope.
+
+} {4.0 5.0} {}}

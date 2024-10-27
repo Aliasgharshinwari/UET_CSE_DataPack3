@@ -1,0 +1,39 @@
+A51 MACRO ASSEMBLER  P1                                                                   03/10/2024 22:54:54 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\p1.obj
+ASSEMBLER INVOKED BY: D:\Program Files (x86)\Keil_v5\C51\BIN\A51.EXE p1.a51 SET(SMALL) DEBUG PRINT(.\Listings\p1.lst) OB
+                      JECT(.\Objects\p1.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0h
+                       2             
+0000                   3             ACALL DELAY
+*** _______________________________________^
+*** ERROR #A45 IN 3 (p1.a51, LINE 3): UNDEFINED SYMBOL (PASS-2)
+                       4             
+                       5     END
+                             DELAY: 
+*** WARNING #A73 IN 6 (p1.a51, LINE 6): TEXT FOUND BEYOND END STATEMENT - IGNORED
+                                     MOV R0, #2
+                                     LOOP:
+                                             DJNZ R0, LOOP
+                             
+                             RET
+A51 MACRO ASSEMBLER  P1                                                                   03/10/2024 22:54:54 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DELAY. . . . . . .    ----   -----       
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 1 ERROR(S)

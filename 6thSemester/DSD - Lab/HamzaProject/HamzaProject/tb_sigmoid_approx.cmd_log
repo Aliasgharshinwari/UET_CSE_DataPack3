@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Uni/HamzaProject/HamzaProject/tb_sigmoid_approx.xst" -ofn "D:/Uni/HamzaProject/HamzaProject/tb_sigmoid_approx.syr" 

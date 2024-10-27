@@ -1,0 +1,43 @@
+{D:/Uni/DSD - Lab/Lab4_Project/ModelsImWork/task3.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab4_Project\ModelsImWork\task3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module t3
+
+Top level modules:
+	t3
+
+} {} {}} {D:/Uni/DSD - Lab/Lab4_Project/ModelsImWork/tb_task2.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab4_Project\ModelsImWork\tb_task2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task2_tb
+
+Top level modules:
+	task2_tb
+
+} {} {}} {D:/Uni/DSD - Lab/Lab4_Project/ModelsImWork/tb_task3.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab4_Project\ModelsImWork\tb_task3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task3_tb
+
+Top level modules:
+	task3_tb
+
+} {} {}} {D:/Uni/DSD - Lab/Lab4_Project/ModelsImWork/task1.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab4_Project\ModelsImWork\task1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task1
+
+Top level modules:
+	task1
+
+} {} {}} {D:/Uni/DSD - Lab/Lab4_Project/ModelsImWork/task2.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab4_Project\ModelsImWork\task2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task2
+
+Top level modules:
+	task2
+
+} {} {}} {D:/Uni/DSD - Lab/Lab4_Project/ModelsImWork/tb_task1.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab4_Project\ModelsImWork\tb_task1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task1_tb
+
+Top level modules:
+	task1_tb
+
+} {} {}}

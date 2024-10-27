@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/top.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/top.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/top.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/top.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/top.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/top.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/top.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/top.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/top.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "top.ngc" top.ngd  
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/top.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "top.ngc" top.ngd  
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/top.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "top.ngc" top.ngd  

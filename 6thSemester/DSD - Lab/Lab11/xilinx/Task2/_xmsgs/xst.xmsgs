@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\Uni\DSD - Lab\Lab11\xilinx\Task2\Top.v" Line 12: Port <arg fmt="%s" index="1">dec_DC</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Uni\DSD - Lab\Lab11\xilinx\Task2\Top.v" Line 12: Assignment to <arg fmt="%s" index="1">LdP</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="new" >"D:\Uni\DSD - Lab\Lab11\xilinx\Task2\Top.v" Line 13: Instantiating &lt;<arg fmt="%s" index="1">dp</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">product_datapath</arg>&gt;
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"D:\Uni\DSD - Lab\Lab11\xilinx\Task2\Top.v" Line 1: Empty module &lt;<arg fmt="%s" index="1">top</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+

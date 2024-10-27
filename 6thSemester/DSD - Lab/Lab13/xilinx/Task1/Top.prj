@@ -1,0 +1,4 @@
+verilog work "full_adder.v"
+verilog work "CSA.v"
+verilog work "BCD_to_SevenSeg.v"
+verilog work "Top.v"

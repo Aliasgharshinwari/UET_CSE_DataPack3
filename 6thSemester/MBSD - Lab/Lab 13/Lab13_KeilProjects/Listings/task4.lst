@@ -1,0 +1,48 @@
+C51 COMPILER V9.60.7.0   TASK4                                                             04/29/2024 22:13:43 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE TASK4
+OBJECT MODULE PLACED IN .\Objects\task4.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE task4.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\tas
+                    -k4.lst) TABS(2) OBJECT(.\Objects\task4.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          
+   3          sbit btn = P3^4;
+   4          int i,j,k,l;
+   5          
+   6          void delay(int limit){
+   7   1              for(k = 0; k < limit; k++){
+   8   2                  for(l = 0; l < 1000; l++){}
+   9   2              }
+  10   1      }
+  11          
+  12          void main(void){
+  13   1        
+  14   1            while(1){
+  15   2              for(i = 0; i < 10; i++){
+  16   3                  for(j = 0; j < 10; j++){
+  17   4                  //    P1 = i*10 + j;
+  18   4                      // Convert to BCD
+  19   4                      P1 = (i << 4) | j;
+  20   4                      delay(100);
+  21   4                  }
+  22   3              }
+  23   2            }
+  24   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    119    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      8    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

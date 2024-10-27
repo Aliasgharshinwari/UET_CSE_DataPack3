@@ -1,0 +1,41 @@
+{D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task2.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task2
+
+Top level modules:
+	task2
+
+} {} {}} {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task1.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task1_tb
+
+Top level modules:
+	task1_tb
+
+} {} {}} {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task2.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tb_task2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task2_tb
+
+Top level modules:
+	task2_tb
+
+} {} {}} {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/Q2.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\Q2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Q2
+
+Top level modules:
+	Q2
+
+} {} {}} {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/tryout.v} {0 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\tryout.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tryout
+** Error: (vlog-3373) D:\Uni\DSD - Lab\Lab5_Projects\Modelsim_Simulation\tryout.v(12): Range of part-select [0:3] into 'A' [15:0] is reversed.
+
+} {4.0 5.0} {}} {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task1.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab5_Projects/Modelsim_Simulation/task1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task1
+
+Top level modules:
+	task1
+
+} {} {}}

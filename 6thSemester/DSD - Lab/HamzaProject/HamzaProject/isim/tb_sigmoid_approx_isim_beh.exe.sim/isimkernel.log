@@ -1,0 +1,28 @@
+Command line:
+   tb_sigmoid_approx_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56120
+
+Tue Jun 25 10:13:43 2024
+
+
+ Elaboration Time: 0.375 sec
+
+ Current Memory Usage: 5652.92 Meg
+
+ Total Signals          : 15
+ Total Nets             : 29
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 125
+
+ Total Simulation Time: 0.375 sec
+
+ Current Memory Usage: 5652.92 Meg
+
+Tue Jun 25 10:14:10 2024
+

@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml bcd_decoder.twx bcd_decoder.ncd -o bcd_decoder.twr
+bcd_decoder.pcf
+
+Design file:              bcd_decoder.ncd
+Physical constraint file: bcd_decoder.pcf
+Device,package,speed:     xc6slx9,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+bcd<0>         |O<0>           |    8.472|
+bcd<0>         |O<1>           |    8.539|
+bcd<0>         |O<2>           |    8.675|
+bcd<0>         |O<3>           |    8.783|
+bcd<0>         |O<4>           |    9.122|
+bcd<0>         |O<5>           |    8.880|
+bcd<0>         |O<6>           |    8.917|
+bcd<1>         |O<0>           |    8.430|
+bcd<1>         |O<1>           |    8.499|
+bcd<1>         |O<2>           |    8.635|
+bcd<1>         |O<3>           |    8.741|
+bcd<1>         |O<4>           |    9.048|
+bcd<1>         |O<5>           |    8.806|
+bcd<1>         |O<6>           |    8.726|
+bcd<2>         |O<0>           |    8.701|
+bcd<2>         |O<1>           |    8.561|
+bcd<2>         |O<2>           |    8.697|
+bcd<2>         |O<3>           |    9.012|
+bcd<2>         |O<4>           |    8.717|
+bcd<2>         |O<5>           |    8.475|
+bcd<2>         |O<6>           |    8.712|
+bcd<3>         |O<0>           |    8.250|
+bcd<3>         |O<1>           |    8.357|
+bcd<3>         |O<2>           |    8.493|
+bcd<3>         |O<3>           |    8.561|
+bcd<3>         |O<4>           |    8.562|
+bcd<3>         |O<5>           |    8.320|
+bcd<3>         |O<6>           |    9.092|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Apr 15 00:00:53 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

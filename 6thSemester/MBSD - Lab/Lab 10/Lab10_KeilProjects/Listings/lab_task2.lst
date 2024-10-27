@@ -1,0 +1,186 @@
+C51 COMPILER V9.60.7.0   LAB_TASK2                                                         05/22/2024 22:32:46 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE LAB_TASK2
+OBJECT MODULE PLACED IN .\Objects\lab_task2.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE lab_task2.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings
+                    -\lab_task2.lst) TABS(2) OBJECT(.\Objects\lab_task2.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          //RS = 1 we are passing data
+   3          
+   4          sbit RS = P3^0;
+   5          sbit Enable = P3^1;
+   6          sbit R1 = P1^0;
+   7          sbit R2 = P1^1;
+   8          sbit R3 = P1^2;
+   9          sbit R4 = P1^3;
+  10          
+  11          sbit C1 = P1^4;
+  12          sbit C2 = P1^5;
+  13          sbit C3 = P1^6;
+  14          
+  15          void init();
+  16          void delay(unsigned int);
+  17          void wr_cmd(unsigned char);
+  18          void wr_data(unsigned char);
+  19          void show(unsigned char);
+  20          unsigned char key_scanning();
+  21          int get_num(char);
+  22          void disp_num(int);
+  23          
+  24          unsigned char num_char;
+  25          int num;
+  26          
+  27          void main(void){
+  28   1          P2 = 0x00;
+  29   1          init(); 
+  30   1        
+  31   1          while(1){
+  32   2            num_char = key_scanning();
+  33   2            num = get_num(num_char);
+  34   2            disp_num(num);
+  35   2      
+  36   2          }
+  37   1      }
+  38          
+  39          
+  40          void init(){
+  41   1          wr_cmd(0x38); //2 lines and 5x7 Matrix
+  42   1          wr_cmd(0x0e); //Display on and cursor blinking
+  43   1          wr_cmd(0x01); //Clear Display Screen
+  44   1          wr_cmd(0x06); //Increment Cursor
+  45   1          wr_cmd(0x0c); //Display on, Cursor off
+  46   1          wr_cmd(0x80); //Force cursor to begining of 1st line 
+  47   1      
+  48   1      }
+  49          
+  50          void wr_cmd(unsigned char cmd){
+  51   1          P2 = cmd;
+  52   1          RS = 0;
+  53   1          Enable = 1;
+  54   1          delay(15000);
+C51 COMPILER V9.60.7.0   LAB_TASK2                                                         05/22/2024 22:32:46 PAGE 2   
+
+  55   1          Enable = 0;
+  56   1      }
+  57          
+  58          void wr_data(unsigned char dt){
+  59   1          P2 = dt;
+  60   1          RS = 1;
+  61   1          Enable = 1;
+  62   1          delay(15000);
+  63   1          Enable = 0;
+  64   1      
+  65   1      }
+  66          
+  67          void delay(unsigned n){
+  68   1        unsigned int i;
+  69   1        
+  70   1        for(i = 0; i<n; i++);
+  71   1      }
+  72          
+  73          unsigned char key_scanning(){
+  74   1      
+  75   1        while(1){
+  76   2          R1 = 0;
+  77   2          R2 = R3 = R4 = 1;
+  78   2          if(C1 == 0 && C2 == 1 && C3 == 1){//1 Pressed
+  79   3            delay(10000); 
+  80   3            return '1';
+  81   3          }
+  82   2          
+  83   2          if(C1 == 1 && C2 == 0 && C3 == 1){//2 Pressed
+  84   3            delay(10000);
+  85   3            return '2';
+  86   3          }
+  87   2            
+  88   2          if(C1 == 1 && C2 == 1 && C3 == 0){//3 Pressed
+  89   3            delay(10000);
+  90   3            return '3';
+  91   3          }
+  92   2      
+  93   2            
+  94   2          R2 = 0;
+  95   2          R1 = R3 = R4 = 1;
+  96   2          if(C1 == 0 && C2 == 1 && C3 == 1){//4 Pressed
+  97   3            delay(10000);
+  98   3            return '4';
+  99   3          }
+ 100   2          
+ 101   2          if(C1 == 1 && C2 == 0 && C3 == 1){//5 Pressed
+ 102   3            delay(10000);
+ 103   3            return '5';
+ 104   3          }
+ 105   2          
+ 106   2          if(C1 == 1 && C2 == 1 && C3 == 0){//6 Pressed
+ 107   3            delay(10000);
+ 108   3            return '6';
+ 109   3          }
+ 110   2          
+ 111   2              
+ 112   2          R3 = 0;
+ 113   2          R1 = R2 = R4 = 1;
+ 114   2          
+ 115   2          if(C1 == 0 && C2 == 1 && C3 == 1){//7 Pressed
+ 116   3            delay(10000);
+C51 COMPILER V9.60.7.0   LAB_TASK2                                                         05/22/2024 22:32:46 PAGE 3   
+
+ 117   3            return '7';
+ 118   3          }
+ 119   2          
+ 120   2          if(C1 == 1 && C2 == 0 && C3 == 1){//8 Pressed
+ 121   3            delay(10000);
+ 122   3            return '8';
+ 123   3          }
+ 124   2          
+ 125   2          if(C1 == 1 && C2 == 1 && C3 == 0){//9 Pressed
+ 126   3            delay(10000);
+ 127   3            return '9';
+ 128   3          }
+ 129   2          
+ 130   2          R4 = 0;
+ 131   2          R1 = R2 = R3 = 1;
+ 132   2          
+ 133   2          if(C1 == 0 && C2 == 1 && C3 == 1){//* Pressed
+ 134   3            delay(10000);
+ 135   3            return '*';
+ 136   3          }
+ 137   2          
+ 138   2          if(C1 == 1 && C2 == 0 && C3 == 1){//0 Pressed
+ 139   3            delay(10000);
+ 140   3            return '0';
+ 141   3          }
+ 142   2          
+ 143   2          if(C1 == 1 && C2 == 1 && C3 == 0){//# Pressed
+ 144   3            delay(10000);
+ 145   3            return '#';
+ 146   3          }
+ 147   2        }
+ 148   1      }
+ 149          
+ 150          int get_num(char num){
+ 151   1        return num - '0';
+ 152   1      }
+ 153          
+ 154          void disp_num(int num){
+ 155   1        wr_data(num + '0');
+ 156   1        
+ 157   1      }
+ 158          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    349    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      3    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

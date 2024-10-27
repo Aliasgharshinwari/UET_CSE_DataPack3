@@ -1,0 +1,213 @@
+Handwritten Digit Recognition on FPGA
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\title{Neural Network Implementation on FPGA}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This report presents the implementation of a simple neural network using High-Level Synthesis (HLS) targeting an FPGA. The network consists of two dense layers with ReLU and softmax activations. The design is optimized for performance using HLS directives.
+\end{abstract}
+
+\tableofcontents
+
+\chapter{Introduction}
+Neural networks are widely used in various applications such as image classification, speech recognition, and natural language processing. Implementing neural networks on hardware accelerators like FPGAs can significantly enhance performance by exploiting parallelism and custom data paths. This report describes the implementation of a basic neural network on an FPGA using HLS.
+
+\chapter{Background and Related Work}
+This chapter provides an overview of neural networks, FPGAs, and High-Level Synthesis (HLS). It also discusses related work in the field of neural network hardware acceleration.
+
+\section{Neural Networks}
+A neural network is a computational model inspired by the human brain's network of neurons. It consists of layers of interconnected nodes, or neurons, where each connection has an associated weight. Neural networks can learn from data and make predictions.
+
+\section{Field Programmable Gate Arrays (FPGAs)}
+FPGAs are integrated circuits that can be configured by the user after manufacturing. They consist of an array of programmable logic blocks and a hierarchy of reconfigurable interconnects, allowing the creation of custom hardware circuits.
+
+\section{High-Level Synthesis (HLS)}
+HLS is a method of transforming a high-level algorithmic description of a circuit into a register-transfer level (RTL) design. HLS tools can automatically generate hardware descriptions from C, C++, or SystemC code, significantly reducing the design time.
+
+\section{Related Work}
+Discuss previous research and implementations of neural networks on FPGAs using HLS, highlighting their approaches and contributions.
+
+\chapter{Methodology}
+The neural network consists of two dense (fully connected) layers. The first layer has 128 hidden units, and the second layer has 10 output units corresponding to 10 possible classes. The network architecture is as follows:
+
+\begin{itemize}
+    \item Input layer: 784 units (28x28 pixels)
+    \item Dense layer 1: 128 units
+    \item ReLU activation
+    \item Dense layer 2: 10 units
+    \item Softmax activation
+\end{itemize}
+
+\section{Exponential Approximation}
+The exponential function is approximated using a truncated Taylor series for computational efficiency:
+
+\begin{lstlisting}[language=C++]
+data_t exp_approx(data_t x) {
+    const int num_terms = 10;
+    data_t result = 1.0;
+    data_t term = 1.0;
+
+    for (int i = 1; i < num_terms; ++i) {
+        term *= x / i;
+        result += term;
+    }
+    return result;
+}
+\end{lstlisting}
+
+\section{ReLU Activation}
+The ReLU activation function is applied element-wise to the output of the first dense layer:
+
+\begin{lstlisting}[language=C++]
+void relu(data_t input[HIDDEN_SIZE], data_t output[HIDDEN_SIZE]) {
+    for (int i = 0; i < HIDDEN_SIZE; i++) {
+        output[i] = input[i] > 0 ? input[i] : 0;
+    }
+}
+\end{lstlisting}
+
+\section{Softmax Activation}
+The softmax function normalizes the output of the second dense layer to a probability distribution:
+
+\begin{lstlisting}[language=C++]
+void softmax(data_t input[OUTPUT_SIZE], data_t output[OUTPUT_SIZE]) {
+    data_t max_val = input[0];
+    for (int i = 1; i < OUTPUT_SIZE; i++) {
+        if (input[i] > max_val) {
+            max_val = input[i];
+        }
+    }
+
+    data_t sum = 0;
+    for (int i = 0; i < OUTPUT_SIZE; i++) {
+        output[i] = exp_approx(input[i] - max_val);
+        sum += output[i];
+    }
+
+    for (int i = 0; i < OUTPUT_SIZE; i++) {
+        output[i] /= sum;
+    }
+}
+\end{lstlisting}
+
+\section{Dense Layers}
+The dense layers are implemented as follows:
+
+\begin{lstlisting}[language=C++]
+void dense_1(data_t input[INPUT_SIZE], data_t output[HIDDEN_SIZE], const data_t weights[INPUT_SIZE][HIDDEN_SIZE], const data_t bias[HIDDEN_SIZE]) {
+    for (int i = 0; i < HIDDEN_SIZE; i++) {
+        data_t sum = bias[i];
+        for (int j = 0; j < INPUT_SIZE; j++) {
+            sum += input[j] * weights[i][j];
+        }
+        output[i] = sum;
+    }
+}
+
+void dense_2(data_t input[HIDDEN_SIZE], data_t output[OUTPUT_SIZE], const data_t weights[HIDDEN_SIZE][OUTPUT_SIZE], const data_t bias[OUTPUT_SIZE]) {
+    for (int i = 0; i < OUTPUT_SIZE; i++) {
+        data_t sum = bias[i];
+        for (int j = 0; j < HIDDEN_SIZE; j++) {
+            sum += input[j] * weights[i][j];
+        }
+        output[i] = sum;
+    }
+}
+\end{lstlisting}
+
+\section{Top-level Function}
+The top-level function integrates the layers and activation functions:
+
+\begin{lstlisting}[language=C++]
+void neural_network(data_t input[INPUT_SIZE], data_t output[OUTPUT_SIZE],
+                    const data_t dense_1_weights[INPUT_SIZE][HIDDEN_SIZE], const data_t dense_1_bias[HIDDEN_SIZE],
+                    const data_t dense_2_weights[HIDDEN_SIZE][OUTPUT_SIZE], const data_t dense_2_bias[OUTPUT_SIZE]) {
+
+    #pragma HLS INTERFACE m_axi port=input offset=slave bundle=gmem
+    #pragma HLS INTERFACE m_axi port=output offset=slave bundle=gmem
+    #pragma HLS INTERFACE m_axi port=dense_1_weights offset=slave bundle=gmem
+    #pragma HLS INTERFACE m_axi port=dense_1_bias offset=slave bundle=gmem
+    #pragma HLS INTERFACE m_axi port=dense_2_weights offset=slave bundle=gmem
+    #pragma HLS INTERFACE m_axi port=dense_2_bias offset=slave bundle=gmem
+    #pragma HLS INTERFACE s_axilite port=return bundle=control
+
+    data_t dense_1_out[HIDDEN_SIZE];
+    data_t relu_out[HIDDEN_SIZE];
+    data_t dense_2_out[OUTPUT_SIZE];
+
+    // Layer 1: Dense
+    dense_1(input, dense_1_out, dense_1_weights, dense_1_bias);
+
+    // Layer 1: ReLU Activation
+    relu(dense_1_out, relu_out);
+
+    // Layer 2: Dense
+    dense_2(relu_out, dense_2_out, dense_2_weights, dense_2_bias);
+
+    // Layer 2: Softmax Activation
+    softmax(dense_2_out, output);
+}
+\end{lstlisting}
+
+\chapter{Implementation}
+This chapter describes the implementation details of the neural network on the FPGA. It includes the design flow, synthesis, and implementation steps.
+
+\section{Design Flow}
+The design flow involves the following steps:
+\begin{itemize}
+    \item Writing the high-level description in C++
+    \item Applying HLS directives for optimization
+    \item Synthesizing the design to generate RTL code
+    \item Implementing the design on the FPGA
+    \item Validating the design using test data
+\end{itemize}
+
+\section{Synthesis and Implementation}
+Using the HLS toolchain, the C++ code is synthesized into RTL, followed by place and route on the FPGA. The HLS directives such as \verb|#pragma HLS INTERFACE| are used to optimize memory access and parallelism.
+
+\chapter{Results}
+The performance and accuracy of the implemented neural network are evaluated. This chapter includes the testing methodology, performance metrics, and comparison with other implementations.
+
+\section{Testing Methodology}
+The neural network is tested using a dataset of images. The inputs are processed through the network, and the outputs are compared with the expected results to evaluate accuracy.
+
+\section{Performance Metrics}
+The performance of the network is measured in terms of latency, throughput, and resource utilization on the FPGA. The results are summarized in the following table:
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Metric & Value & Description \\
+        \hline
+        Latency & xxx ns & Time taken for a single inference \\
+        Throughput & xxx images/sec & Number of images processed per second \\
+        Resource Utilization & xxx LUTs, xxx FFs, xxx BRAMs & FPGA resource usage \\
+        \hline
+    \end{tabular}
+    \caption{Performance Metrics}
+    \label{tab:performance_metrics}
+\end{table}
+
+\chapter{Conclusion}
+This report demonstrated the implementation of a neural network on an FPGA using HLS. The design achieved efficient performance by leveraging hardware parallelism and custom approximations for mathematical functions. Future work includes optimizing the design further and extending it to more complex networks.
+
+\chapter{References}
+\begin{itemize}
+    \item High-Level Synthesis (HLS) documentation and resources.
+    \item FPGA vendor toolchain documentation.
+    \item Relevant research papers and articles on neural network implementations on FPGAs.
+\end{itemize}
+
+\end{document}

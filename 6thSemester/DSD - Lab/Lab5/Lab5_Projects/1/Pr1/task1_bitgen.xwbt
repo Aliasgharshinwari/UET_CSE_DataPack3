@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Uni\DSD - Lab\Lab5_Projects\1\Pr1\task1.ncd
+OUTFILE=D:\Uni\DSD - Lab\Lab5_Projects\1\Pr1\task1.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=D:\Uni\DSD - Lab\Lab5_Projects\1\Pr1
+LICENSE=WebPack
+USER_INFO=__0_0_0

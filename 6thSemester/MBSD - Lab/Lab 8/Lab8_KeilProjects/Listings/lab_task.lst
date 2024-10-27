@@ -1,0 +1,45 @@
+C51 COMPILER V9.60.7.0   LAB_TASK                                                          04/27/2024 00:15:12 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE LAB_TASK
+OBJECT MODULE PLACED IN .\Objects\lab_task.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE lab_task.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\
+                    -lab_task.lst) TABS(2) OBJECT(.\Objects\lab_task.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          
+   3          sbit btn = P3^4;
+   4          int unit, ten;
+   5          
+   6          
+   7          void main(void){
+   8   1        
+   9   1            //start_timer();
+  10   1            TMOD = 0x06; // 0000 0110
+  11   1            TH0 = 0x00;
+  12   1            TL0 = 0x00;
+  13   1            TR0 = 1;   //Part of TCON reg
+  14   1        
+  15   1            while(1){
+  16   2              unit = TL0 % 10;
+  17   2              ten= TL0 / 10;
+  18   2              
+  19   2              P1 = (ten << 4) | unit;
+  20   2            }
+  21   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     43    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

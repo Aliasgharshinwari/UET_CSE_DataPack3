@@ -1,0 +1,314 @@
+C51 COMPILER V9.60.7.0   LAB_TASK3B                                                        05/15/2024 22:18:43 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE LAB_TASK3B
+OBJECT MODULE PLACED IN .\Objects\lab_task3b.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE lab_task3b.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listing
+                    -s\lab_task3b.lst) TABS(2) OBJECT(.\Objects\lab_task3b.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          //RS = 1 we are passing data
+   3          
+   4          sbit RS = P3^0;
+   5          sbit Enable = P3^1;
+   6          sbit R1 = P1^0;
+   7          sbit R2 = P1^1;
+   8          sbit R3 = P1^2;
+   9          sbit R4 = P1^3;
+  10          
+  11          sbit C1 = P1^4;
+  12          sbit C2 = P1^5;
+  13          sbit C3 = P1^6;
+  14          sbit C4 = P1^7;
+  15          
+  16          void init();
+  17          void delay(unsigned int);
+  18          void wr_cmd(unsigned char);
+  19          void wr_data(unsigned char);
+  20          unsigned char key_scanning();
+  21          
+  22          char int_to_char(int);
+  23          int char_to_int(char);
+  24          
+  25          void arr_to_num();
+  26          void num_to_arr();
+  27          
+  28          void disp_msg(char*);
+  29          void get_result();
+  30          void display_result();
+  31          void get_expr();
+  32          
+  33          unsigned char key;
+  34          
+  35          int num1_buff_int[7];
+  36          int num2_buff_int[7];
+  37          int num1, num2;
+  38          
+  39          char buff[16];
+  40          int buff_len = 0;
+  41          
+  42          int res_buff_int[7];
+  43          char res_buff_char[7];
+  44          
+  45          int arr[3];
+  46          int res_num;
+  47          char operation;
+  48          int op_loc;
+  49          
+  50          int i;
+  51          int n = 40;
+  52          
+  53          void main(void){
+  54   1          P2 = 0x00;
+C51 COMPILER V9.60.7.0   LAB_TASK3B                                                        05/15/2024 22:18:43 PAGE 2   
+
+  55   1          P0 = 0x00;
+  56   1          init(); 
+  57   1      
+  58   1          while(1){
+  59   2            buff_len = 0;
+  60   2            for(i = 0; i<16; i++){
+  61   3                key = key_scanning(); 
+  62   3                            
+  63   3                if(key == '=') break;
+  64   3                if(key == 'C') break;
+  65   3              
+  66   3                wr_data(key); //display num1          
+  67   3                buff[i] = key;
+  68   3                buff_len++;
+  69   3            }
+  70   2            if(key == 'C') continue;
+  71   2            get_expr();
+  72   2            arr_to_num();
+  73   2            get_result(); //Will store result in res_num
+  74   2            num_to_arr();
+  75   2            display_result();
+  76   2            P0 = res_num;
+  77   2          }
+  78   1      }
+  79          
+  80          
+  81          void init(){
+  82   1          wr_cmd(0x38); //2 lines and 5x7 Matrix
+  83   1          wr_cmd(0x0e); //Display on and cursor blinking
+  84   1          wr_cmd(0x01); //Clear Display Screen
+  85   1          wr_cmd(0x06); //Increment Cursor
+  86   1          wr_cmd(0x0c); //Display on, Cursor off
+  87   1          wr_cmd(0x80); //Force cursor to begining of 1st line 
+  88   1      
+  89   1      }
+  90          
+  91          void wr_cmd(unsigned char cmd){
+  92   1          P2 = cmd;
+  93   1          RS = 0;
+  94   1          Enable = 1;
+  95   1          delay(20000);
+  96   1          Enable = 0;
+  97   1      }
+  98          
+  99          void wr_data(unsigned char dt){
+ 100   1          P2 = dt;
+ 101   1          RS = 1;
+ 102   1          Enable = 1;
+ 103   1          delay(20000);
+ 104   1          Enable = 0;
+ 105   1      
+ 106   1      }
+ 107          
+ 108          void delay(unsigned n){
+ 109   1        unsigned int i;
+ 110   1        
+ 111   1        for(i = 0; i<n; i++);
+ 112   1      }
+ 113          
+ 114          unsigned char key_scanning(){
+ 115   1      
+ 116   1        while(1){
+C51 COMPILER V9.60.7.0   LAB_TASK3B                                                        05/15/2024 22:18:43 PAGE 3   
+
+ 117   2          R1 = 0;
+ 118   2          R2 = R3 = R4 = 1;
+ 119   2          if(C1 == 0 && C2 == 1 && C3 == 1 && C4 == 1){//7 Pressed
+ 120   3            delay(10000); 
+ 121   3            return '7';
+ 122   3          }
+ 123   2          
+ 124   2          if(C1 == 1 && C2 == 0 && C3 == 1 && C4 == 1){//8 Pressed
+ 125   3            delay(10000);
+ 126   3            return '8';
+ 127   3          }
+ 128   2            
+ 129   2          if(C1 == 1 && C2 == 1 && C3 == 0 && C4 == 1){//9 Pressed
+ 130   3            delay(10000);
+ 131   3            return '9';
+ 132   3          }
+ 133   2          
+ 134   2          if(C1 == 1 && C2 == 1 && C3 == 1 && C4 == 0){//% Pressed
+ 135   3            delay(10000);
+ 136   3            return '/';
+ 137   3          }
+ 138   2            
+ 139   2          R2 = 0;
+ 140   2          R1 = R3 = R4 = 1;
+ 141   2          if(C1 == 0 && C2 == 1 && C3 == 1 && C4 == 1){//4 Pressed
+ 142   3            delay(10000);
+ 143   3            return '4';
+ 144   3          }
+ 145   2          
+ 146   2          if(C1 == 1 && C2 == 0 && C3 == 1 && C4 == 1){//5 Pressed
+ 147   3            delay(10000);
+ 148   3            return '5';
+ 149   3          }
+ 150   2          
+ 151   2          if(C1 == 1 && C2 == 1 && C3 == 0 && C4 == 1){//6 Pressed
+ 152   3            delay(10000);
+ 153   3            return '6';
+ 154   3          }
+ 155   2          
+ 156   2          if(C1 == 1 && C2 == 1 && C3 == 1 && C4 == 0){//x Pressed
+ 157   3            delay(10000);
+ 158   3            return 'x';
+ 159   3          }
+ 160   2              
+ 161   2          R3 = 0;
+ 162   2          R1 = R2 = R4 = 1;
+ 163   2          
+ 164   2          if(C1 == 0 && C2 == 1 && C3 == 1 && C4 == 1){//1 Pressed
+ 165   3            delay(10000);
+ 166   3            return '1';
+ 167   3          }
+ 168   2          
+ 169   2          if(C1 == 1 && C2 == 0 && C3 == 1 && C4 == 1){//2 Pressed
+ 170   3            delay(10000);
+ 171   3            return '2';
+ 172   3          }
+ 173   2          
+ 174   2          if(C1 == 1 && C2 == 1 && C3 == 0 && C4 == 1){//3 Pressed
+ 175   3            delay(10000);
+ 176   3            return '3';
+ 177   3          }
+ 178   2          
+C51 COMPILER V9.60.7.0   LAB_TASK3B                                                        05/15/2024 22:18:43 PAGE 4   
+
+ 179   2          if(C1 == 1 && C2 == 1 && C3 == 1 && C4 == 0){//- Pressed
+ 180   3            delay(10000);
+ 181   3            return '-';
+ 182   3          }
+ 183   2          
+ 184   2          R4 = 0;
+ 185   2          R1 = R2 = R3 = 1;
+ 186   2          
+ 187   2          if(C1 == 0 && C2 == 1 && C3 == 1 && C4 == 1){//C/ON Pressed
+ 188   3            delay(10000);
+ 189   3            return 'C';
+ 190   3          }
+ 191   2          
+ 192   2          if(C1 == 1 && C2 == 0 && C3 == 1 && C4 == 1){//0 Pressed
+ 193   3            delay(10000);
+ 194   3            return '0';
+ 195   3          }
+ 196   2          
+ 197   2          if(C1 == 1 && C2 == 1 && C3 == 0 && C4 == 1){//= Pressed
+ 198   3            delay(10000);
+ 199   3            return '=';
+ 200   3          }
+ 201   2          
+ 202   2          if(C1 == 1 && C2 == 1 && C3 == 1 && C4 == 0){//+ Pressed
+ 203   3            delay(10000);
+ 204   3            return '+';
+ 205   3          }
+ 206   2        }
+ 207   1      }
+ 208          
+ 209          char int_to_char(int num){
+ 210   1          return num + '0';
+ 211   1      }
+ 212          
+ 213          
+ 214          int char_to_int(char num){
+ 215   1          return num - '0';
+ 216   1      }
+ 217          
+ 218          void disp_msg(char *str){
+ 219   1          while(*str)
+ 220   1            wr_data(*str++);
+ 221   1      }
+ 222          
+ 223          void get_expr(){
+ 224   1            for(i = 0; i<buff_len; i++){
+ 225   2              if(buff[i] == '+' || buff[i] == '-' || buff[i] == 'x' || buff[i] == '/' ){
+ 226   3                operation = buff[i];
+ 227   3                op_loc = i;
+ 228   3                break;
+ 229   3              }
+ 230   2            }
+ 231   1            
+ 232   1            for(i = 0; i<op_loc; i++){    
+ 233   2              num1_buff_int[i] = char_to_int(buff[i]);
+ 234   2            }
+ 235   1            
+ 236   1            
+ 237   1            for(i = op_loc + 1; i<buff_len; i++){   
+ 238   2              num2_buff_int[i] = char_to_int(buff[i]);
+ 239   2            }
+ 240   1      }
+C51 COMPILER V9.60.7.0   LAB_TASK3B                                                        05/15/2024 22:18:43 PAGE 5   
+
+ 241          
+ 242          void arr_to_num(){
+ 243   1        
+ 244   1          for(i = 0; i<op_loc; i++){    
+ 245   2               num1 = num1 * 10 + num1_buff_int[i];
+ 246   2            }
+ 247   1          
+ 248   1          for(i = op_loc + 1; i<=buff_len; i++){      
+ 249   2               num2 = num2 * 10 + num2_buff_int[i];
+ 250   2            }
+ 251   1      }
+ 252          
+ 253          void num_to_arr() {
+ 254   1        
+ 255   1          //for(i = 0; i<=7; i++){      
+ 256   1              res_buff_int[0] = res_num/10;
+ 257   1              res_num = res_num % 10;
+ 258   1              res_buff_int[1] = res_num; 
+ 259   1          //  }
+ 260   1      }
+ 261          
+ 262          void get_result(){
+ 263   1        
+ 264   1        switch(operation){
+ 265   2          case '+': res_num = num1 + num2; break;
+ 266   2          case '-': res_num = num1 - num2; break;
+ 267   2          case 'x': res_num = num1 * num2; break;
+ 268   2          case '/': res_num = num1 / num2; break;
+ 269   2          default: disp_msg("Invalid"); 
+ 270   2        }
+ 271   1      
+ 272   1      }
+ 273          void display_result(){
+ 274   1          
+ 275   1          wr_cmd(0xC0);//Move to 2nd line
+ 276   1          
+ 277   1          for(i = 0; i<7; i++)
+ 278   1            wr_data(int_to_char(res_buff_int[i]));
+ 279   1      
+ 280   1          //wr_cmd(0x01); //Clear Display Screen
+ 281   1          wr_cmd(0x80);//Move to 1st line
+ 282   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1046    ----
+   CONSTANT SIZE    =      8    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     87       3
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

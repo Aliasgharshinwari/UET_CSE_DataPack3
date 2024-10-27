@@ -1,0 +1,45 @@
+strategySpecString = ':oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dsregister_duplication:spon:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spD:clcl:clbslUni:clbslDSD:clbslXilinx_Projects:clbslHomework3_P1:clbslPart1:sp:dsp:spxc6slx9:dscsg324:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spadder.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp4:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapRegDup:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqD:cl:bsl:bslUni:bsl:bslDSD:bsl:bslXilinx_Projects:bsl:bslHomework3_P1:bsl:bslPart1:sq:cc'
+Xilinx Environment Variables:
+
+{'XILINX': 'D:\\Xilinx\\14.7\\ISE_DS\\ISE\\'
+'PATH': 'D:\\Xilinx\\14.7\\ISE_DS\\ISE\\\\lib\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\ISE\\\\bin\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\ISE\\bin\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\ISE\\lib\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\ISE\\..\\..\\..\\DocNav;D:\\Xilinx\\14.7\\ISE_DS\\PlanAhead\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\bin\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\lib\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\nt\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\powerpc-eabi\\nt\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnuwin\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\arm\\nt\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\linux_toolchain\\nt64_be\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\linux_toolchain\\nt64_le\\bin;D:\\Xilinx\\14.7\\ISE_DS\\common\\bin\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\common\\lib\\nt64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\MATLAB\\R2016a\\runtime\\win64;D:\\Program Files\\MATLAB\\R2016a\\bin;C:\\Program Files\\dotnet\\;D:\\Program Files\\MATLAB\\R2016a\\polyspace\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Users\\aalia\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Gradle\\gradle-8.3\\bin;C:\\Users\\aalia\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\aalia\\.dotnet\\tools;D:\\modeltech64_10.6d\\win64;C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem;C:\\Users\\aalia\\Downloads\\gcc-13.2.0-no-debug\\bin;C:\\Users\\aalia\\AppData\\Local\\GitHubDesktop\\bin'
+'XILINX_PLANAHEAD': 'D:\\Xilinx\\14.7\\ISE_DS\\PlanAhead'
+'XILINX_DSP': 'D:\\Xilinx\\14.7\\ISE_DS\\ISE'
+'XILINX_EDK': 'D:\\Xilinx\\14.7\\ISE_DS\\EDK'}
+envDict = {}
+DESKTOP-5AU4H87_3.stat:D:\Uni\DSD\Xilinx_Projects\Homework3_P1\Part1\smartxplorer_results\.smartxplorer\.sx.keepAlive.DESKTOP-5AU4H87_3
+INFO: total number of threads running this host None
+...searching for file: mapregdup.xds
+Creating XDS file ... mapregdup.xds
+###################################
+
+      <property name = "Map:Placer Effort Level"
+               value = "High" />
+      <property name = "Map:Placer Extra Effort"
+               value = "Normal" />
+      <property name = "Map:Register Duplication"
+               value = "On" />
+      <property name = "Place &amp; Route:Place &amp; Route Effort Level (Overall)"
+               value = "High" />
+      <property name = "Place &amp; Route:Extra Effort (Highest PAR level only)"
+               value = "Normal" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Number of Paths in Error/Verbose Report"
+               value = "3" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Type"
+               value = "Verbose Report" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Change Device Speed To"
+               value = "-2" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Paths by Endpoint"
+               value = "3" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Fastest Path(s) in Each Constraint"
+               value = "true" />
+###################################
+launching map with options  -ol high -xe n -register_duplication on -w  -p xc6slx9-csg324-2 -o adder_map.ncd  D:cl:bslUni:bslDSD:bslXilinx_Projects:bslHomework3_P1:bslPart1:bslsmartxplorer_results:bslrun4:bsladder.pcf...
+runTask: map adder.ngd -ol high -xe n -register_duplication on -w -p xc6slx9-csg324-2 -o adder_map.ncd D:\Uni\DSD\Xilinx_Projects\Homework3_P1\Part1\smartxplorer_results\run4\adder.pcf
+args = ['map', 'adder.ngd', '-ol', 'high', '-xe', 'n', '-register_duplication', 'on', '-w', '-p', 'xc6slx9-csg324-2', '-o', 'adder_map.ncd', 'D:\\Uni\\DSD\\Xilinx_Projects\\Homework3_P1\\Part1\\smartxplorer_results\\run4\\adder.pcf']
+launching par with options  -ol high -xe n  -w adder.ncd  D:cl:bslUni:bslDSD:bslXilinx_Projects:bslHomework3_P1:bslPart1:bslsmartxplorer_results:bslrun4:bsladder.pcf...
+runTask: par adder_map.ncd -ol high -xe n -w adder.ncd D:\Uni\DSD\Xilinx_Projects\Homework3_P1\Part1\smartxplorer_results\run4\adder.pcf
+args = ['par', 'adder_map.ncd', '-ol', 'high', '-xe', 'n', '-w', 'adder.ncd', 'D:\\Uni\\DSD\\Xilinx_Projects\\Homework3_P1\\Part1\\smartxplorer_results\\run4\\adder.pcf']
+launching trce...
+runTask: trce D:\Uni\DSD\Xilinx_Projects\Homework3_P1\Part1\smartxplorer_results\run4\adder.ncd D:\Uni\DSD\Xilinx_Projects\Homework3_P1\Part1\smartxplorer_results\run4\adder.pcf -xml D:\Uni\DSD\Xilinx_Projects\Homework3_P1\Part1\smartxplorer_results\run4\adder.twx -v 3 -s 2 -n 3 -fastpaths -o D:\Uni\DSD\Xilinx_Projects\Homework3_P1\Part1\smartxplorer_results\run4\adder.twr
+args = ['trce', 'D:\\Uni\\DSD\\Xilinx_Projects\\Homework3_P1\\Part1\\smartxplorer_results\\run4\\adder.ncd', 'D:\\Uni\\DSD\\Xilinx_Projects\\Homework3_P1\\Part1\\smartxplorer_results\\run4\\adder.pcf', '-xml', 'D:\\Uni\\DSD\\Xilinx_Projects\\Homework3_P1\\Part1\\smartxplorer_results\\run4\\adder.twx', '-v', '3', '-s', '2', '-n', '3', '-fastpaths', '-o', 'D:\\Uni\\DSD\\Xilinx_Projects\\Homework3_P1\\Part1\\smartxplorer_results\\run4\\adder.twr']

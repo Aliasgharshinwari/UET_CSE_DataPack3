@@ -1,0 +1,106 @@
+{D:/Uni/DSD - Lab/Lab6/New folder/8bit_ring_counter.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\8bit_ring_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module eight_bit_ring_counter
+
+Top level modules:
+	eight_bit_ring_counter
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/tb_4bit_ring_counter.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\tb_4bit_ring_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_4bit_ring_counter
+
+Top level modules:
+	tb_4bit_ring_counter
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/tb_clock_divider.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab6/New folder/tb_clock_divider.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_clock_divider
+
+Top level modules:
+	tb_clock_divider
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/tb_f_divider.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab6/New folder/tb_f_divider.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_f_divider
+
+Top level modules:
+	tb_f_divider
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/tb_8bit_ring_counter.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\tb_8bit_ring_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_8bit_ring_counter
+
+Top level modules:
+	tb_8bit_ring_counter
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/tb_task3_b.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\tb_task3_b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_task3_b
+
+Top level modules:
+	tb_task3_b
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/tb_D_FF.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab6/New folder/tb_D_FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_d_FF
+
+Top level modules:
+	tb_d_FF
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/mux2x1.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\mux2x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2x1
+
+Top level modules:
+	mux2x1
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/task3.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\task3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task3
+
+Top level modules:
+	task3
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/d_FF.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab6/New folder/d_FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d_FF
+
+Top level modules:
+	d_FF
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/4bit_ring_counter.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab6/New folder/4bit_ring_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module four_bit_ring_counter
+
+Top level modules:
+	four_bit_ring_counter
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/bcd_to_seven_seg.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\bcd_to_seven_seg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bcd_to_seven_seg
+
+Top level modules:
+	bcd_to_seven_seg
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/clock_divider.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab6/New folder/clock_divider.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clock_divider
+
+Top level modules:
+	clock_divider
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/tb_task3.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\tb_task3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_task3
+
+Top level modules:
+	tb_task3
+
+} {} {}} {D:/Uni/DSD - Lab/Lab6/New folder/f_divider.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab6\New folder\f_divider.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module f_divider
+
+Top level modules:
+	f_divider
+
+} {} {}}

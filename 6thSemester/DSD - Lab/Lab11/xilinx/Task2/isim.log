@@ -1,0 +1,22 @@
+ISim log file
+Running: D:\Uni\DSD - Lab\Lab11\xilinx\Task2\testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Uni/DSD - Lab/Lab11/xilinx/Task2/testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance dp/mux2/, width 8 of formal port I1 is not equal to width 32 of actual constant.
+WARNING: File "D:/Uni/DSD - Lab/Lab11/xilinx/Task2/product_datapath.v" Line 28.  For instance dp/mult/, width 4 of formal port M is not equal to width 8 of actual signal regN_out.
+WARNING: File "D:/Uni/DSD - Lab/Lab11/xilinx/Task2/product_datapath.v" Line 28.  For instance dp/mult/, width 4 of formal port Q is not equal to width 8 of actual signal tempFact_out.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0, RegN=  x,RegTemp=  0, TempProduct=  0
+                  25, RegN=  4,RegTemp=  1, TempProduct=  0
+                  75, RegN=  4,RegTemp=  1, TempProduct=  4
+                 105, RegN=  3,RegTemp=  4, TempProduct=  4
+                 145, RegN=  3,RegTemp=  4, TempProduct= 12
+                 175, RegN=  2,RegTemp= 12, TempProduct= 12
+                 215, RegN=  2,RegTemp= 12, TempProduct= 24
+                 245, RegN=  1,RegTemp= 24, TempProduct= 24
+                 285, RegN=  1,RegTemp= 24, TempProduct=  9

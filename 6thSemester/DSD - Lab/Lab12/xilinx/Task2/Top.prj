@@ -1,0 +1,4 @@
+verilog work "traffic_controller_fsm.v"
+verilog work "clock_divider.v"
+verilog work "BCD_to_SevenSeg.v"
+verilog work "Top.v"

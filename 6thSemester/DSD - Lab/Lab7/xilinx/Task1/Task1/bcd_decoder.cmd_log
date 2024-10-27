@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/bcd_decoder.xst" -ofn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/bcd_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "bcd_decoder.ngc" bcd_decoder.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_decoder_map.ncd bcd_decoder.ngd bcd_decoder.pcf 
+par -w -intstyle ise -ol high -mt off bcd_decoder_map.ncd bcd_decoder.ncd bcd_decoder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd_decoder.twx bcd_decoder.ncd -o bcd_decoder.twr bcd_decoder.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/bcd_decoder.xst" -ofn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/bcd_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "bcd_decoder.ngc" bcd_decoder.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_decoder_map.ncd bcd_decoder.ngd bcd_decoder.pcf 
+par -w -intstyle ise -ol high -mt off bcd_decoder_map.ncd bcd_decoder.ncd bcd_decoder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd_decoder.twx bcd_decoder.ncd -o bcd_decoder.twr bcd_decoder.pcf 

@@ -1,0 +1,72 @@
+A51 MACRO ASSEMBLER  TASKB                                                                03/20/2024 22:04:15 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\taskb.obj
+ASSEMBLER INVOKED BY: D:\Program Files (x86)\Keil_v5\C51\BIN\A51.EXE taskb.a51 SET(SMALL) DEBUG PRINT(.\Listings\taskb.l
+                      st) OBJECT(.\Objects\taskb.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0h
+0000                   2             HERE:   
+0000 1113              3             ACALL DELAY2
+                       4             
+0002 D291              5             SETB P1.1
+                       6             
+0004 110A              7             ACALL DELAY1
+0006 C291              8             CLR P1.1
+                       9             
+0008 80F6             10             SJMP HERE
+                      11             
+000A                  12     DELAY1: 
+                      13     
+000A 78FF             14             MOV R0, #255
+                      15                     
+000C                  16             LOOP1:
+000C 790E             17                     MOV R1, #14
+                      18                     
+000E                  19                     LOOP2:
+000E D9FE             20                             DJNZ R1, LOOP2
+                      21             
+0010 D8FA             22             DJNZ R0, LOOP1
+                      23             
+0012 22               24     RET
+                      25     
+                      26     
+0013                  27     DELAY2: 
+0013 787F             28             MOV R0, #127
+                      29                     
+0015                  30             LOOP3:
+0015 790E             31                     MOV R1, #14
+                      32                     
+0017                  33                     LOOP4:
+0017 D9F5             34                             DJNZ R1, LOOP2
+                      35             
+0019 D8F1             36             DJNZ R0, LOOP1
+                      37             
+001B 22               38     RET
+                      39     
+                      40     END
+A51 MACRO ASSEMBLER  TASKB                                                                03/20/2024 22:04:15 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DELAY1 . . . . . .  C ADDR   000AH   A   
+DELAY2 . . . . . .  C ADDR   0013H   A   
+HERE . . . . . . .  C ADDR   0000H   A   
+LOOP1. . . . . . .  C ADDR   000CH   A   
+LOOP2. . . . . . .  C ADDR   000EH   A   
+LOOP3. . . . . . .  C ADDR   0015H   A   
+LOOP4. . . . . . .  C ADDR   0017H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

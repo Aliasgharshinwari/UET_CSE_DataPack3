@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab4_Project/task1/t1.xst" -ofn "D:/Uni/DSD - Lab/Lab4_Project/task1/t1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "t1.ngc" t1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o t1_map.ncd t1.ngd t1.pcf 
+par -w -intstyle ise -ol high -mt off t1_map.ncd t1.ncd t1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml t1.twx t1.ncd -o t1.twr t1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t1.ucf -p xc6slx9-csg324-2 "t1.ngc" t1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t1.ucf -p xc6slx9-csg324-2 "t1.ngc" t1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t1.ucf -p xc6slx9-csg324-2 "t1.ngc" t1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o t1_map.ncd t1.ngd t1.pcf 
+par -w -intstyle ise -ol high -mt off t1_map.ncd t1.ncd t1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml t1.twx t1.ncd -o t1.twr t1.pcf -ucf t1.ucf 
+bitgen -intstyle ise -f t1.ut t1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t1.ucf -p xc6slx9-csg324-2 "t1.ngc" t1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o t1_map.ncd t1.ngd t1.pcf 
+par -w -intstyle ise -ol high -mt off t1_map.ncd t1.ncd t1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml t1.twx t1.ncd -o t1.twr t1.pcf -ucf t1.ucf 
+bitgen -intstyle ise -f t1.ut t1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t1.ucf -p xc6slx9-csg324-2 "t1.ngc" t1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o t1_map.ncd t1.ngd t1.pcf 
+par -w -intstyle ise -ol high -mt off t1_map.ncd t1.ncd t1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml t1.twx t1.ncd -o t1.twr t1.pcf -ucf t1.ucf 
+bitgen -intstyle ise -f t1.ut t1.ncd 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab4_Project/task1/t1.xst" -ofn "D:/Uni/DSD - Lab/Lab4_Project/task1/t1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t1.ucf -p xc6slx9-csg324-2 "t1.ngc" t1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o t1_map.ncd t1.ngd t1.pcf 
+par -w -intstyle ise -ol high -mt off t1_map.ncd t1.ncd t1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml t1.twx t1.ncd -o t1.twr t1.pcf -ucf t1.ucf 
+bitgen -intstyle ise -f t1.ut t1.ncd 

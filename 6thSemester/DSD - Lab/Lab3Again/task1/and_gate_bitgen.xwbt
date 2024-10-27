@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Uni\DSD - Lab\Lab3Again\task1\and_gate.ncd
+OUTFILE=D:\Uni\DSD - Lab\Lab3Again\task1\and_gate.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=D:\Uni\DSD - Lab\Lab3Again\task1
+LICENSE=WebPack
+USER_INFO=__0_0_0

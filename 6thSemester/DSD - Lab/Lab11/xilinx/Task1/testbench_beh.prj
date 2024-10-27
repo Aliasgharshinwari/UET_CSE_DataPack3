@@ -1,0 +1,7 @@
+verilog work "PIPO2.v"
+verilog work "PIPO1.v"
+verilog work "multiplier.v"
+verilog work "product_datapath.v"
+verilog work "controller.v"
+verilog work "testbench.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,38 @@
+A51 MACRO ASSEMBLER  TASK2                                                                02/25/2024 20:49:15 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\task2.obj
+ASSEMBLER INVOKED BY: D:\Program Files (x86)\Keil_v5\C51\BIN\A51.EXE task2.a51 SET(SMALL) DEBUG PRINT(.\Listings\task2.l
+                      st) OBJECT(.\Objects\task2.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000 7455              1     MOV A,#55H
+0002 7B0A              2     MOV R3,#10
+                       3     
+0004                   4     NEXT: 
+0004 7A46              5             MOV R2,#70
+                       6     
+0006                   7             AGAIN: 
+0006 F4                8                     CPL A
+0007 DAFD              9                     DJNZ R2,AGAIN
+0009 DBF9             10             DJNZ R3,NEXT
+                      11     
+                      12     END
+A51 MACRO ASSEMBLER  TASK2                                                                02/25/2024 20:49:15 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+AGAIN. . . . . . .  C ADDR   0006H   A   
+NEXT . . . . . . .  C ADDR   0004H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

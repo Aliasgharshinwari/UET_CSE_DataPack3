@@ -1,0 +1,100 @@
+C51 COMPILER V9.60.7.0   LABTASK                                                           02/25/2024 20:59:11 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE LABTASK
+OBJECT MODULE PLACED IN .\Objects\labtask.obj
+COMPILER INVOKED BY: D:\Program Files (x86)\Keil_v5\C51\BIN\C51.EXE labtask.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEN
+                    -D PRINT(.\Listings\labtask.lst) TABS(2) OBJECT(.\Objects\labtask.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          
+   3          int a, i ,j;
+   4          
+   5          void delay(){
+   6   1      
+   7   1        for(i = 0; i<255; i++){
+   8   2            for(j = 0; j<255; j++){
+   9   3            }
+  10   2        }
+  11   1      }
+  12          void main(){
+  13   1          
+  14   1          while(1){
+  15   2            a = 0x01;
+  16   2            P0 = a;
+  17   2            delay();
+  18   2            
+  19   2            a = 0x02;
+  20   2            P0 = a;
+  21   2            delay();
+  22   2            
+  23   2            a = 0x04;
+  24   2            P0 = a;
+  25   2            delay();
+  26   2            
+  27   2            a = 0x08;
+  28   2            P0 = a;
+  29   2            
+  30   2            
+  31   2            a = 0x10;
+  32   2            P0 = a;
+  33   2            delay();
+  34   2            
+  35   2            a = 0x20;
+  36   2            P0 = a;
+  37   2            delay();
+  38   2            
+  39   2            a = 0x40;
+  40   2            P0 = a;
+  41   2            delay();
+  42   2            
+  43   2            a = 0x80;
+  44   2            P0 = a;
+  45   2            delay();
+  46   2            
+  47   2            a = 0x40;
+  48   2            P0 = a;
+  49   2            delay();
+  50   2            
+  51   2            a = 0x20;
+  52   2            P0 = a;
+  53   2            delay();
+  54   2            
+C51 COMPILER V9.60.7.0   LABTASK                                                           02/25/2024 20:59:11 PAGE 2   
+
+  55   2            a = 0x10;
+  56   2            P0 = a;
+  57   2            delay();
+  58   2            
+  59   2            a = 0x08;
+  60   2            P0 = a;
+  61   2            delay();
+  62   2            
+  63   2            a = 0x04;
+  64   2            P0 = a;
+  65   2            delay();
+  66   2        
+  67   2            a = 0x02;
+  68   2            P0 = a;
+  69   2            delay();
+  70   2            
+  71   2                  
+  72   2          }
+  73   1      }
+  74          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    190    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      6    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

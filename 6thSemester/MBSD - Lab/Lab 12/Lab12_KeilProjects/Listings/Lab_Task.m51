@@ -1,0 +1,169 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    05/23/2024  12:24:12  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+D:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\lab_task.obj TO .\Objects\Lab_Task PRINT (.\Listings\Lab_Ta
+>> sk.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\STARTUP.obj (?C_STARTUP)
+  .\Objects\lab_task.obj (LAB_TASK)
+  D:\KEIL_V5\C51\LIB\C51S.LIB (?C?COPY)
+
+
+LINK MAP OF MODULE:  .\Objects\Lab_Task (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0015H     UNIT         _DATA_GROUP_
+            DATA    001DH     0003H     UNIT         ?DT?LAB_TASK
+            IDATA   0020H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0003H     ABSOLUTE     
+                    0006H     07FAH                  *** GAP ***
+            CODE    0800H     00F6H     UNIT         ?C?LIB_CODE
+            CODE    08F6H     003BH     UNIT         ?PR?INT_FUN?LAB_TASK
+            CODE    0931H     002FH     UNIT         ?PR?SINEWAVE?LAB_TASK
+            CODE    0960H     001CH     UNIT         ?PR?MAIN?LAB_TASK
+            CODE    097CH     001BH     UNIT         ?PR?SQUAREWAVE?LAB_TASK
+            CODE    0997H     0015H     UNIT         ?CO?LAB_TASK
+            CODE    09ACH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\Lab_Task (?C_STARTUP)
+
+
+SEGMENT                           DATA_GROUP 
+  +--> CALLED SEGMENT           START    LENGTH
+-----------------------------------------------
+?C_C51STARTUP                   -----    -----
+  +--> ?PR?MAIN?LAB_TASK
+
+?PR?MAIN?LAB_TASK               -----    -----
+  +--> ?PR?SQUAREWAVE?LAB_TASK
+  +--> ?PR?SINEWAVE?LAB_TASK
+
+?PR?SINEWAVE?LAB_TASK           0008H    0015H
+  +--> ?CO?LAB_TASK
+
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/23/2024  12:24:12  PAGE 2
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\Lab_Task (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:09ACH         SEGMENT       ?C_C51STARTUP
+  I:0020H         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:09AFH         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:09ACH         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         126
+  C:09ACH         LINE#         133
+  C:09AEH         LINE#         134
+  C:09AFH         LINE#         135
+  C:09B0H         LINE#         136
+  C:09B2H         LINE#         185
+  C:09B5H         LINE#         196
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        LAB_TASK
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00B0H         PUBLIC        P3
+  B:00A8H.7       PUBLIC        EA
+  D:001DH         PUBLIC        state
+  C:0960H         PUBLIC        main
+  C:0997H         SYMBOL        _?ix1000
+  C:097CH         PUBLIC        squarewave
+  B:00A8H.0       PUBLIC        EX0
+  B:0088H.0       PUBLIC        IT0
+  C:0931H         PUBLIC        sinewave
+  D:001EH         PUBLIC        i
+  C:08F6H         PUBLIC        int_fun
+  -------         PROC          INT_FUN
+  C:08F6H         LINE#         10
+  C:0901H         LINE#         11
+  C:0903H         LINE#         12
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/23/2024  12:24:12  PAGE 3
+
+
+  C:0925H         LINE#         13
+  C:0928H         LINE#         14
+  -------         ENDPROC       INT_FUN
+  -------         PROC          MAIN
+  C:0960H         LINE#         17
+  C:0960H         LINE#         18
+  C:0962H         LINE#         19
+  C:0964H         LINE#         20
+  C:0966H         LINE#         21
+  C:0969H         LINE#         23
+  C:0969H         LINE#         25
+  C:096DH         LINE#         26
+  C:0972H         LINE#         28
+  C:0977H         LINE#         29
+  C:097AH         LINE#         30
+  -------         ENDPROC       MAIN
+  -------         PROC          SINEWAVE
+  -------         DO            
+  D:0008H         SYMBOL        sine_val
+  -------         ENDDO         
+  C:0931H         LINE#         33
+  C:0931H         LINE#         35
+  C:0944H         LINE#         37
+  C:0949H         LINE#         38
+  C:095FH         LINE#         39
+  -------         ENDPROC       SINEWAVE
+  -------         PROC          SQUAREWAVE
+  C:097CH         LINE#         41
+  C:097CH         LINE#         45
+  C:097FH         LINE#         46
+  C:0983H         LINE#         47
+  C:0996H         LINE#         48
+  -------         ENDPROC       SQUAREWAVE
+  -------         ENDMOD        LAB_TASK
+
+  -------         MODULE        ?C?COPY
+  C:08D0H         PUBLIC        ?C?COPY
+  -------         ENDMOD        ?C?COPY
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00C8H BYTE ( 9%) *
+******************************************************************************
+
+Program Size: data=33.0 xdata=0 code=446
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

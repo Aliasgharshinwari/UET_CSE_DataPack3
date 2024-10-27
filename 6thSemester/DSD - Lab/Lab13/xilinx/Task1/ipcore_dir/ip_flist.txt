@@ -1,0 +1,14 @@
+# Output products list for <ip>
+ip.asy
+ip.gise
+ip.ngc
+ip.sym
+ip.v
+ip.veo
+ip.xco
+ip.xise
+ip\doc\mult_gen_ds255.pdf
+ip\doc\mult_gen_v11_2_readme.txt
+ip\doc\mult_gen_v11_2_vinfo.html
+ip_flist.txt
+ip_xmdf.tcl

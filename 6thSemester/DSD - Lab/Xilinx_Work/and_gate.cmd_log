@@ -1,0 +1,12 @@
+vhdtdtfi -lib work {D:/Uni/DSD - Lab/Xilinx_Work/and.v} -lang verilog -prj New -o and_gate.spl -module and_gate -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 and_gate.spl {D:/Uni/DSD - Lab/Xilinx_Work/and_gate.sym} 
+vhdtdtfi -lang verilog -prj New -o "D:/Uni/DSD - Lab/Xilinx_Work/and_gate.tfi" -lib work "D:/Uni/DSD - Lab/Xilinx_Work//and.v" -module and_gate -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work {D:/Uni/DSD - Lab/Xilinx_Work/and.v} -lang verilog -prj New -o and_gate.spl -module and_gate -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 and_gate.spl {D:/Uni/DSD - Lab/Xilinx_Work/and_gate.sym} 
+vhdtdtfi -lang verilog -prj New -o "D:/Uni/DSD - Lab/Xilinx_Work/and_gate.tfi" -lib work "D:/Uni/DSD - Lab/Xilinx_Work//and.v" -module and_gate -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Xilinx_Work/and_gate.xst" -ofn "D:/Uni/DSD - Lab/Xilinx_Work/and_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 "and_gate.ngc" and_gate.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_gate_map.ncd and_gate.ngd and_gate.pcf 
+par -w -intstyle ise -ol high -mt off and_gate_map.ncd and_gate.ncd and_gate.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml and_gate.twx and_gate.ncd -o and_gate.twr and_gate.pcf 
+bitgen -intstyle ise -f and_gate.ut and_gate.ncd 

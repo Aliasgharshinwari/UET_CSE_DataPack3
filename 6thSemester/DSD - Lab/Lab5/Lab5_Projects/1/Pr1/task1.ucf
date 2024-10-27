@@ -1,0 +1,34 @@
+# PlanAhead Generated physical constraints 
+
+NET "I[0]" LOC = F17;
+NET "I[1]" LOC = F18;
+NET "I[2]" LOC = E16;
+NET "I[3]" LOC = E18;
+NET "En" LOC = C17;
+
+NET "O[0]" LOC = A3;
+NET "O[1]" LOC = B4;
+NET "O[2]" LOC = A4;
+NET "O[3]" LOC = C4;
+NET "O[4]" LOC = C5;
+NET "O[5]" LOC = D6;
+NET "O[6]" LOC = C6;
+
+NET "EnOut" LOC = B3;
+# PlanAhead Generated IO constraints 
+
+NET "I[0]" PULLUP;
+NET "I[1]" PULLUP;
+NET "I[2]" PULLUP;
+NET "I[3]" PULLUP;
+NET "En" PULLUP;
+
+NET "O[0]" SLEW = FAST;
+NET "O[1]" SLEW = FAST;
+NET "O[2]" SLEW = FAST;
+NET "O[3]" SLEW = FAST;
+NET "O[4]" SLEW = FAST;
+NET "O[5]" SLEW = FAST;
+NET "O[6]" SLEW = FAST;
+
+NET "EnOut" SLEW = FAST;

@@ -1,0 +1,57 @@
+{D:/Uni/DSD - Lab/Lab8/xilinx/Task1/clock_divider.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab8\xilinx\Task1\clock_divider.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clock_divider
+
+Top level modules:
+	clock_divider
+
+} {} {}} {D:/Uni/DSD - Lab/Lab8/xilinx/Task1/Top.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Top
+
+Top level modules:
+	Top
+
+} {} {}} {D:/Uni/DSD - Lab/Lab8/modelsim/tb_top.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab8\modelsim\tb_top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} {D:/Uni/DSD - Lab/Lab8/xilinx/Task1/Mux4x1.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Mux4x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux4x1
+
+Top level modules:
+	Mux4x1
+
+} {} {}} {D:/Uni/DSD - Lab/Lab8/xilinx/Task1/bcd_counter.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab8\xilinx\Task1\bcd_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bcd_counter
+
+Top level modules:
+	bcd_counter
+
+} {} {}} {D:/Uni/DSD - Lab/Lab8/xilinx/Task1/Counter18bit.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Counter18bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Counter18bit
+
+Top level modules:
+	Counter18bit
+
+} {} {}} {D:/Uni/DSD - Lab/Lab8/xilinx/Task1/Decoder2x4.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Decoder2x4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Decoder2x4
+
+Top level modules:
+	Decoder2x4
+
+} {} {}} {D:/Uni/DSD - Lab/Lab8/xilinx/Task1/three_BCD.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab8\xilinx\Task1\three_BCD.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module three_BCD
+
+Top level modules:
+	three_BCD
+
+} {} {}}

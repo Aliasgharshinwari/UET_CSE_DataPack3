@@ -1,0 +1,332 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD - Lab/Lab8/modelsim
+vADD
+Z0 !s110 1716392021
+!i10b 1
+!s100 ]IWhWPIiDoDH<L=z@Ram=3
+ILB5M5Xb0Chg^;XPUjbo4H0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD - Lab/Lab10/modelsim
+w1716364862
+8D:/Uni/DSD - Lab/Lab10/modelsim/ADDER.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/ADDER.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1716392021.000000
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/ADDER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/ADDER.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@d@d
+vCNTR
+R0
+!i10b 1
+!s100 EFWVcT?l9f]Q2M:VVXemL3
+IC;CCLG>7YH2OAK8oJNMk;2
+R1
+R2
+w1716362283
+8D:/Uni/DSD - Lab/Lab10/modelsim/CNTR.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/CNTR.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/CNTR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/CNTR.v|
+!i113 1
+R5
+R6
+n@c@n@t@r
+vcontroller
+Z7 !s110 1716392020
+!i10b 1
+!s100 k^1ORl9DA:h3LhYoC?gOl3
+IOnL0P^WR1F5fcN8^j8NHW0
+R1
+R2
+w1716391852
+8D:/Uni/DSD - Lab/Lab10/modelsim/controlpath.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/controlpath.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1716392020.000000
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/controlpath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/controlpath.v|
+!i113 1
+R5
+R6
+vcontrolpath
+!s110 1716362048
+!i10b 1
+!s100 4P7_obK7DIbiBNXCd3S7E2
+I48VEgPM<zNIo48QPRkENd2
+R1
+R2
+w1716355748
+8D:\Uni\DSD - Lab\Lab10\modelsim\controlpath.v
+FD:\Uni\DSD - Lab\Lab10\modelsim\controlpath.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1716362048.000000
+!s107 D:\Uni\DSD - Lab\Lab10\modelsim\controlpath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab10\modelsim\controlpath.v|
+!i113 1
+R5
+R6
+vEQZ
+Z9 !s110 1716392022
+!i10b 1
+!s100 fd7mbPE`RH8mGYNHD[8`g3
+If5S5>ejK?Qa0I5cPB;UMb2
+R1
+R2
+w1716364606
+8D:/Uni/DSD - Lab/Lab10/modelsim/EQZ.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/EQZ.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/EQZ.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/EQZ.v|
+!i113 1
+R5
+R6
+n@e@q@z
+vfactorial_datapath
+!s110 1716355216
+!i10b 1
+!s100 Hzo8=`NPHEY2;LRMYJfJZ0
+IaP4kN9Y6QVD2Oo[d>997k3
+R1
+R2
+w1716194276
+8D:/Uni/DSD - Lab/Lab10/modelsim/factorial_datapath.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/factorial_datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1716355216.000000
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/factorial_datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/factorial_datapath.v|
+!i113 1
+R5
+R6
+vPIPO1
+R0
+!i10b 1
+!s100 icY5bGXNKa`N:]he`zP553
+I7cWKBKnBDHVlaZ5_>CbTT1
+R1
+R2
+w1716390155
+8D:/Uni/DSD - Lab/Lab10/modelsim/PIPO1.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/PIPO1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/PIPO1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/PIPO1.v|
+!i113 1
+R5
+R6
+n@p@i@p@o1
+vPIPO2
+R0
+!i10b 1
+!s100 JM8`;9ARaW=<3ZoV8]H]o3
+IJzJQ1>3Wz=f9d39aR;fR`2
+R1
+R2
+w1716390306
+8D:/Uni/DSD - Lab/Lab10/modelsim/PIPO2.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/PIPO2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/PIPO2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/PIPO2.v|
+!i113 1
+R5
+R6
+n@p@i@p@o2
+vPIPO_A
+R0
+!i10b 1
+!s100 bAcz`jf]3j:P>kDUobV4g0
+Ij<Bc[YFQOfZDh8J?QfS:m3
+R1
+R2
+w1716356933
+8D:/Uni/DSD - Lab/Lab10/modelsim/PISO_A.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/PISO_A.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/PISO_A.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/PISO_A.v|
+!i113 1
+R5
+R6
+n@p@i@p@o_@a
+vPISO_A
+!s110 1716356430
+!i10b 1
+!s100 ;g2I_Mez2FaQI81b>I5>R0
+IAh[dEbk]GO03h:j]>8mGd0
+R1
+R2
+w1716355235
+8D:\Uni\DSD - Lab\Lab10\modelsim\PISO_A.v
+FD:\Uni\DSD - Lab\Lab10\modelsim\PISO_A.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1716356430.000000
+!s107 D:\Uni\DSD - Lab\Lab10\modelsim\PISO_A.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab10\modelsim\PISO_A.v|
+!i113 1
+R5
+R6
+n@p@i@s@o_@a
+vproduct
+!s110 1716190090
+!i10b 1
+!s100 SiNSSbaD@a[]a1dBi9JjN2
+I^@>j9h`T]c1:<aanPGWMe3
+R1
+R2
+w1716190075
+8D:\Uni\DSD - Lab\Lab10\modelsim\product_datapath.v
+FD:\Uni\DSD - Lab\Lab10\modelsim\product_datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1716190090.000000
+!s107 D:\Uni\DSD - Lab\Lab10\modelsim\product_datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab10\modelsim\product_datapath.v|
+!i113 1
+R5
+R6
+vproduct_datapath
+R7
+!i10b 1
+!s100 HCRoc8D=RiANcN03e@jXW1
+IzClmjVE?J==@XNhhfTPSo3
+R1
+R2
+w1716392003
+8D:/Uni/DSD - Lab/Lab10/modelsim/product_datapath.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/product_datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/product_datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/product_datapath.v|
+!i113 1
+R5
+R6
+vtestbench
+R9
+!i10b 1
+!s100 DelSlSZ2S[BSaJQ]SS3m=2
+IjOlijV7QUjB1[Dg@^PNL33
+R1
+R2
+w1716392011
+8D:\Uni\DSD - Lab\Lab10\modelsim\testbench.v
+FD:\Uni\DSD - Lab\Lab10\modelsim\testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1716392022.000000
+!s107 D:\Uni\DSD - Lab\Lab10\modelsim\testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab10\modelsim\testbench.v|
+!i113 1
+R5
+R6
+vtop
+R0
+!i10b 1
+!s100 =ocIOX57L5nMEg_@X^E450
+I@EOm;zcoc36LN3OFMFM5L2
+R1
+R2
+w1716389472
+8D:/Uni/DSD - Lab/Lab10/modelsim/top.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/top.v|
+!i113 1
+R5
+R6
+vtop_tb
+R0
+!i10b 1
+!s100 @9XgA6mE?_[IRY=[^_3UX0
+I7lGG_=0cS^FSTUMz0[=8I1
+R1
+R2
+w1716390188
+8D:/Uni/DSD - Lab/Lab10/modelsim/top_bg.v
+FD:/Uni/DSD - Lab/Lab10/modelsim/top_bg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab10/modelsim/top_bg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab10/modelsim/top_bg.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,80 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    03/03/2024  15:02:03  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+D:\PROGRAM FILES (X86)\KEIL_V5\C51\BIN\BL51.EXE .\Objects\Example2.obj TO .\Objects\E2 PRINT (.\Listings\E2.m51) RAMSIZE
+>>  (64)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\Example2.obj (EXAMPLE2)
+  D:\PROGRAM FILES (X86)\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  .\Objects\E2 (EXAMPLE2)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     003DH     UNIT         ?PR?MAIN?EXAMPLE2
+            CODE    083DH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\E2 (EXAMPLE2)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?EXAMPLE2
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\E2 (EXAMPLE2)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        EXAMPLE2
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  C:0800H         PUBLIC        main
+  B:0090H.0       PUBLIC        MyBit
+  -------         PROC          MAIN
+  -------         DO            
+  D:0006H         SYMBOL        i
+  -------         ENDDO         
+  C:0800H         LINE#         6
+  C:0800H         LINE#         10
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  03/03/2024  15:02:03  PAGE 2
+
+
+  C:0800H         LINE#         11
+  C:0802H         LINE#         12
+  C:0810H         LINE#         13
+  C:081EH         LINE#         14
+  C:082CH         LINE#         15
+  C:082EH         LINE#         16
+  C:083CH         LINE#         17
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        EXAMPLE2
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 003DH BYTE ( 2%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=76
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

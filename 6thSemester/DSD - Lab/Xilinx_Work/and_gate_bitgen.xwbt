@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Uni\DSD - Lab\Xilinx_Work\and_gate.ncd
+OUTFILE=D:\Uni\DSD - Lab\Xilinx_Work\and_gate.bit
+FAMILY=Spartan6
+PART=xc6slx45t-3fgg484
+WORKINGDIR=D:\Uni\DSD - Lab\Xilinx_Work
+LICENSE=WebPack
+USER_INFO=__0_0_0

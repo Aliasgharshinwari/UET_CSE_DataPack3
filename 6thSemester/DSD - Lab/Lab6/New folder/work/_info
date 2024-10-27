@@ -1,0 +1,348 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/18.1
+vbcd_to_seven_seg
+Z0 !s110 1713104984
+!i10b 1
+!s100 C?V1BfcBR^9QJ<?FEza3P2
+IAB9HXGDgCieXjKBMfW7aQ1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD - Lab/Lab6/New folder
+w1713103008
+8D:\Uni\DSD - Lab\Lab6\New folder\bcd_to_seven_seg.v
+FD:\Uni\DSD - Lab\Lab6\New folder\bcd_to_seven_seg.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713104984.000000
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\bcd_to_seven_seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\bcd_to_seven_seg.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vclock_divider
+R0
+!i10b 1
+!s100 6?i1l9LH^S7iD^WPl=2341
+ICV2ckke8BLaJKOO`zhd5I0
+R1
+R2
+w1713098636
+8D:/Uni/DSD - Lab/Lab6/New folder/clock_divider.v
+FD:/Uni/DSD - Lab/Lab6/New folder/clock_divider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab6/New folder/clock_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab6/New folder/clock_divider.v|
+!i113 1
+R5
+R6
+vd_FF
+R0
+!i10b 1
+!s100 Q^Az<d?31bCHX^[<o5;eL0
+IEbPlaQ1BIeaW?9bZC_lBm1
+R1
+R2
+w1712998589
+8D:/Uni/DSD - Lab/Lab6/New folder/d_FF.v
+FD:/Uni/DSD - Lab/Lab6/New folder/d_FF.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1713104983.000000
+!s107 D:/Uni/DSD - Lab/Lab6/New folder/d_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab6/New folder/d_FF.v|
+!i113 1
+R5
+R6
+nd_@f@f
+veight_bit_ring_counter
+R0
+!i10b 1
+!s100 h4VXKHoAY_aS]25DBlZan3
+I[YI2Y@R2JhKDCOiTR7dfi0
+R1
+R2
+w1713101741
+8D:\Uni\DSD - Lab\Lab6\New folder\8bit_ring_counter.v
+FD:\Uni\DSD - Lab\Lab6\New folder\8bit_ring_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\8bit_ring_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\8bit_ring_counter.v|
+!i113 1
+R5
+R6
+vf_divider
+!s110 1713104983
+!i10b 1
+!s100 EaW1UeVR[hA]Sn8XeVkaz0
+I]6PWABfAUl4cXNZ8TkR6I1
+R1
+R2
+w1713011304
+8D:\Uni\DSD - Lab\Lab6\New folder\f_divider.v
+FD:\Uni\DSD - Lab\Lab6\New folder\f_divider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\f_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\f_divider.v|
+!i113 1
+R5
+R6
+vfour_bit_ring_counter
+R0
+!i10b 1
+!s100 iY]]azThFLfM6ieim<D_J0
+IM>Qhn1jBB9na`Rzn[8=`V2
+R1
+R2
+w1713104916
+8D:/Uni/DSD - Lab/Lab6/New folder/4bit_ring_counter.v
+FD:/Uni/DSD - Lab/Lab6/New folder/4bit_ring_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab6/New folder/4bit_ring_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab6/New folder/4bit_ring_counter.v|
+!i113 1
+R5
+R6
+vmux2x1
+!s110 1713106733
+!i10b 1
+!s100 gSm?Xm]:8Nc4bCl=4aaJ63
+IHz<[Fc?Lh0WJHj7elHneK0
+R1
+R2
+w1713106728
+8D:\Uni\DSD - Lab\Lab6\New folder\mux2x1.v
+FD:\Uni\DSD - Lab\Lab6\New folder\mux2x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1713106733.000000
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\mux2x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\mux2x1.v|
+!i113 1
+R5
+R6
+vtask3
+!s110 1713108256
+!i10b 1
+!s100 D`2Fb?@Oa?;PjInEbYGUK2
+IiW0<h=Hge8D:DQN?L4Y:E3
+R1
+R2
+w1713108175
+8D:\Uni\DSD - Lab\Lab6\New folder\task3.v
+FD:\Uni\DSD - Lab\Lab6\New folder\task3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1713108256.000000
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\task3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\task3.v|
+!i113 1
+R5
+R6
+vtask3_b
+!s110 1713108563
+!i10b 1
+!s100 VB=T<dDLoS:?W3n0WV>Ga1
+IF8^L:c7@0f[AaT23=YWYO1
+R1
+R2
+w1713108558
+8D:\Uni\DSD - Lab\Lab6\New folder\task3_b.v
+FD:\Uni\DSD - Lab\Lab6\New folder\task3_b.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1713108563.000000
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\task3_b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\task3_b.v|
+!i113 1
+R5
+R6
+vtb_4bit_ring_counter
+R0
+!i10b 1
+!s100 TM8PfHI@bWE0hT4lWRN=j1
+I;diHT68T:mj`BKCf2idJC1
+R1
+R2
+w1713101446
+8D:\Uni\DSD - Lab\Lab6\New folder\tb_4bit_ring_counter.v
+FD:\Uni\DSD - Lab\Lab6\New folder\tb_4bit_ring_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\tb_4bit_ring_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\tb_4bit_ring_counter.v|
+!i113 1
+R5
+R6
+vtb_8bit_ring_counter
+R0
+!i10b 1
+!s100 Te?^46gnajLA?<7:ghm6_0
+I@UeL]@aFLj_IVK=zn18ZY2
+R1
+R2
+w1713101625
+8D:\Uni\DSD - Lab\Lab6\New folder\tb_8bit_ring_counter.v
+FD:\Uni\DSD - Lab\Lab6\New folder\tb_8bit_ring_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\tb_8bit_ring_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\tb_8bit_ring_counter.v|
+!i113 1
+R5
+R6
+vtb_clock_divider
+R0
+!i10b 1
+!s100 =fkRnbl895meEUCE1z``63
+IfZPVbeT3n=JbAR<mUg9@<1
+R1
+R2
+w1713098487
+8D:/Uni/DSD - Lab/Lab6/New folder/tb_clock_divider.v
+FD:/Uni/DSD - Lab/Lab6/New folder/tb_clock_divider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab6/New folder/tb_clock_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab6/New folder/tb_clock_divider.v|
+!i113 1
+R5
+R6
+vtb_d_FF
+R0
+!i10b 1
+!s100 gRkQJTM?8[Jm=cZ_J@A[73
+IN`44]d[UljTVZ=hGYcd3G1
+R1
+R2
+w1712998302
+8D:/Uni/DSD - Lab/Lab6/New folder/tb_D_FF.v
+FD:/Uni/DSD - Lab/Lab6/New folder/tb_D_FF.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab6/New folder/tb_D_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab6/New folder/tb_D_FF.v|
+!i113 1
+R5
+R6
+ntb_d_@f@f
+vtb_f_divider
+R0
+!i10b 1
+!s100 CnP;2DbUc4?=4emZ>:Kk21
+I;gkUKK0c8`IPjJ1>^co6b0
+R1
+R2
+w1712998638
+8D:/Uni/DSD - Lab/Lab6/New folder/tb_f_divider.v
+FD:/Uni/DSD - Lab/Lab6/New folder/tb_f_divider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Uni/DSD - Lab/Lab6/New folder/tb_f_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab6/New folder/tb_f_divider.v|
+!i113 1
+R5
+R6
+vtb_task3
+!s110 1713106672
+!i10b 1
+!s100 <RH9o?b@UdAbJSJMBcH9=0
+Ih`1_aV[UUe`:OgBbTS?K=2
+R1
+R2
+w1713105560
+8D:\Uni\DSD - Lab\Lab6\New folder\tb_task3.v
+FD:\Uni\DSD - Lab\Lab6\New folder\tb_task3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1713106672.000000
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\tb_task3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\tb_task3.v|
+!i113 1
+R5
+R6
+vtb_task3_b
+!s110 1713108489
+!i10b 1
+!s100 k89S12A[V3lZhmU]=?<XC2
+IYUEOo>m]mR^g>j6JefcIN2
+R1
+R2
+w1713108480
+8D:\Uni\DSD - Lab\Lab6\New folder\tb_task3_b.v
+FD:\Uni\DSD - Lab\Lab6\New folder\tb_task3_b.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1713108489.000000
+!s107 D:\Uni\DSD - Lab\Lab6\New folder\tb_task3_b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab6\New folder\tb_task3_b.v|
+!i113 1
+R5
+R6

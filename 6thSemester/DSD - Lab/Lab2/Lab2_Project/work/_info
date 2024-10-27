@@ -1,0 +1,248 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD/Codes/Project1
+vcarry
+Z0 !s110 1708583651
+!i10b 1
+!s100 KO>@iYb49cgHo`I9nODLB3
+IGC@hPTO6POWaQYNP3m?N^0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD - Lab/Lab2/Lab2_Project
+w1708583646
+8D:\Uni\DSD - Lab\Lab2\Lab2_Project\carry.v
+FD:\Uni\DSD - Lab\Lab2\Lab2_Project\carry.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1708583651.000000
+!s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\carry.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab2\Lab2_Project\carry.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vFA_D
+Z7 !s110 1708838231
+!i10b 1
+!s100 gG3ZRR;WE;;DOPN65iA;G3
+IHbk?W3ngPWaSJgWEbi0zc3
+R1
+R2
+w1708838209
+Z8 8D:\Uni\DSD - Lab\Lab2\Lab2_Project\FA_D.v
+Z9 FD:\Uni\DSD - Lab\Lab2\Lab2_Project\FA_D.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1708838231.000000
+Z11 !s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\FA_D.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab2\Lab2_Project\FA_D.v|
+!i113 1
+R5
+R6
+n@f@a_@d
+vfull_adder
+!s110 1708836295
+!i10b 1
+!s100 M8lYn33YhEaMR77PXclRe0
+IP^6lETW97>gTER1z6CYf82
+R1
+R2
+w1708836287
+8D:\Uni\DSD - Lab\Lab2\Lab2_Project\full_adder.v
+FD:\Uni\DSD - Lab\Lab2\Lab2_Project\full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1708836295.000000
+!s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab2\Lab2_Project\full_adder.v|
+!i113 1
+R5
+R6
+vhalf_adder
+!s110 1708583820
+!i10b 1
+!s100 aCW1IfiVoY;CjGlVPJ?1S3
+IKVn4^Bj`8PEIg:SVT=<o50
+R1
+R2
+w1708583812
+8D:\Uni\DSD - Lab\Lab2\Lab2_Project\half_adder.v
+FD:\Uni\DSD - Lab\Lab2\Lab2_Project\half_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1708583819.000000
+!s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab2\Lab2_Project\half_adder.v|
+!i113 1
+R5
+R6
+vRCA
+R7
+!i10b 1
+!s100 XJ`nSKd48T`<BdBYobW;j2
+ILZT9:>fOZIBnABPaiQf_I1
+R1
+R2
+w1708838223
+Z13 8D:\Uni\DSD - Lab\Lab2\Lab2_Project\RCA_D.v
+Z14 FD:\Uni\DSD - Lab\Lab2\Lab2_Project\RCA_D.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+Z15 !s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\RCA_D.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab2\Lab2_Project\RCA_D.v|
+!i113 1
+R5
+R6
+n@r@c@a
+vRCA_D
+Z17 !s110 1708838293
+!i10b 1
+!s100 cfoeA@7NTYHRA6]b:[NgU3
+IkDZ]bP8V8dSHl^P15oWVZ3
+R1
+R2
+w1708838273
+R13
+R14
+L0 1
+R3
+r1
+!s85 0
+31
+Z18 !s108 1708838293.000000
+R15
+R16
+!i113 1
+R5
+R6
+n@r@c@a_@d
+vsum
+R0
+!i10b 1
+!s100 BEnQDcmDgP[b=kzJ^3X2b3
+IfImQ870T2Mcmz3]WE9kWI1
+R1
+R2
+w1708583597
+8D:\Uni\DSD - Lab\Lab2\Lab2_Project\sum.v
+FD:\Uni\DSD - Lab\Lab2\Lab2_Project\sum.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\sum.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab2\Lab2_Project\sum.v|
+!i113 1
+R5
+R6
+vTask
+!s110 1708838153
+!i10b 1
+!s100 U4IgN]oS[CU?ogDfImh2<2
+I;[io9Nj;iaJSTLm=]f]Oe3
+R1
+R2
+w1708838144
+R8
+R9
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1708838153.000000
+R11
+R12
+!i113 1
+R5
+R6
+n@task
+vtb_FA
+!s110 1708835300
+!i10b 1
+!s100 `fi]cmBYj2KFmzUf^2RQ:2
+IT>oAMKDTJnYFU=?ngdQSP0
+R1
+R2
+w1708834695
+8D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_FA.v
+FD:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_FA.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1708835299.000000
+!s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_FA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_FA.v|
+!i113 1
+R5
+R6
+ntb_@f@a
+vtb_RCA_D
+!s110 1708838308
+!i10b 1
+!s100 36InzICHkCMDO`nmemz_:0
+IYONW0ROBVc3Q:VVogK6WZ1
+R1
+R2
+w1708838301
+Z19 8D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_RCA_D.v
+Z20 FD:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_RCA_D.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1708838308.000000
+!s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_RCA_D.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_RCA_D.v|
+!i113 1
+R5
+R6
+ntb_@r@c@a_@d
+vtbb_RCA
+R17
+!i10b 1
+!s100 :5j0HXZ>eKcJ4jn4>J8nC0
+Ihj8UH824a^Pfi87OSA0gh1
+R1
+R2
+w1708838279
+R19
+R20
+L0 1
+R3
+r1
+!s85 0
+31
+R18
+!s107 D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_RCA_D.v|
+R21
+!i113 1
+R5
+R6
+ntbb_@r@c@a

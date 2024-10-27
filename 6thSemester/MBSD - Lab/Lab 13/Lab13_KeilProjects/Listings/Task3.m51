@@ -1,0 +1,134 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    04/25/2024  09:19:39  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+D:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\task3.obj TO .\Objects\Task3 PRINT (.\Listings\Task3.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\task3.obj (TASK3)
+  D:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  .\Objects\Task3 (TASK3)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     000CH     UNIT         ?DT?TASK3
+            IDATA   0014H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     0008H                  *** GAP ***
+            CODE    000BH     0003H     ABSOLUTE     
+                    000EH     07F2H                  *** GAP ***
+            CODE    0800H     0046H     UNIT         ?PR?MAIN?TASK3
+            CODE    0846H     0034H     UNIT         ?PR?_DELAY?TASK3
+            CODE    087AH     000CH     UNIT         ?C_C51STARTUP
+            CODE    0886H     0007H     UNIT         ?PR?TIMER0?TASK3
+            CODE    088DH     0004H     UNIT         ?PR?START_TIMER?TASK3
+            CODE    0891H     0003H     UNIT         ?PR?START_TIMER0?TASK3
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\Task3 (TASK3)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?TASK3
+
+?PR?MAIN?TASK3
+  +--> ?PR?_DELAY?TASK3
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\Task3 (TASK3)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        TASK3
+  C:0000H         SYMBOL        _ICE_DUMMY_
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  04/25/2024  09:19:39  PAGE 2
+
+
+  D:0090H         PUBLIC        P1
+  D:00B0H         PUBLIC        P3
+  C:0846H         PUBLIC        _delay
+  C:0800H         PUBLIC        main
+  D:0008H         PUBLIC        bcd
+  D:0089H         PUBLIC        TMOD
+  C:088DH         PUBLIC        start_timer
+  D:000AH         PUBLIC        ten
+  D:008CH         PUBLIC        TH0
+  D:008AH         PUBLIC        TL0
+  C:0886H         PUBLIC        timer0
+  B:0088H.4       PUBLIC        TR0
+  C:0891H         PUBLIC        start_timer0
+  D:000CH         PUBLIC        i
+  D:000EH         PUBLIC        j
+  D:0010H         PUBLIC        k
+  D:0012H         PUBLIC        l
+  -------         PROC          START_TIMER0
+  C:0891H         LINE#         8
+  C:0891H         LINE#         9
+  C:0893H         LINE#         10
+  -------         ENDPROC       START_TIMER0
+  -------         PROC          TIMER0
+  C:0886H         LINE#         12
+  C:0886H         LINE#         13
+  C:0889H         LINE#         14
+  C:088CH         LINE#         15
+  -------         ENDPROC       TIMER0
+  -------         PROC          START_TIMER
+  C:088DH         LINE#         17
+  C:088DH         LINE#         18
+  C:0890H         LINE#         19
+  -------         ENDPROC       START_TIMER
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        limit
+  C:0846H         LINE#         21
+  C:0846H         LINE#         22
+  C:085AH         LINE#         23
+  C:085FH         LINE#         25
+  C:086FH         LINE#         26
+  C:0879H         LINE#         27
+  -------         ENDPROC       _DELAY
+  -------         PROC          MAIN
+  C:0800H         LINE#         29
+  C:0800H         LINE#         34
+  C:0803H         LINE#         52
+  C:0803H         LINE#         53
+  C:0808H         LINE#         54
+  C:080DH         LINE#         60
+  C:0817H         LINE#         61
+  C:081EH         LINE#         62
+  C:0831H         LINE#         63
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        TASK3
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?START_TIMER0?TASK3
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  04/25/2024  09:19:39  PAGE 3
+
+
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?START_TIMER?TASK3
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 008BH BYTE ( 6%) *
+******************************************************************************
+
+Program Size: data=21.0 xdata=0 code=154
+LINK/LOCATE RUN COMPLETE.  2 WARNING(S),  0 ERROR(S)

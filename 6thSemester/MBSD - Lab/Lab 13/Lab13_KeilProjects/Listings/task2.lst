@@ -1,0 +1,57 @@
+C51 COMPILER V9.60.7.0   TASK2                                                             05/30/2024 09:40:33 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE TASK2
+OBJECT MODULE PLACED IN .\Objects\task2.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE task2.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\tas
+                    -k2.lst) TABS(2) OBJECT(.\Objects\task2.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          
+   3          sbit intr = P3^2;
+   4          sbit rd = P3^4;
+   5          sbit wr = P3^5;
+   6          int i, temp;
+   7          
+   8          void delay(int n){
+   9   1         for(i = 0; i< n; i++){
+  10   2         }
+  11   1      }
+  12          
+  13          void ADC(){
+  14   1         rd = 1;
+  15   1         wr = 0;
+  16   1        // delay(10);
+  17   1         wr = 1;
+  18   1         
+  19   1         while(intr == 1);
+  20   1         
+  21   1          rd = 0;
+  22   1         //temp = P1;
+  23   1         delay(10);
+  24   1         //return temp;
+  25   1      }
+  26          
+  27          void main(){
+  28   1         
+  29   1         while(1){
+  30   2            ADC();
+  31   2         }
+  32   1      }
+  33          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     54    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

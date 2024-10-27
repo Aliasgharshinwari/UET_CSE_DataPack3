@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD - Lab/BCD_to_Binary
+vbcd_counter
+Z0 !s110 1714909994
+!i10b 1
+!s100 ehj7T]?iO4<Q7R2^BZX8d2
+IXUSCZ7NNTzb3iLDZT8JFf2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD - Lab/Lab8/modelsim
+w1714909984
+8D:\Uni\DSD - Lab\Lab8\xilinx\Task1\bcd_counter.v
+FD:\Uni\DSD - Lab\Lab8\xilinx\Task1\bcd_counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1714909994.000000
+!s107 D:\Uni\DSD - Lab\Lab8\xilinx\Task1\bcd_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\xilinx\Task1\bcd_counter.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vBCD_to_SevenSeg
+R0
+!i10b 1
+!s100 gI0@4I=CRa>[?63YlkG]Q0
+IW?ddg_:egcmC[TDnIo@oU3
+R1
+R2
+w1714909930
+8D:\Uni\DSD - Lab\Lab8\xilinx\Task1\BCD_to_SevenSeg.v
+FD:\Uni\DSD - Lab\Lab8\xilinx\Task1\BCD_to_SevenSeg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab8\xilinx\Task1\BCD_to_SevenSeg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\xilinx\Task1\BCD_to_SevenSeg.v|
+!i113 1
+R5
+R6
+n@b@c@d_to_@seven@seg
+vclock_divider
+R0
+!i10b 1
+!s100 >oHHAMZ14`<<ShQ7mg8^32
+If83Rk<0bV7OgOPSlj5BIZ2
+R1
+R2
+w1714909918
+8D:\Uni\DSD - Lab\Lab8\xilinx\Task1\clock_divider.v
+FD:\Uni\DSD - Lab\Lab8\xilinx\Task1\clock_divider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab8\xilinx\Task1\clock_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\xilinx\Task1\clock_divider.v|
+!i113 1
+R5
+R6
+vCounter18bit
+Z7 !s110 1714909995
+!i10b 1
+!s100 G1I9EMbDT0ACM7N^4YRfG2
+I@`ch]Va<?alRa<J_OA8IY1
+R1
+R2
+w1714909976
+8D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Counter18bit.v
+FD:\Uni\DSD - Lab\Lab8\xilinx\Task1\Counter18bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Counter18bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Counter18bit.v|
+!i113 1
+R5
+R6
+n@counter18bit
+vDecoder2x4
+R7
+!i10b 1
+!s100 Wh[=2AS?NMT1HHY^g3CN>3
+IFm3fBg2iIWhBo3<dY3OUX3
+R1
+R2
+w1714909965
+8D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Decoder2x4.v
+FD:\Uni\DSD - Lab\Lab8\xilinx\Task1\Decoder2x4.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1714909995.000000
+!s107 D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Decoder2x4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Decoder2x4.v|
+!i113 1
+R5
+R6
+n@decoder2x4
+vMux4x1
+R7
+!i10b 1
+!s100 >Y78[kNUU2ZNh]m>4k5ca0
+Ic@[=a8aB_RH51<TJ1R0cV0
+R1
+R2
+w1714909944
+8D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Mux4x1.v
+FD:\Uni\DSD - Lab\Lab8\xilinx\Task1\Mux4x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Mux4x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Mux4x1.v|
+!i113 1
+R5
+R6
+n@mux4x1
+vtb_top
+R7
+!i10b 1
+!s100 49LQJf]WIL9DV2>ZSEbCG2
+IzCL^?4@RRFO@]<Cg>08;a0
+R1
+R2
+w1714909832
+8D:\Uni\DSD - Lab\Lab8\modelsim\tb_top.v
+FD:\Uni\DSD - Lab\Lab8\modelsim\tb_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:\Uni\DSD - Lab\Lab8\modelsim\tb_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\modelsim\tb_top.v|
+!i113 1
+R5
+R6
+vthree_BCD
+R7
+!i10b 1
+!s100 SkEHNQFJBegRc?nKKBY?<3
+I?SH=LU_]^ULO_H8jiT[^73
+R1
+R2
+w1714909957
+8D:\Uni\DSD - Lab\Lab8\xilinx\Task1\three_BCD.v
+FD:\Uni\DSD - Lab\Lab8\xilinx\Task1\three_BCD.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:\Uni\DSD - Lab\Lab8\xilinx\Task1\three_BCD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\xilinx\Task1\three_BCD.v|
+!i113 1
+R5
+R6
+nthree_@b@c@d
+vTop
+R0
+!i10b 1
+!s100 :MZfJ]`c@^P=^XDa8Ro@>1
+Il4?jgX;_Y5kK1Um]HNB?[0
+R1
+R2
+w1714908563
+8D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Top.v
+FD:\Uni\DSD - Lab\Lab8\xilinx\Task1\Top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1714909993.000000
+!s107 D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab8\xilinx\Task1\Top.v|
+!i113 1
+R5
+R6
+n@top

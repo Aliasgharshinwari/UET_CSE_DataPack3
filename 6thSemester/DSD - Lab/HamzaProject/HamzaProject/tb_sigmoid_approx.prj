@@ -1,0 +1,2 @@
+verilog work "sigmoid_approx.v"
+verilog work "tb_sigmoid_approx.v"

@@ -1,0 +1,8 @@
+verilog work "../../../../DSD/Codes/8-RippleCounter(i)/D_FF.v"
+verilog work "synchronizer.v"
+verilog work "level_to_pulse.v"
+verilog work "../../../Lab8/xilinx/Task1/BCD_to_SevenSeg.v"
+verilog work "lock_fsm2.v"
+verilog work "clock_divider.v"
+verilog work "btn_module.v"
+verilog work "Top.v"

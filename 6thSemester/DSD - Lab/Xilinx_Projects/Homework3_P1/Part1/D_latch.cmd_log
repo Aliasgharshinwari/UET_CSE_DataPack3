@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/Uni/DSD/Xilinx_Projects/Homework3_P1/Part1/D_latch.xst" -ofn "D:/Uni/DSD/Xilinx_Projects/Homework3_P1/Part1/D_latch.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD/Xilinx_Projects/Homework3_P1/Part1/D_latch.xst" -ofn "D:/Uni/DSD/Xilinx_Projects/Homework3_P1/Part1/D_latch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 D_latch.ngc D_latch.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o D_latch_map.ncd D_latch.ngd D_latch.pcf 
+par -w -intstyle ise -ol high -mt off D_latch_map.ncd D_latch.ncd D_latch.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml D_latch.twx D_latch.ncd -o D_latch.twr D_latch.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD/Xilinx_Projects/Homework3_P1/Part1/D_latch.xst" -ofn "D:/Uni/DSD/Xilinx_Projects/Homework3_P1/Part1/D_latch.syr" 

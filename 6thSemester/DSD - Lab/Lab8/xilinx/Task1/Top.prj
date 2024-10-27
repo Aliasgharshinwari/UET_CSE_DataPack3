@@ -1,0 +1,8 @@
+verilog work "bcd_counter.v"
+verilog work "three_BCD.v"
+verilog work "Mux4x1.v"
+verilog work "Decoder2x4.v"
+verilog work "Counter18bit.v"
+verilog work "clock_divider.v"
+verilog work "BCD_to_SevenSeg.v"
+verilog work "Top.v"

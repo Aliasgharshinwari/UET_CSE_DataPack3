@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Uni/DSD - Lab/Lab6/Project
+vbcd_decoder
+Z0 !s110 1714280370
+!i10b 1
+!s100 BOk4SP^OiTZ8TWiC0L0N30
+I;DK]Y70=JoeZo5XFB?<mH2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Uni/DSD - Lab/Lab7/modelsim
+w1714280160
+8D:\Uni\DSD - Lab\Lab7\modelsim\bcd_decoder.v
+FD:\Uni\DSD - Lab\Lab7\modelsim\bcd_decoder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1714280369.000000
+!s107 D:\Uni\DSD - Lab\Lab7\modelsim\bcd_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab7\modelsim\bcd_decoder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vclock_divider
+R0
+!i10b 1
+!s100 J@gndcLZ36=2ezhVlboO70
+I4=U3XSBKb<z2S9^z8nV583
+R1
+R2
+w1714278852
+8D:\Uni\DSD - Lab\Lab7\modelsim\clock_divider.v
+FD:\Uni\DSD - Lab\Lab7\modelsim\clock_divider.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1714280370.000000
+!s107 D:\Uni\DSD - Lab\Lab7\modelsim\clock_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab7\modelsim\clock_divider.v|
+!i113 1
+R5
+R6
+vdown_ctr
+R0
+!i10b 1
+!s100 Ub`W`VW;]jDfdgUm<^94F3
+I^0DaM0h[i@>KWM;_N:<5z3
+R1
+R2
+w1714278807
+8D:\Uni\DSD - Lab\Lab7\modelsim\down_counter.v
+FD:\Uni\DSD - Lab\Lab7\modelsim\down_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:\Uni\DSD - Lab\Lab7\modelsim\down_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab7\modelsim\down_counter.v|
+!i113 1
+R5
+R6
+vtb_top
+R0
+!i10b 1
+!s100 U`AFR05m=O`Vz01EVIjCb0
+I2NG0XKdNojz7Efgj1`P0]0
+R1
+R2
+w1714280364
+8D:\Uni\DSD - Lab\Lab7\modelsim\tb_top.v
+FD:\Uni\DSD - Lab\Lab7\modelsim\tb_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:\Uni\DSD - Lab\Lab7\modelsim\tb_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab7\modelsim\tb_top.v|
+!i113 1
+R5
+R6
+vtop
+!s110 1714280930
+!i10b 1
+!s100 R967ASbTAGCYj]CfFFP_L1
+IRjLCA[1];FB]XahHg31W70
+R1
+R2
+w1714280548
+8D:\Uni\DSD - Lab\Lab7\modelsim\top.v
+FD:\Uni\DSD - Lab\Lab7\modelsim\top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1714280930.000000
+!s107 D:\Uni\DSD - Lab\Lab7\modelsim\top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab7\modelsim\top.v|
+!i113 1
+R5
+R6
+vud_ctr
+!s110 1714277910
+!i10b 1
+!s100 GQmgL3RC8@`BI6NOI=OZz2
+InFG^]D:_SIdXHEgk0GcRZ2
+R1
+R2
+w1714191384
+8D:/Uni/DSD - Lab/Lab7/modelsim/ud_ctr.v
+FD:/Uni/DSD - Lab/Lab7/modelsim/ud_ctr.v
+L0 21
+R3
+r1
+!s85 0
+31
+!s108 1714277909.000000
+!s107 D:/Uni/DSD - Lab/Lab7/modelsim/ud_ctr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Uni/DSD - Lab/Lab7/modelsim/ud_ctr.v|
+!i113 1
+R5
+R6
+vup_ctr
+R0
+!i10b 1
+!s100 5CloV0oZW6Li9Y_>f3VU22
+INh]@b2Yf021f@8[La0aDe0
+R1
+R2
+w1714278540
+8D:\Uni\DSD - Lab\Lab7\modelsim\up_counter.v
+FD:\Uni\DSD - Lab\Lab7\modelsim\up_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:\Uni\DSD - Lab\Lab7\modelsim\up_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab7\modelsim\up_counter.v|
+!i113 1
+R5
+R6
+vupdown_ctr
+!s110 1714280369
+!i10b 1
+!s100 Y7FWl`3eSi;h=m5Qm=Ce62
+IH8GXB=eJ>2Rc`o5:fB?OO3
+R1
+R2
+w1714279894
+8D:\Uni\DSD - Lab\Lab7\modelsim\ud_ctr.v
+FD:\Uni\DSD - Lab\Lab7\modelsim\ud_ctr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Uni\DSD - Lab\Lab7\modelsim\ud_ctr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Uni\DSD - Lab\Lab7\modelsim\ud_ctr.v|
+!i113 1
+R5
+R6

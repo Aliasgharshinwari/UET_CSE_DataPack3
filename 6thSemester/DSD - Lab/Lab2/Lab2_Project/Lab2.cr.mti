@@ -1,0 +1,71 @@
+{D:/Uni/DSD - Lab/Lab2/Lab2_Project/tb_FA.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_FA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_FA
+
+Top level modules:
+	tb_FA
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/sum.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\sum.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sum
+
+Top level modules:
+	sum
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/carry.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\carry.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module carry
+
+Top level modules:
+	carry
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/RCA_D.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\RCA_D.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RCA_D
+
+Top level modules:
+	RCA_D
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/half_adder.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\half_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/full_adder.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\full_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/RCA(4bit).v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\RCA(4bit).v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RCA
+
+Top level modules:
+	RCA
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/FA_D.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\FA_D.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FA_D
+
+Top level modules:
+	FA_D
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/tb_RCA_D.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_RCA_D.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_RCA_D
+
+Top level modules:
+	tb_RCA_D
+
+} {} {}} {D:/Uni/DSD - Lab/Lab2/Lab2_Project/tb_RCA.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab2\Lab2_Project\tb_RCA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tbb_RCA
+
+Top level modules:
+	tbb_RCA
+
+} {} {}}

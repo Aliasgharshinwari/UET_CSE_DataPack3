@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Uni/DSD - Lab/Lab12/xilinx/Task2/ROMV1_tb_isim_beh.exe" -prj "D:/Uni/DSD - Lab/Lab12/xilinx/Task2/ROMV1_tb_beh.prj" "work.ROMV1_tb" "work.glbl" 

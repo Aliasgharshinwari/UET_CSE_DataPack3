@@ -1,0 +1,99 @@
+{D:/Uni/DSD - Lab/Lab3/tb_ha.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/tb_ha.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_ha
+
+Top level modules:
+	tb_ha
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/part.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/part.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module part
+
+Top level modules:
+	part
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/whole.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/whole.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module whole
+
+Top level modules:
+	whole
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/DFF.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/DFF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DFF
+
+Top level modules:
+	DFF
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/ha.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/ha.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+
+Top level modules:
+	ha
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/adder_sub.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/adder_sub.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder_sub
+
+Top level modules:
+	adder_sub
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/tb_adder_sub.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/tb_adder_sub.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_adder_sub
+
+Top level modules:
+	tb_adder_sub
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/pie.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/pie.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pie
+
+Top level modules:
+	pie
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/P2_tb.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/P2_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module P2_tb
+
+Top level modules:
+	P2_tb
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/tb_counter3.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/tb_counter3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_counter3
+
+Top level modules:
+	tb_counter3
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/P2.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab3\P2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module P2
+
+Top level modules:
+	P2
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/top.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/tb_pie.v} {1 {vlog -work work -stats=none {D:/Uni/DSD - Lab/Lab3/tb_pie.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_pie
+
+Top level modules:
+	tb_pie
+
+} {} {}} {D:/Uni/DSD - Lab/Lab3/counter3.v} {1 {vlog -work work -stats=none {D:\Uni\DSD - Lab\Lab3\counter3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter3
+
+Top level modules:
+	counter3
+
+} {} {}}

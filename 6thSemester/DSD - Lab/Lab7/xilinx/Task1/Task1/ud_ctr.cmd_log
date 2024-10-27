@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.xst" -ofn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "ud_ctr.ngc" ud_ctr.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ud_ctr_map.ncd ud_ctr.ngd ud_ctr.pcf 
+par -w -intstyle ise -ol high -mt off ud_ctr_map.ncd ud_ctr.ncd ud_ctr.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ud_ctr.twx ud_ctr.ncd -o ud_ctr.twr ud_ctr.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.xst" -ofn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "ud_ctr.ngc" ud_ctr.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ud_ctr_map.ncd ud_ctr.ngd ud_ctr.pcf 
+par -w -intstyle ise -ol high -mt off ud_ctr_map.ncd ud_ctr.ncd ud_ctr.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ud_ctr.twx ud_ctr.ncd -o ud_ctr.twr ud_ctr.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.xst" -ofn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.xst" -ofn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "ud_ctr.ngc" ud_ctr.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ud_ctr_map.ncd ud_ctr.ngd ud_ctr.pcf 
+par -w -intstyle ise -ol high -mt off ud_ctr_map.ncd ud_ctr.ncd ud_ctr.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ud_ctr.twx ud_ctr.ncd -o ud_ctr.twr ud_ctr.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.xst" -ofn "D:/Uni/DSD - Lab/Lab7/xilinx/Task1/Task1/ud_ctr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "ud_ctr.ngc" ud_ctr.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ud_ctr_map.ncd ud_ctr.ngd ud_ctr.pcf 
+par -w -intstyle ise -ol high -mt off ud_ctr_map.ncd ud_ctr.ncd ud_ctr.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ud_ctr.twx ud_ctr.ncd -o ud_ctr.twr ud_ctr.pcf 

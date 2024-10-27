@@ -1,0 +1,13 @@
+ORG 0h
+	
+	ACALL DELAY
+	
+
+DELAY: 
+	MOV R0, #2
+	LOOP:
+		DJNZ R0, LOOP
+
+RET
+
+END

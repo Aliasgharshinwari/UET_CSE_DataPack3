@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/Xilinx_Work/New_Test_Project/Test/new.xst" -ofn "D:/Uni/DSD - Lab/Xilinx_Work/New_Test_Project/Test/new.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc new.ucf -p xc6slx9-csg324-2 "new.ngc" new.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o new_map.ncd new.ngd new.pcf 
+par -w -intstyle ise -ol high -mt off new_map.ncd new.ncd new.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml new.twx new.ncd -o new.twr new.pcf -ucf new.ucf 

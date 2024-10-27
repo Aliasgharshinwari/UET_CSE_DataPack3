@@ -1,0 +1,28 @@
+Command line:
+   traffic_controller_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60137
+
+Fri May 24 22:34:03 2024
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5154.86 Meg
+
+ Total Signals          : 15
+ Total Nets             : 18
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 116
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 5154.86 Meg
+
+Fri May 24 22:34:13 2024
+

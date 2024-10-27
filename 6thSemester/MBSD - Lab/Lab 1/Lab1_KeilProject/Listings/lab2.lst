@@ -1,0 +1,48 @@
+A51 MACRO ASSEMBLER  LAB2                                                                 02/24/2024 20:03:03 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\lab2.obj
+ASSEMBLER INVOKED BY: D:\Program Files (x86)\Keil_v5\C51\BIN\A51.EXE lab2.a51 SET(SMALL) DEBUG PRINT(.\Listings\lab2.lst
+                      ) OBJECT(.\Objects\lab2.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 00H
+0000                   2             HERE:
+0000 758001            3             MOV P0, #01H
+0003 110F              4             ACALL DELAY
+0005 758002            5             MOV P0, #02H
+0008 110F              6             ACALL DELAY
+000A 758004            7             MOV P0, #04H
+000D 80F1              8             SJMP HERE       
+                       9     
+000F                  10     DELAY:
+000F 780A             11             MOV R0, #10
+                      12             
+0011                  13             LOOP:
+0011 D8FE             14                     DJNZ R0, LOOP
+                      15                     
+0013 7905             16                     MOV R1, #5
+0015 D9FA             17                     DJNZ R1, LOOP
+                      18                     
+0017 22               19                     RET
+*** WARNING #A41 IN 19 (lab2.a51, LINE 19): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  LAB2                                                                 02/24/2024 20:03:03 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DELAY. . . . . . .  C ADDR   000FH   A   
+HERE . . . . . . .  C ADDR   0000H   A   
+LOOP . . . . . . .  C ADDR   0011H   A   
+P0 . . . . . . . .  D ADDR   0080H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 0 ERROR(S)

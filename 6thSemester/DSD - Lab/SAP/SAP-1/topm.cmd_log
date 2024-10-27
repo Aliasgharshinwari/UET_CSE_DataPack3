@@ -1,0 +1,150 @@
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "topm.ngc" topm.ngd  
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "topm.ngc" topm.ngd  
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "topm.ngc" topm.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "topm.ngc" topm.ngd  
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "topm.ngc" topm.ngd  
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "topm.ngc" topm.ngd  
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -t 1 topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+bitgen -intstyle ise -f topm.ut topm.ncd 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+bitgen -intstyle ise -f topm.ut topm.ncd 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+bitgen -intstyle ise -f topm.ut topm.ncd 
+bitgen -intstyle ise -f topm.ut topm.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+bitgen -intstyle ise -f topm.ut topm.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim topm.ngc topm_synthesis.v 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf -ucf topm.ucf 
+bitgen -intstyle ise -f topm.ut topm.ncd 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf -ucf topm.ucf 
+bitgen -intstyle ise -f topm.ut topm.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+par -w -intstyle ise -ol high -mt off topm_map.ncd topm.ncd topm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topm.twx topm.ncd -o topm.twr topm.pcf 
+bitgen -intstyle ise -f topm.ut topm.ncd 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+xst -intstyle ise -ifn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.xst" -ofn "D:/Uni/DSD - Lab/SAP/SAP-1/topm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topm.ucf -p xc6slx4-tqg144-3 "topm.ngc" topm.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topm_map.ncd topm.ngd topm.pcf 
